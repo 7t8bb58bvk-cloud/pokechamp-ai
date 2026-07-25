@@ -1,1 +1,6484 @@
-{}
+{
+  "stench": {
+    "id": 1,
+    "name": "stench",
+    "names": {
+      "ja-hrkt": "あくしゅう",
+      "ko": "악취",
+      "zh-hant": "惡臭",
+      "fr": "Puanteur",
+      "de": "Duftnote",
+      "es": "Hedor",
+      "it": "Tanfo",
+      "en": "Stench",
+      "ja": "あくしゅう",
+      "zh-hans": "恶臭",
+      "es-419": "Hedor"
+    },
+    "generation": "generation-iii",
+    "effect": "Has a 10% chance of making target Pokémon flinch with each hit."
+  },
+  "drizzle": {
+    "id": 2,
+    "name": "drizzle",
+    "names": {
+      "ja-hrkt": "あめふらし",
+      "ko": "잔비",
+      "zh-hant": "降雨",
+      "fr": "Crachin",
+      "de": "Niesel",
+      "es": "Llovizna",
+      "it": "Piovischio",
+      "en": "Drizzle",
+      "ja": "あめふらし",
+      "zh-hans": "降雨",
+      "es-419": "Llovizna"
+    },
+    "generation": "generation-iii",
+    "effect": "Summons rain that lasts indefinitely upon entering battle."
+  },
+  "speed-boost": {
+    "id": 3,
+    "name": "speed-boost",
+    "names": {
+      "ja-hrkt": "かそく",
+      "ko": "가속",
+      "zh-hant": "加速",
+      "fr": "Turbo",
+      "de": "Temposchub",
+      "es": "Impulso",
+      "it": "Acceleratore",
+      "en": "Speed Boost",
+      "ja": "かそく",
+      "zh-hans": "加速",
+      "es-419": "Impulso"
+    },
+    "generation": "generation-iii",
+    "effect": "Raises Speed one stage after each turn."
+  },
+  "battle-armor": {
+    "id": 4,
+    "name": "battle-armor",
+    "names": {
+      "ja-hrkt": "カブトアーマー",
+      "ko": "전투무장",
+      "zh-hant": "戰鬥盔甲",
+      "fr": "Armurbaston",
+      "de": "Kampfpanzer",
+      "es": "Armadura Batalla",
+      "it": "Lottascudo",
+      "en": "Battle Armor",
+      "ja": "カブトアーマー",
+      "zh-hans": "战斗盔甲",
+      "es-419": "Armadura Batalla"
+    },
+    "generation": "generation-iii",
+    "effect": "Protects against critical hits."
+  },
+  "sturdy": {
+    "id": 5,
+    "name": "sturdy",
+    "names": {
+      "ja-hrkt": "がんじょう",
+      "ko": "옹골참",
+      "zh-hant": "結實",
+      "fr": "Fermeté",
+      "de": "Robustheit",
+      "es": "Robustez",
+      "it": "Vigore",
+      "en": "Sturdy",
+      "ja": "がんじょう",
+      "zh-hans": "结实",
+      "es-419": "Robustez"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents being KOed from full HP, leaving 1 HP instead.  Protects against the one-hit KO moves regardless of HP."
+  },
+  "damp": {
+    "id": 6,
+    "name": "damp",
+    "names": {
+      "ja-hrkt": "しめりけ",
+      "ko": "습기",
+      "zh-hant": "濕氣",
+      "fr": "Moiteur",
+      "de": "Feuchtigkeit",
+      "es": "Humedad",
+      "it": "Umidità",
+      "en": "Damp",
+      "ja": "しめりけ",
+      "zh-hans": "湿气",
+      "es-419": "Humedad"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents Self-Destruct, Explosion, and Aftermath from working while the Pokémon is in battle."
+  },
+  "limber": {
+    "id": 7,
+    "name": "limber",
+    "names": {
+      "ja-hrkt": "じゅうなん",
+      "ko": "유연",
+      "zh-hant": "柔軟",
+      "fr": "Échauffement",
+      "de": "Flexibilität",
+      "es": "Flexibilidad",
+      "it": "Scioltezza",
+      "en": "Limber",
+      "ja": "じゅうなん",
+      "zh-hans": "柔软",
+      "es-419": "Flexibilidad"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents paralysis."
+  },
+  "sand-veil": {
+    "id": 8,
+    "name": "sand-veil",
+    "names": {
+      "ja-hrkt": "すながくれ",
+      "ko": "모래숨기",
+      "zh-hant": "沙隱",
+      "fr": "Voile Sable",
+      "de": "Sandschleier",
+      "es": "Velo Arena",
+      "it": "Sabbiavelo",
+      "en": "Sand Veil",
+      "ja": "すながくれ",
+      "zh-hans": "沙隐",
+      "es-419": "Velo de Arena"
+    },
+    "generation": "generation-iii",
+    "effect": "Increases evasion to 1.25× during a sandstorm.  Protects against sandstorm damage."
+  },
+  "static": {
+    "id": 9,
+    "name": "static",
+    "names": {
+      "ja-hrkt": "せいでんき",
+      "ko": "정전기",
+      "zh-hant": "靜電",
+      "fr": "Statik",
+      "de": "Statik",
+      "es": "Electricidad Estática",
+      "it": "Statico",
+      "en": "Static",
+      "ja": "せいでんき",
+      "zh-hans": "静电",
+      "es-419": "Electricidad Estática"
+    },
+    "generation": "generation-iii",
+    "effect": "Has a 30% chance of paralyzing attacking Pokémon on contact."
+  },
+  "volt-absorb": {
+    "id": 10,
+    "name": "volt-absorb",
+    "names": {
+      "ja-hrkt": "ちくでん",
+      "ko": "축전",
+      "zh-hant": "蓄電",
+      "fr": "Absorbe-Volt",
+      "de": "Voltabsorber",
+      "es": "Absorbe Electricidad",
+      "it": "Assorbivolt",
+      "en": "Volt Absorb",
+      "ja": "ちくでん",
+      "zh-hans": "蓄电",
+      "es-419": "Absorbevoltios"
+    },
+    "generation": "generation-iii",
+    "effect": "Absorbs Electric moves, healing for 1/4 max HP."
+  },
+  "water-absorb": {
+    "id": 11,
+    "name": "water-absorb",
+    "names": {
+      "ja-hrkt": "ちょすい",
+      "ko": "저수",
+      "zh-hant": "儲水",
+      "fr": "Absorbe-Eau",
+      "de": "H2O-Absorber",
+      "es": "Absorbe Agua",
+      "it": "Assorbacqua",
+      "en": "Water Absorb",
+      "ja": "ちょすい",
+      "zh-hans": "储水",
+      "es-419": "Absorbeagua"
+    },
+    "generation": "generation-iii",
+    "effect": "Absorbs Water moves, healing for 1/4 max HP."
+  },
+  "oblivious": {
+    "id": 12,
+    "name": "oblivious",
+    "names": {
+      "ja-hrkt": "どんかん",
+      "ko": "둔감",
+      "zh-hant": "遲鈍",
+      "fr": "Benêt",
+      "de": "Dösigkeit",
+      "es": "Despiste",
+      "it": "Indifferenza",
+      "en": "Oblivious",
+      "ja": "どんかん",
+      "zh-hans": "迟钝",
+      "es-419": "Despistado"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents infatuation and protects against Captivate."
+  },
+  "cloud-nine": {
+    "id": 13,
+    "name": "cloud-nine",
+    "names": {
+      "ja-hrkt": "ノーてんき",
+      "ko": "날씨부정",
+      "zh-hant": "無關天氣",
+      "fr": "Ciel Gris",
+      "de": "Wolke Sieben",
+      "es": "Aclimatación",
+      "it": "Antimeteo",
+      "en": "Cloud Nine",
+      "ja": "ノーてんき",
+      "zh-hans": "无关天气",
+      "es-419": "Aclimatación"
+    },
+    "generation": "generation-iii",
+    "effect": "Negates all effects of weather, but does not prevent the weather itself."
+  },
+  "compound-eyes": {
+    "id": 14,
+    "name": "compound-eyes",
+    "names": {
+      "ja-hrkt": "ふくがん",
+      "ko": "복안",
+      "zh-hant": "複眼",
+      "fr": "Œil Composé",
+      "de": "Facettenauge",
+      "es": "Ojo Compuesto",
+      "it": "Insettocchi",
+      "en": "Compound Eyes",
+      "ja": "ふくがん",
+      "zh-hans": "复眼",
+      "es-419": "Ojo Compuesto"
+    },
+    "generation": "generation-iii",
+    "effect": "Increases moves' accuracy to 1.3×."
+  },
+  "insomnia": {
+    "id": 15,
+    "name": "insomnia",
+    "names": {
+      "ja-hrkt": "ふみん",
+      "ko": "불면",
+      "zh-hant": "不眠",
+      "fr": "Insomnia",
+      "de": "Insomnia",
+      "es": "Insomnio",
+      "it": "Insonnia",
+      "en": "Insomnia",
+      "ja": "ふみん",
+      "zh-hans": "不眠",
+      "es-419": "Insomnio"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents sleep."
+  },
+  "color-change": {
+    "id": 16,
+    "name": "color-change",
+    "names": {
+      "ja-hrkt": "へんしょく",
+      "ko": "변색",
+      "zh-hant": "變色",
+      "fr": "Homochromie",
+      "de": "Farbwechsel",
+      "es": "Cambio Color",
+      "it": "Cambiacolore",
+      "en": "Color Change",
+      "ja": "へんしょく",
+      "zh-hans": "变色",
+      "es-419": "Cambio Color"
+    },
+    "generation": "generation-iii",
+    "effect": "Changes type to match when hit by a damaging move."
+  },
+  "immunity": {
+    "id": 17,
+    "name": "immunity",
+    "names": {
+      "ja-hrkt": "めんえき",
+      "ko": "면역",
+      "zh-hant": "免疫",
+      "fr": "Vaccin",
+      "de": "Immunität",
+      "es": "Inmunidad",
+      "it": "Immunità",
+      "en": "Immunity",
+      "ja": "めんえき",
+      "zh-hans": "免疫",
+      "es-419": "Inmunidad"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents poison."
+  },
+  "flash-fire": {
+    "id": 18,
+    "name": "flash-fire",
+    "names": {
+      "ja-hrkt": "もらいび",
+      "ko": "타오르는불꽃",
+      "zh-hant": "引火",
+      "fr": "Torche",
+      "de": "Feuerfänger",
+      "es": "Absorbe Fuego",
+      "it": "Fuocardore",
+      "en": "Flash Fire",
+      "ja": "もらいび",
+      "zh-hans": "引火",
+      "es-419": "Absorbefuego"
+    },
+    "generation": "generation-iii",
+    "effect": "Protects against Fire moves.  Once one has been blocked, the Pokémon's own Fire moves inflict 1.5× damage until it leaves battle."
+  },
+  "shield-dust": {
+    "id": 19,
+    "name": "shield-dust",
+    "names": {
+      "ja-hrkt": "りんぷん",
+      "ko": "인분",
+      "zh-hant": "鱗粉",
+      "fr": "Écran Poudre",
+      "de": "Puderabwehr",
+      "es": "Polvo Escudo",
+      "it": "Polvoscudo",
+      "en": "Shield Dust",
+      "ja": "りんぷん",
+      "zh-hans": "鳞粉",
+      "es-419": "Polvo Escudo"
+    },
+    "generation": "generation-iii",
+    "effect": "Protects against incoming moves' extra effects."
+  },
+  "own-tempo": {
+    "id": 20,
+    "name": "own-tempo",
+    "names": {
+      "ja-hrkt": "マイペース",
+      "ko": "마이페이스",
+      "zh-hant": "我行我素",
+      "fr": "Tempo Perso",
+      "de": "Tempomacher",
+      "es": "Ritmo Propio",
+      "it": "Mente Locale",
+      "en": "Own Tempo",
+      "ja": "マイペース",
+      "zh-hans": "我行我素",
+      "es-419": "Ritmo Propio"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents confusion."
+  },
+  "suction-cups": {
+    "id": 21,
+    "name": "suction-cups",
+    "names": {
+      "ja-hrkt": "きゅうばん",
+      "ko": "흡반",
+      "zh-hant": "吸盤",
+      "fr": "Ventouse",
+      "de": "Saugnapf",
+      "es": "Ventosas",
+      "it": "Ventose",
+      "en": "Suction Cups",
+      "ja": "きゅうばん",
+      "zh-hans": "吸盘",
+      "es-419": "Ventosas"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents being forced out of battle by other Pokémon's moves."
+  },
+  "intimidate": {
+    "id": 22,
+    "name": "intimidate",
+    "names": {
+      "ja-hrkt": "いかく",
+      "ko": "위협",
+      "zh-hant": "威嚇",
+      "fr": "Intimidation",
+      "de": "Bedroher",
+      "es": "Intimidación",
+      "it": "Prepotenza",
+      "en": "Intimidate",
+      "ja": "いかく",
+      "zh-hans": "威吓",
+      "es-419": "Intimidación"
+    },
+    "generation": "generation-iii",
+    "effect": "Lowers opponents' Attack one stage upon entering battle."
+  },
+  "shadow-tag": {
+    "id": 23,
+    "name": "shadow-tag",
+    "names": {
+      "ja-hrkt": "かげふみ",
+      "ko": "그림자밟기",
+      "zh-hant": "踩影",
+      "fr": "Marque Ombre",
+      "de": "Wegsperre",
+      "es": "Sombra Trampa",
+      "it": "Pedinombra",
+      "en": "Shadow Tag",
+      "ja": "かげふみ",
+      "zh-hans": "踩影",
+      "es-419": "Sombra Trampa"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents opponents from fleeing or switching out."
+  },
+  "rough-skin": {
+    "id": 24,
+    "name": "rough-skin",
+    "names": {
+      "ja-hrkt": "さめはだ",
+      "ko": "까칠한피부",
+      "zh-hant": "粗糙皮膚",
+      "fr": "Peau Dure",
+      "de": "Rauhaut",
+      "es": "Piel Tosca",
+      "it": "Cartavetro",
+      "en": "Rough Skin",
+      "ja": "さめはだ",
+      "zh-hans": "粗糙皮肤",
+      "es-419": "Piel Tosca"
+    },
+    "generation": "generation-iii",
+    "effect": "Damages attacking Pokémon for 1/8 their max HP on contact."
+  },
+  "wonder-guard": {
+    "id": 25,
+    "name": "wonder-guard",
+    "names": {
+      "ja-hrkt": "ふしぎなまもり",
+      "ko": "불가사의부적",
+      "zh-hant": "神奇守護",
+      "fr": "Garde Mystik",
+      "de": "Wunderwache",
+      "es": "Superguarda",
+      "it": "Magidifesa",
+      "en": "Wonder Guard",
+      "ja": "ふしぎなまもり",
+      "zh-hans": "神奇守护",
+      "es-419": "Superguarda"
+    },
+    "generation": "generation-iii",
+    "effect": "Protects against damaging moves that are not super effective."
+  },
+  "levitate": {
+    "id": 26,
+    "name": "levitate",
+    "names": {
+      "ja-hrkt": "ふゆう",
+      "ko": "부유",
+      "zh-hant": "飄浮",
+      "fr": "Lévitation",
+      "de": "Schwebe",
+      "es": "Levitación",
+      "it": "Levitazione",
+      "en": "Levitate",
+      "ja": "ふゆう",
+      "zh-hans": "飘浮",
+      "es-419": "Levitación"
+    },
+    "generation": "generation-iii",
+    "effect": "Evades Ground moves."
+  },
+  "effect-spore": {
+    "id": 27,
+    "name": "effect-spore",
+    "names": {
+      "ja-hrkt": "ほうし",
+      "ko": "포자",
+      "zh-hant": "孢子",
+      "fr": "Pose Spore",
+      "de": "Sporenwirt",
+      "es": "Efecto Espora",
+      "it": "Spargispora",
+      "en": "Effect Spore",
+      "ja": "ほうし",
+      "zh-hans": "孢子",
+      "es-419": "Efecto Espora"
+    },
+    "generation": "generation-iii",
+    "effect": "Has a 30% chance of inflcting either paralysis, poison, or sleep on attacking Pokémon on contact."
+  },
+  "synchronize": {
+    "id": 28,
+    "name": "synchronize",
+    "names": {
+      "ja-hrkt": "シンクロ",
+      "ko": "싱크로",
+      "zh-hant": "同步",
+      "fr": "Synchro",
+      "de": "Synchro",
+      "es": "Sincronía",
+      "it": "Sincronismo",
+      "en": "Synchronize",
+      "ja": "シンクロ",
+      "zh-hans": "同步",
+      "es-419": "Sincronía"
+    },
+    "generation": "generation-iii",
+    "effect": "Copies burns, paralysis, and poison received onto the Pokémon that inflicted them."
+  },
+  "clear-body": {
+    "id": 29,
+    "name": "clear-body",
+    "names": {
+      "ja-hrkt": "クリアボディ",
+      "ko": "클리어바디",
+      "zh-hant": "恆淨之軀",
+      "fr": "Corps Sain",
+      "de": "Neutraltorso",
+      "es": "Cuerpo Puro",
+      "it": "Corpochiaro",
+      "en": "Clear Body",
+      "ja": "クリアボディ",
+      "zh-hans": "恒净之躯",
+      "es-419": "Cuerpo Puro"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents stats from being lowered by other Pokémon."
+  },
+  "natural-cure": {
+    "id": 30,
+    "name": "natural-cure",
+    "names": {
+      "ja-hrkt": "しぜんかいふく",
+      "ko": "자연회복",
+      "zh-hant": "自然回復",
+      "fr": "Médic Nature",
+      "de": "Innere Kraft",
+      "es": "Cura Natural",
+      "it": "Alternacura",
+      "en": "Natural Cure",
+      "ja": "しぜんかいふく",
+      "zh-hans": "自然回复",
+      "es-419": "Curación Natural"
+    },
+    "generation": "generation-iii",
+    "effect": "Cures any major status ailment upon switching out."
+  },
+  "lightning-rod": {
+    "id": 31,
+    "name": "lightning-rod",
+    "names": {
+      "ja-hrkt": "ひらいしん",
+      "ko": "피뢰침",
+      "zh-hant": "避雷針",
+      "fr": "Paratonnerre",
+      "de": "Blitzfänger",
+      "es": "Pararrayos",
+      "it": "Parafulmine",
+      "en": "Lightning Rod",
+      "ja": "ひらいしん",
+      "zh-hans": "避雷针",
+      "es-419": "Pararrayos"
+    },
+    "generation": "generation-iii",
+    "effect": "Redirects single-target Electric moves to this Pokémon where possible.  Absorbs Electric moves, raising Special Attack one stage."
+  },
+  "serene-grace": {
+    "id": 32,
+    "name": "serene-grace",
+    "names": {
+      "ja-hrkt": "てんのめぐみ",
+      "ko": "하늘의은총",
+      "zh-hant": "天恩",
+      "fr": "Sérénité",
+      "de": "Edelmut",
+      "es": "Dicha",
+      "it": "Leggiadro",
+      "en": "Serene Grace",
+      "ja": "てんのめぐみ",
+      "zh-hans": "天恩",
+      "es-419": "Dicha"
+    },
+    "generation": "generation-iii",
+    "effect": "Doubles the chance of moves' extra effects occurring."
+  },
+  "swift-swim": {
+    "id": 33,
+    "name": "swift-swim",
+    "names": {
+      "ja-hrkt": "すいすい",
+      "ko": "쓱쓱",
+      "zh-hant": "悠游自如",
+      "fr": "Glissade",
+      "de": "Wassertempo",
+      "es": "Nado Rápido",
+      "it": "Nuotovelox",
+      "en": "Swift Swim",
+      "ja": "すいすい",
+      "zh-hans": "悠游自如",
+      "es-419": "Nado Rápido"
+    },
+    "generation": "generation-iii",
+    "effect": "Doubles Speed during rain."
+  },
+  "chlorophyll": {
+    "id": 34,
+    "name": "chlorophyll",
+    "names": {
+      "ja-hrkt": "ようりょくそ",
+      "ko": "엽록소",
+      "zh-hant": "葉綠素",
+      "fr": "Chlorophylle",
+      "de": "Chlorophyll",
+      "es": "Clorofila",
+      "it": "Clorofilla",
+      "en": "Chlorophyll",
+      "ja": "ようりょくそ",
+      "zh-hans": "叶绿素",
+      "es-419": "Clorofila"
+    },
+    "generation": "generation-iii",
+    "effect": "Doubles Speed during strong sunlight."
+  },
+  "illuminate": {
+    "id": 35,
+    "name": "illuminate",
+    "names": {
+      "ja-hrkt": "はっこう",
+      "ko": "발광",
+      "zh-hant": "發光",
+      "fr": "Lumiattirance",
+      "de": "Erleuchtung",
+      "es": "Iluminación",
+      "it": "Risplendi",
+      "en": "Illuminate",
+      "ja": "はっこう",
+      "zh-hans": "发光",
+      "es-419": "Iluminación"
+    },
+    "generation": "generation-iii",
+    "effect": "Doubles the wild encounter rate."
+  },
+  "trace": {
+    "id": 36,
+    "name": "trace",
+    "names": {
+      "ja-hrkt": "トレース",
+      "ko": "트레이스",
+      "zh-hant": "複製",
+      "fr": "Calque",
+      "de": "Erfassen",
+      "es": "Calco",
+      "it": "Traccia",
+      "en": "Trace",
+      "ja": "トレース",
+      "zh-hans": "复制",
+      "es-419": "Calco"
+    },
+    "generation": "generation-iii",
+    "effect": "Copies an opponent's ability upon entering battle."
+  },
+  "huge-power": {
+    "id": 37,
+    "name": "huge-power",
+    "names": {
+      "ja-hrkt": "ちからもち",
+      "ko": "천하장사",
+      "zh-hant": "大力士",
+      "fr": "Coloforce",
+      "de": "Kraftkoloss",
+      "es": "Potencia",
+      "it": "Macroforza",
+      "en": "Huge Power",
+      "ja": "ちからもち",
+      "zh-hans": "大力士",
+      "es-419": "Potencia"
+    },
+    "generation": "generation-iii",
+    "effect": "Doubles Attack in battle."
+  },
+  "poison-point": {
+    "id": 38,
+    "name": "poison-point",
+    "names": {
+      "ja-hrkt": "どくのトゲ",
+      "ko": "독가시",
+      "zh-hant": "毒刺",
+      "fr": "Point Poison",
+      "de": "Giftdorn",
+      "es": "Punto Tóxico",
+      "it": "Velenopunto",
+      "en": "Poison Point",
+      "ja": "どくのトゲ",
+      "zh-hans": "毒刺",
+      "es-419": "Punto Tóxico"
+    },
+    "generation": "generation-iii",
+    "effect": "Has a 30% chance of poisoning attacking Pokémon on contact."
+  },
+  "inner-focus": {
+    "id": 39,
+    "name": "inner-focus",
+    "names": {
+      "ja-hrkt": "せいしんりょく",
+      "ko": "정신력",
+      "zh-hant": "精神力",
+      "fr": "Attention",
+      "de": "Konzentrator",
+      "es": "Fuerza Mental",
+      "it": "Forza Interiore",
+      "en": "Inner Focus",
+      "ja": "せいしんりょく",
+      "zh-hans": "精神力",
+      "es-419": "Fuerza Mental"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents flinching."
+  },
+  "magma-armor": {
+    "id": 40,
+    "name": "magma-armor",
+    "names": {
+      "ja-hrkt": "マグマのよろい",
+      "ko": "마그마의무장",
+      "zh-hant": "熔岩鎧甲",
+      "fr": "Armumagma",
+      "de": "Magmapanzer",
+      "es": "Escudo Magma",
+      "it": "Magmascudo",
+      "en": "Magma Armor",
+      "ja": "マグマのよろい",
+      "zh-hans": "熔岩铠甲",
+      "es-419": "Escudo de Magma"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents freezing."
+  },
+  "water-veil": {
+    "id": 41,
+    "name": "water-veil",
+    "names": {
+      "ja-hrkt": "みずのベール",
+      "ko": "수의베일",
+      "zh-hant": "水幕",
+      "fr": "Ignifu-Voile",
+      "de": "Aquahülle",
+      "es": "Velo Agua",
+      "it": "Idrovelo",
+      "en": "Water Veil",
+      "ja": "みずのベール",
+      "zh-hans": "水幕",
+      "es-419": "Velo Agua"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents burns."
+  },
+  "magnet-pull": {
+    "id": 42,
+    "name": "magnet-pull",
+    "names": {
+      "ja-hrkt": "じりょく",
+      "ko": "자력",
+      "zh-hant": "磁力",
+      "fr": "Magnépiège",
+      "de": "Magnetfalle",
+      "es": "Imán",
+      "it": "Magnetismo",
+      "en": "Magnet Pull",
+      "ja": "じりょく",
+      "zh-hans": "磁力",
+      "es-419": "Imán"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents Steel opponents from fleeing or switching out."
+  },
+  "soundproof": {
+    "id": 43,
+    "name": "soundproof",
+    "names": {
+      "ja-hrkt": "ぼうおん",
+      "ko": "방음",
+      "zh-hant": "隔音",
+      "fr": "Anti-Bruit",
+      "de": "Lärmschutz",
+      "es": "Insonorizar",
+      "it": "Antisuono",
+      "en": "Soundproof",
+      "ja": "ぼうおん",
+      "zh-hans": "隔音",
+      "es-419": "Insonorización"
+    },
+    "generation": "generation-iii",
+    "effect": "Protects against sound-based moves."
+  },
+  "rain-dish": {
+    "id": 44,
+    "name": "rain-dish",
+    "names": {
+      "ja-hrkt": "あめうけざら",
+      "ko": "젖은접시",
+      "zh-hant": "雨盤",
+      "fr": "Cuvette",
+      "de": "Regengenuss",
+      "es": "Cura Lluvia",
+      "it": "Copripioggia",
+      "en": "Rain Dish",
+      "ja": "あめうけざら",
+      "zh-hans": "雨盘",
+      "es-419": "Curación Pluvial"
+    },
+    "generation": "generation-iii",
+    "effect": "Heals for 1/16 max HP after each turn during rain."
+  },
+  "sand-stream": {
+    "id": 45,
+    "name": "sand-stream",
+    "names": {
+      "ja-hrkt": "すなおこし",
+      "ko": "모래날림",
+      "zh-hant": "揚沙",
+      "fr": "Sable Volant",
+      "de": "Sandsturm",
+      "es": "Chorro Arena",
+      "it": "Sabbiafiume",
+      "en": "Sand Stream",
+      "ja": "すなおこし",
+      "zh-hans": "扬沙",
+      "es-419": "Chorro de Arena"
+    },
+    "generation": "generation-iii",
+    "effect": "Summons a sandstorm that lasts indefinitely upon entering battle."
+  },
+  "pressure": {
+    "id": 46,
+    "name": "pressure",
+    "names": {
+      "ja-hrkt": "プレッシャー",
+      "ko": "프레셔",
+      "zh-hant": "壓迫感",
+      "fr": "Pression",
+      "de": "Erzwinger",
+      "es": "Presión",
+      "it": "Pressione",
+      "en": "Pressure",
+      "ja": "プレッシャー",
+      "zh-hans": "压迫感",
+      "es-419": "Presión"
+    },
+    "generation": "generation-iii",
+    "effect": "Increases the PP cost of moves targetting the Pokémon by one."
+  },
+  "thick-fat": {
+    "id": 47,
+    "name": "thick-fat",
+    "names": {
+      "ja-hrkt": "あついしぼう",
+      "ko": "두꺼운지방",
+      "zh-hant": "厚脂肪",
+      "fr": "Isograisse",
+      "de": "Speckschicht",
+      "es": "Sebo",
+      "it": "Grassospesso",
+      "en": "Thick Fat",
+      "ja": "あついしぼう",
+      "zh-hans": "厚脂肪",
+      "es-419": "Sebo"
+    },
+    "generation": "generation-iii",
+    "effect": "Halves damage from Fire and Ice moves."
+  },
+  "early-bird": {
+    "id": 48,
+    "name": "early-bird",
+    "names": {
+      "ja-hrkt": "はやおき",
+      "ko": "일찍기상",
+      "zh-hant": "早起",
+      "fr": "Matinal",
+      "de": "Frühwecker",
+      "es": "Madrugar",
+      "it": "Sveglialampo",
+      "en": "Early Bird",
+      "ja": "はやおき",
+      "zh-hans": "早起",
+      "es-419": "Madrugador"
+    },
+    "generation": "generation-iii",
+    "effect": "Makes sleep pass twice as quickly."
+  },
+  "flame-body": {
+    "id": 49,
+    "name": "flame-body",
+    "names": {
+      "ja-hrkt": "ほのおのからだ",
+      "ko": "불꽃몸",
+      "zh-hant": "火焰之軀",
+      "fr": "Corps Ardent",
+      "de": "Flammkörper",
+      "es": "Cuerpo Llama",
+      "it": "Corpodifuoco",
+      "en": "Flame Body",
+      "ja": "ほのおのからだ",
+      "zh-hans": "火焰之躯",
+      "es-419": "Cuerpo de Fuego"
+    },
+    "generation": "generation-iii",
+    "effect": "Has a 30% chance of burning attacking Pokémon on contact."
+  },
+  "run-away": {
+    "id": 50,
+    "name": "run-away",
+    "names": {
+      "ja-hrkt": "にげあし",
+      "ko": "도주",
+      "zh-hant": "逃跑",
+      "fr": "Fuite",
+      "de": "Angsthase",
+      "es": "Fuga",
+      "it": "Fugafacile",
+      "en": "Run Away",
+      "ja": "にげあし",
+      "zh-hans": "逃跑",
+      "es-419": "Fuga"
+    },
+    "generation": "generation-iii",
+    "effect": "Ensures success fleeing from wild battles."
+  },
+  "keen-eye": {
+    "id": 51,
+    "name": "keen-eye",
+    "names": {
+      "ja-hrkt": "するどいめ",
+      "ko": "날카로운눈",
+      "zh-hant": "銳利目光",
+      "fr": "Regard Vif",
+      "de": "Adlerauge",
+      "es": "Vista Lince",
+      "it": "Sguardofermo",
+      "en": "Keen Eye",
+      "ja": "するどいめ",
+      "zh-hans": "锐利目光",
+      "es-419": "Perspicacia"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents accuracy from being lowered."
+  },
+  "hyper-cutter": {
+    "id": 52,
+    "name": "hyper-cutter",
+    "names": {
+      "ja-hrkt": "かいりきバサミ",
+      "ko": "괴력집게",
+      "zh-hant": "怪力鉗",
+      "fr": "Hyper Cutter",
+      "de": "Scherenmacht",
+      "es": "Corte Fuerte",
+      "it": "Ipertaglio",
+      "en": "Hyper Cutter",
+      "ja": "かいりきバサミ",
+      "zh-hans": "怪力钳",
+      "es-419": "Corte Fuerte"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents Attack from being lowered by other Pokémon."
+  },
+  "pickup": {
+    "id": 53,
+    "name": "pickup",
+    "names": {
+      "ja-hrkt": "ものひろい",
+      "ko": "픽업",
+      "zh-hant": "撿拾",
+      "fr": "Ramassage",
+      "de": "Mitnahme",
+      "es": "Recogida",
+      "it": "Raccolta",
+      "en": "Pickup",
+      "ja": "ものひろい",
+      "zh-hans": "捡拾",
+      "es-419": "Recolección"
+    },
+    "generation": "generation-iii",
+    "effect": "Picks up other Pokémon's used and Flung held items.  May also pick up an item after battle."
+  },
+  "truant": {
+    "id": 54,
+    "name": "truant",
+    "names": {
+      "ja-hrkt": "なまけ",
+      "ko": "게으름",
+      "zh-hant": "懶惰",
+      "fr": "Absentéisme",
+      "de": "Schnarchnase",
+      "es": "Ausente",
+      "it": "Pigrone",
+      "en": "Truant",
+      "ja": "なまけ",
+      "zh-hans": "懒惰",
+      "es-419": "Ausente"
+    },
+    "generation": "generation-iii",
+    "effect": "Skips every second turn."
+  },
+  "hustle": {
+    "id": 55,
+    "name": "hustle",
+    "names": {
+      "ja-hrkt": "はりきり",
+      "ko": "의욕",
+      "zh-hant": "活力",
+      "fr": "Agitation",
+      "de": "Übereifer",
+      "es": "Entusiasmo",
+      "it": "Tuttafretta",
+      "en": "Hustle",
+      "ja": "はりきり",
+      "zh-hans": "活力",
+      "es-419": "Entusiasmo"
+    },
+    "generation": "generation-iii",
+    "effect": "Strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×."
+  },
+  "cute-charm": {
+    "id": 56,
+    "name": "cute-charm",
+    "names": {
+      "ja-hrkt": "メロメロボディ",
+      "ko": "헤롱헤롱바디",
+      "zh-hant": "迷人之軀",
+      "fr": "Joli Sourire",
+      "de": "Charmebolzen",
+      "es": "Gran Encanto",
+      "it": "Incantevole",
+      "en": "Cute Charm",
+      "ja": "メロメロボディ",
+      "zh-hans": "迷人之躯",
+      "es-419": "Gran Encanto"
+    },
+    "generation": "generation-iii",
+    "effect": "Has a 30% chance of infatuating attacking Pokémon on contact."
+  },
+  "plus": {
+    "id": 57,
+    "name": "plus",
+    "names": {
+      "ja-hrkt": "プラス",
+      "ko": "플러스",
+      "zh-hant": "正電",
+      "fr": "Plus",
+      "de": "Plus",
+      "es": "Más",
+      "it": "Più",
+      "en": "Plus",
+      "ja": "プラス",
+      "zh-hans": "正电",
+      "es-419": "Más"
+    },
+    "generation": "generation-iii",
+    "effect": "Increases Special Attack to 1.5× when a friendly Pokémon has Plus or Minus."
+  },
+  "minus": {
+    "id": 58,
+    "name": "minus",
+    "names": {
+      "ja-hrkt": "マイナス",
+      "ko": "마이너스",
+      "zh-hant": "負電",
+      "fr": "Moins",
+      "de": "Minus",
+      "es": "Menos",
+      "it": "Meno",
+      "en": "Minus",
+      "ja": "マイナス",
+      "zh-hans": "负电",
+      "es-419": "Menos"
+    },
+    "generation": "generation-iii",
+    "effect": "Increases Special Attack to 1.5× when a friendly Pokémon has Plus or Minus."
+  },
+  "forecast": {
+    "id": 59,
+    "name": "forecast",
+    "names": {
+      "ja-hrkt": "てんきや",
+      "ko": "기분파",
+      "zh-hant": "陰晴不定",
+      "fr": "Météo",
+      "de": "Prognose",
+      "es": "Predicción",
+      "it": "Previsioni",
+      "en": "Forecast",
+      "ja": "てんきや",
+      "zh-hans": "阴晴不定",
+      "es-419": "Predicción"
+    },
+    "generation": "generation-iii",
+    "effect": "Changes Castform's type and form to match the weather."
+  },
+  "sticky-hold": {
+    "id": 60,
+    "name": "sticky-hold",
+    "names": {
+      "ja-hrkt": "ねんちゃく",
+      "ko": "점착",
+      "zh-hant": "黏著",
+      "fr": "Glu",
+      "de": "Klebekörper",
+      "es": "Viscosidad",
+      "it": "Antifurto",
+      "en": "Sticky Hold",
+      "ja": "ねんちゃく",
+      "zh-hans": "黏着",
+      "es-419": "Viscosidad"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents a held item from being removed by other Pokémon."
+  },
+  "shed-skin": {
+    "id": 61,
+    "name": "shed-skin",
+    "names": {
+      "ja-hrkt": "だっぴ",
+      "ko": "탈피",
+      "zh-hant": "蛻皮",
+      "fr": "Mue",
+      "de": "Expidermis",
+      "es": "Mudar",
+      "it": "Muta",
+      "en": "Shed Skin",
+      "ja": "だっぴ",
+      "zh-hans": "蜕皮",
+      "es-419": "Mudar"
+    },
+    "generation": "generation-iii",
+    "effect": "Has a 33% chance of curing any major status ailment after each turn."
+  },
+  "guts": {
+    "id": 62,
+    "name": "guts",
+    "names": {
+      "ja-hrkt": "こんじょう",
+      "ko": "근성",
+      "zh-hant": "毅力",
+      "fr": "Cran",
+      "de": "Adrenalin",
+      "es": "Agallas",
+      "it": "Dentistretti",
+      "en": "Guts",
+      "ja": "こんじょう",
+      "zh-hans": "毅力",
+      "es-419": "Agallas"
+    },
+    "generation": "generation-iii",
+    "effect": "Increases Attack to 1.5× with a major status ailment."
+  },
+  "marvel-scale": {
+    "id": 63,
+    "name": "marvel-scale",
+    "names": {
+      "ja-hrkt": "ふしぎなうろこ",
+      "ko": "이상한비늘",
+      "zh-hant": "神奇鱗片",
+      "fr": "Écaille Spéciale",
+      "de": "Notschutz",
+      "es": "Escama Especial",
+      "it": "Pelledura",
+      "en": "Marvel Scale",
+      "ja": "ふしぎなうろこ",
+      "zh-hans": "神奇鳞片",
+      "es-419": "Escama Especial"
+    },
+    "generation": "generation-iii",
+    "effect": "Increases Defense to 1.5× with a major status ailment."
+  },
+  "liquid-ooze": {
+    "id": 64,
+    "name": "liquid-ooze",
+    "names": {
+      "ja-hrkt": "ヘドロえき",
+      "ko": "해감액",
+      "zh-hant": "污泥漿",
+      "fr": "Suintement",
+      "de": "Kloakensoße",
+      "es": "Lodo Líquido",
+      "it": "Melma",
+      "en": "Liquid Ooze",
+      "ja": "ヘドロえき",
+      "zh-hans": "污泥浆",
+      "es-419": "Lodo Líquido"
+    },
+    "generation": "generation-iii",
+    "effect": "Damages opponents using leeching moves for as much as they would heal."
+  },
+  "overgrow": {
+    "id": 65,
+    "name": "overgrow",
+    "names": {
+      "ja-hrkt": "しんりょく",
+      "ko": "심록",
+      "zh-hant": "茂盛",
+      "fr": "Engrais",
+      "de": "Notdünger",
+      "es": "Espesura",
+      "it": "Erbaiuto",
+      "en": "Overgrow",
+      "ja": "しんりょく",
+      "zh-hans": "茂盛",
+      "es-419": "Espesura"
+    },
+    "generation": "generation-iii",
+    "effect": "Strengthens Grass moves to inflict 1.5× damage at 1/3 max HP or less."
+  },
+  "blaze": {
+    "id": 66,
+    "name": "blaze",
+    "names": {
+      "ja-hrkt": "もうか",
+      "ko": "맹화",
+      "zh-hant": "猛火",
+      "fr": "Brasier",
+      "de": "Großbrand",
+      "es": "Mar Llamas",
+      "it": "Aiutofuoco",
+      "en": "Blaze",
+      "ja": "もうか",
+      "zh-hans": "猛火",
+      "es-419": "Mar de Llamas"
+    },
+    "generation": "generation-iii",
+    "effect": "Strengthens Fire moves to inflict 1.5× damage at 1/3 max HP or less."
+  },
+  "torrent": {
+    "id": 67,
+    "name": "torrent",
+    "names": {
+      "ja-hrkt": "げきりゅう",
+      "ko": "급류",
+      "zh-hant": "激流",
+      "fr": "Torrent",
+      "de": "Sturzbach",
+      "es": "Torrente",
+      "it": "Acquaiuto",
+      "en": "Torrent",
+      "ja": "げきりゅう",
+      "zh-hans": "激流",
+      "es-419": "Torrente"
+    },
+    "generation": "generation-iii",
+    "effect": "Strengthens Water moves to inflict 1.5× damage at 1/3 max HP or less."
+  },
+  "swarm": {
+    "id": 68,
+    "name": "swarm",
+    "names": {
+      "ja-hrkt": "むしのしらせ",
+      "ko": "벌레의알림",
+      "zh-hant": "蟲之預感",
+      "fr": "Essaim",
+      "de": "Hexaplaga",
+      "es": "Enjambre",
+      "it": "Aiutinsetto",
+      "en": "Swarm",
+      "ja": "むしのしらせ",
+      "zh-hans": "虫之预感",
+      "es-419": "Enjambre"
+    },
+    "generation": "generation-iii",
+    "effect": "Strengthens Bug moves to inflict 1.5× damage at 1/3 max HP or less."
+  },
+  "rock-head": {
+    "id": 69,
+    "name": "rock-head",
+    "names": {
+      "ja-hrkt": "いしあたま",
+      "ko": "돌머리",
+      "zh-hant": "堅硬腦袋",
+      "fr": "Tête de Roc",
+      "de": "Steinhaupt",
+      "es": "Cabeza Roca",
+      "it": "Testadura",
+      "en": "Rock Head",
+      "ja": "いしあたま",
+      "zh-hans": "坚硬脑袋",
+      "es-419": "Cabeza Roca"
+    },
+    "generation": "generation-iii",
+    "effect": "Protects against recoil damage."
+  },
+  "drought": {
+    "id": 70,
+    "name": "drought",
+    "names": {
+      "ja-hrkt": "ひでり",
+      "ko": "가뭄",
+      "zh-hant": "日照",
+      "fr": "Sécheresse",
+      "de": "Dürre",
+      "es": "Sequía",
+      "it": "Siccità",
+      "en": "Drought",
+      "ja": "ひでり",
+      "zh-hans": "日照",
+      "es-419": "Sequía"
+    },
+    "generation": "generation-iii",
+    "effect": "Summons strong sunlight that lasts indefinitely upon entering battle."
+  },
+  "arena-trap": {
+    "id": 71,
+    "name": "arena-trap",
+    "names": {
+      "ja-hrkt": "ありじごく",
+      "ko": "개미지옥",
+      "zh-hant": "沙穴",
+      "fr": "Piège Sable",
+      "de": "Ausweglos",
+      "es": "Trampa Arena",
+      "it": "Trappoarena",
+      "en": "Arena Trap",
+      "ja": "ありじごく",
+      "zh-hans": "沙穴",
+      "es-419": "Trampa Arena"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents opponents from fleeing or switching out.  Eluded by Flying-types and Pokémon in the air."
+  },
+  "vital-spirit": {
+    "id": 72,
+    "name": "vital-spirit",
+    "names": {
+      "ja-hrkt": "やるき",
+      "ko": "의기양양",
+      "zh-hant": "幹勁",
+      "fr": "Esprit Vital",
+      "de": "Munterkeit",
+      "es": "Espíritu Vital",
+      "it": "Spiritovivo",
+      "en": "Vital Spirit",
+      "ja": "やるき",
+      "zh-hans": "干劲",
+      "es-419": "Espíritu Vital"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents sleep."
+  },
+  "white-smoke": {
+    "id": 73,
+    "name": "white-smoke",
+    "names": {
+      "ja-hrkt": "しろいけむり",
+      "ko": "하얀연기",
+      "zh-hant": "白色煙霧",
+      "fr": "Écran Fumée",
+      "de": "Pulverrauch",
+      "es": "Humo Blanco",
+      "it": "Fumochiaro",
+      "en": "White Smoke",
+      "ja": "しろいけむり",
+      "zh-hans": "白色烟雾",
+      "es-419": "Humo Blanco"
+    },
+    "generation": "generation-iii",
+    "effect": "Prevents stats from being lowered by other Pokémon."
+  },
+  "pure-power": {
+    "id": 74,
+    "name": "pure-power",
+    "names": {
+      "ja-hrkt": "ヨガパワー",
+      "ko": "순수한힘",
+      "zh-hant": "瑜伽之力",
+      "fr": "Force Pure",
+      "de": "Mentalkraft",
+      "es": "Energía Pura",
+      "it": "Forzapura",
+      "en": "Pure Power",
+      "ja": "ヨガパワー",
+      "zh-hans": "瑜伽之力",
+      "es-419": "Energía Pura"
+    },
+    "generation": "generation-iii",
+    "effect": "Doubles Attack in battle."
+  },
+  "shell-armor": {
+    "id": 75,
+    "name": "shell-armor",
+    "names": {
+      "ja-hrkt": "シェルアーマー",
+      "ko": "조가비갑옷",
+      "zh-hant": "硬殼盔甲",
+      "fr": "Coque Armure",
+      "de": "Panzerhaut",
+      "es": "Caparazón",
+      "it": "Guscioscudo",
+      "en": "Shell Armor",
+      "ja": "シェルアーマー",
+      "zh-hans": "硬壳盔甲",
+      "es-419": "Caparazón"
+    },
+    "generation": "generation-iii",
+    "effect": "Protects against critical hits."
+  },
+  "air-lock": {
+    "id": 76,
+    "name": "air-lock",
+    "names": {
+      "ja-hrkt": "エアロック",
+      "ko": "에어록",
+      "zh-hant": "氣閘",
+      "fr": "Air Lock",
+      "de": "Klimaschutz",
+      "es": "Bucle Aire",
+      "it": "Riparo",
+      "en": "Air Lock",
+      "ja": "エアロック",
+      "zh-hans": "气闸",
+      "es-419": "Bucle Aire"
+    },
+    "generation": "generation-iii",
+    "effect": "Negates all effects of weather, but does not prevent the weather itself."
+  },
+  "tangled-feet": {
+    "id": 77,
+    "name": "tangled-feet",
+    "names": {
+      "ja-hrkt": "ちどりあし",
+      "ko": "갈지자걸음",
+      "zh-hant": "蹣跚",
+      "fr": "Pieds Confus",
+      "de": "Fußangel",
+      "es": "Tumbos",
+      "it": "Intricopiedi",
+      "en": "Tangled Feet",
+      "ja": "ちどりあし",
+      "zh-hans": "蹒跚",
+      "es-419": "Tambaleo"
+    },
+    "generation": "generation-iv",
+    "effect": "Doubles evasion when confused."
+  },
+  "motor-drive": {
+    "id": 78,
+    "name": "motor-drive",
+    "names": {
+      "ja-hrkt": "でんきエンジン",
+      "ko": "전기엔진",
+      "zh-hant": "電氣引擎",
+      "fr": "Motorisé",
+      "de": "Starthilfe",
+      "es": "Electromotor",
+      "it": "Elettrorapid",
+      "en": "Motor Drive",
+      "ja": "でんきエンジン",
+      "zh-hans": "电气引擎",
+      "es-419": "Electromotor"
+    },
+    "generation": "generation-iv",
+    "effect": "Absorbs Electric moves, raising Speed one stage."
+  },
+  "rivalry": {
+    "id": 79,
+    "name": "rivalry",
+    "names": {
+      "ja-hrkt": "とうそうしん",
+      "ko": "투쟁심",
+      "zh-hant": "鬥爭心",
+      "fr": "Rivalité",
+      "de": "Rivalität",
+      "es": "Rivalidad",
+      "it": "Antagonismo",
+      "en": "Rivalry",
+      "ja": "とうそうしん",
+      "zh-hans": "斗争心",
+      "es-419": "Rivalidad"
+    },
+    "generation": "generation-iv",
+    "effect": "Increases damage inflicted to 1.25× against Pokémon of the same gender, but decreases damage to 0.75× against the opposite gender."
+  },
+  "steadfast": {
+    "id": 80,
+    "name": "steadfast",
+    "names": {
+      "ja-hrkt": "ふくつのこころ",
+      "ko": "불굴의마음",
+      "zh-hant": "不屈之心",
+      "fr": "Impassible",
+      "de": "Felsenfest",
+      "es": "Impasible",
+      "it": "Cuordeciso",
+      "en": "Steadfast",
+      "ja": "ふくつのこころ",
+      "zh-hans": "不屈之心",
+      "es-419": "Impasible"
+    },
+    "generation": "generation-iv",
+    "effect": "Raises Speed one stage upon flinching."
+  },
+  "snow-cloak": {
+    "id": 81,
+    "name": "snow-cloak",
+    "names": {
+      "ja-hrkt": "ゆきがくれ",
+      "ko": "눈숨기",
+      "zh-hant": "雪隱",
+      "fr": "Rideau Neige",
+      "de": "Schneemantel",
+      "es": "Manto Níveo",
+      "it": "Mantelneve",
+      "en": "Snow Cloak",
+      "ja": "ゆきがくれ",
+      "zh-hans": "雪隐",
+      "es-419": "Manto Níveo"
+    },
+    "generation": "generation-iv",
+    "effect": "Increases evasion to 1.25× during hail.  Protects against hail damage."
+  },
+  "gluttony": {
+    "id": 82,
+    "name": "gluttony",
+    "names": {
+      "ja-hrkt": "くいしんぼう",
+      "ko": "먹보",
+      "zh-hant": "貪吃鬼",
+      "fr": "Gloutonnerie",
+      "de": "Völlerei",
+      "es": "Gula",
+      "it": "Voracità",
+      "en": "Gluttony",
+      "ja": "くいしんぼう",
+      "zh-hans": "贪吃鬼",
+      "es-419": "Gula"
+    },
+    "generation": "generation-iv",
+    "effect": "Makes the Pokémon eat any held Berry triggered by low HP below 1/2 its max HP."
+  },
+  "anger-point": {
+    "id": 83,
+    "name": "anger-point",
+    "names": {
+      "ja-hrkt": "いかりのつぼ",
+      "ko": "분노의경혈",
+      "zh-hant": "憤怒穴位",
+      "fr": "Colérique",
+      "de": "Kurzschluss",
+      "es": "Irascible",
+      "it": "Grancollera",
+      "en": "Anger Point",
+      "ja": "いかりのつぼ",
+      "zh-hans": "愤怒穴位",
+      "es-419": "Irascible"
+    },
+    "generation": "generation-iv",
+    "effect": "Raises Attack to the maximum of six stages upon receiving a critical hit."
+  },
+  "unburden": {
+    "id": 84,
+    "name": "unburden",
+    "names": {
+      "ja-hrkt": "かるわざ",
+      "ko": "곡예",
+      "zh-hant": "輕裝",
+      "fr": "Délestage",
+      "de": "Entlastung",
+      "es": "Liviano",
+      "it": "Agiltecnica",
+      "en": "Unburden",
+      "ja": "かるわざ",
+      "zh-hans": "轻装",
+      "es-419": "Liviano"
+    },
+    "generation": "generation-iv",
+    "effect": "Doubles Speed upon using or losing a held item."
+  },
+  "heatproof": {
+    "id": 85,
+    "name": "heatproof",
+    "names": {
+      "ja-hrkt": "たいねつ",
+      "ko": "내열",
+      "zh-hant": "耐熱",
+      "fr": "Ignifugé",
+      "de": "Hitzeschutz",
+      "es": "Ignífugo",
+      "it": "Antifuoco",
+      "en": "Heatproof",
+      "ja": "たいねつ",
+      "zh-hans": "耐热",
+      "es-419": "Ignífugo"
+    },
+    "generation": "generation-iv",
+    "effect": "Halves damage from Fire moves and burns."
+  },
+  "simple": {
+    "id": 86,
+    "name": "simple",
+    "names": {
+      "ja-hrkt": "たんじゅん",
+      "ko": "단순",
+      "zh-hant": "單純",
+      "fr": "Simple",
+      "de": "Wankelmut",
+      "es": "Simple",
+      "it": "Disinvoltura",
+      "en": "Simple",
+      "ja": "たんじゅん",
+      "zh-hans": "单纯",
+      "es-419": "Simple"
+    },
+    "generation": "generation-iv",
+    "effect": "Doubles the Pokémon's stat modifiers.  These doubled modifiers are still capped at -6 or 6 stages."
+  },
+  "dry-skin": {
+    "id": 87,
+    "name": "dry-skin",
+    "names": {
+      "ja-hrkt": "かんそうはだ",
+      "ko": "건조피부",
+      "zh-hant": "乾燥皮膚",
+      "fr": "Peau Sèche",
+      "de": "Trockenheit",
+      "es": "Piel Seca",
+      "it": "Pellearsa",
+      "en": "Dry Skin",
+      "ja": "かんそうはだ",
+      "zh-hans": "干燥皮肤",
+      "es-419": "Piel Seca"
+    },
+    "generation": "generation-iv",
+    "effect": "Causes 1/8 max HP in damage each turn during strong sunlight, but heals for 1/8 max HP during rain.  Increases damage from Fire moves to 1.25×, but absorbs Water moves, healing for 1/4 max HP."
+  },
+  "download": {
+    "id": 88,
+    "name": "download",
+    "names": {
+      "ja-hrkt": "ダウンロード",
+      "ko": "다운로드",
+      "zh-hant": "下載",
+      "fr": "Télécharge",
+      "de": "Download",
+      "es": "Descarga",
+      "it": "Download",
+      "en": "Download",
+      "ja": "ダウンロード",
+      "zh-hans": "下载",
+      "es-419": "Descarga"
+    },
+    "generation": "generation-iv",
+    "effect": "Raises the attack stat corresponding to the opponents' weaker defense one stage upon entering battle."
+  },
+  "iron-fist": {
+    "id": 89,
+    "name": "iron-fist",
+    "names": {
+      "ja-hrkt": "てつのこぶし",
+      "ko": "철주먹",
+      "zh-hant": "鐵拳",
+      "fr": "Poing de Fer",
+      "de": "Eisenfaust",
+      "es": "Puño Férreo",
+      "it": "Ferropugno",
+      "en": "Iron Fist",
+      "ja": "てつのこぶし",
+      "zh-hans": "铁拳",
+      "es-419": "Puño Férreo"
+    },
+    "generation": "generation-iv",
+    "effect": "Strengthens punch-based moves to 1.2× their power."
+  },
+  "poison-heal": {
+    "id": 90,
+    "name": "poison-heal",
+    "names": {
+      "ja-hrkt": "ポイズンヒール",
+      "ko": "포이즌힐",
+      "zh-hant": "毒療",
+      "fr": "Soin Poison",
+      "de": "Aufheber",
+      "es": "Antídoto",
+      "it": "Velencura",
+      "en": "Poison Heal",
+      "ja": "ポイズンヒール",
+      "zh-hans": "毒疗",
+      "es-419": "Antídoto"
+    },
+    "generation": "generation-iv",
+    "effect": "Heals for 1/8 max HP after each turn when poisoned in place of damage."
+  },
+  "adaptability": {
+    "id": 91,
+    "name": "adaptability",
+    "names": {
+      "ja-hrkt": "てきおうりょく",
+      "ko": "적응력",
+      "zh-hant": "適應力",
+      "fr": "Adaptabilité",
+      "de": "Anpassung",
+      "es": "Adaptable",
+      "it": "Adattabilità",
+      "en": "Adaptability",
+      "ja": "てきおうりょく",
+      "zh-hans": "适应力",
+      "es-419": "Adaptable"
+    },
+    "generation": "generation-iv",
+    "effect": "Increases the same-type attack bonus from 1.5× to 2×."
+  },
+  "skill-link": {
+    "id": 92,
+    "name": "skill-link",
+    "names": {
+      "ja-hrkt": "スキルリンク",
+      "ko": "스킬링크",
+      "zh-hant": "連續攻擊",
+      "fr": "Multi-Coups",
+      "de": "Wertelink",
+      "es": "Encadenado",
+      "it": "Abillegame",
+      "en": "Skill Link",
+      "ja": "スキルリンク",
+      "zh-hans": "连续攻击",
+      "es-419": "Encadenado"
+    },
+    "generation": "generation-iv",
+    "effect": "Extends two-to-five-hit moves and Triple Kick to their full length every time."
+  },
+  "hydration": {
+    "id": 93,
+    "name": "hydration",
+    "names": {
+      "ja-hrkt": "うるおいボディ",
+      "ko": "촉촉바디",
+      "zh-hant": "濕潤之軀",
+      "fr": "Hydratation",
+      "de": "Hydration",
+      "es": "Hidratación",
+      "it": "Idratazione",
+      "en": "Hydration",
+      "ja": "うるおいボディ",
+      "zh-hans": "湿润之躯",
+      "es-419": "Hidratación"
+    },
+    "generation": "generation-iv",
+    "effect": "Cures any major status ailment after each turn during rain."
+  },
+  "solar-power": {
+    "id": 94,
+    "name": "solar-power",
+    "names": {
+      "ja-hrkt": "サンパワー",
+      "ko": "선파워",
+      "zh-hant": "太陽之力",
+      "fr": "Force Soleil",
+      "de": "Solarkraft",
+      "es": "Poder Solar",
+      "it": "Solarpotere",
+      "en": "Solar Power",
+      "ja": "サンパワー",
+      "zh-hans": "太阳之力",
+      "es-419": "Poder Solar"
+    },
+    "generation": "generation-iv",
+    "effect": "Increases Special Attack to 1.5× but costs 1/8 max HP after each turn during strong sunlight."
+  },
+  "quick-feet": {
+    "id": 95,
+    "name": "quick-feet",
+    "names": {
+      "ja-hrkt": "はやあし",
+      "ko": "속보",
+      "zh-hant": "飛毛腿",
+      "fr": "Pied Véloce",
+      "de": "Rasanz",
+      "es": "Pies Rápidos",
+      "it": "Piedisvelti",
+      "en": "Quick Feet",
+      "ja": "はやあし",
+      "zh-hans": "飞毛腿",
+      "es-419": "Pies Rápidos"
+    },
+    "generation": "generation-iv",
+    "effect": "Increases Speed to 1.5× with a major status ailment."
+  },
+  "normalize": {
+    "id": 96,
+    "name": "normalize",
+    "names": {
+      "ja-hrkt": "ノーマルスキン",
+      "ko": "노말스킨",
+      "zh-hant": "一般皮膚",
+      "fr": "Normalise",
+      "de": "Regulierung",
+      "es": "Normalidad",
+      "it": "Normalità",
+      "en": "Normalize",
+      "ja": "ノーマルスキン",
+      "zh-hans": "一般皮肤",
+      "es-419": "Normalidad"
+    },
+    "generation": "generation-iv",
+    "effect": "Makes the Pokémon's moves all act Normal-type."
+  },
+  "sniper": {
+    "id": 97,
+    "name": "sniper",
+    "names": {
+      "ja-hrkt": "スナイパー",
+      "ko": "스나이퍼",
+      "zh-hant": "狙擊手",
+      "fr": "Sniper",
+      "de": "Superschütze",
+      "es": "Francotirador",
+      "it": "Cecchino",
+      "en": "Sniper",
+      "ja": "スナイパー",
+      "zh-hans": "狙击手",
+      "es-419": "Puntería"
+    },
+    "generation": "generation-iv",
+    "effect": "Strengthens critical hits to inflict 3× damage rather than 2×."
+  },
+  "magic-guard": {
+    "id": 98,
+    "name": "magic-guard",
+    "names": {
+      "ja-hrkt": "マジックガード",
+      "ko": "매직가드",
+      "zh-hant": "魔法防守",
+      "fr": "Garde Magik",
+      "de": "Magieschild",
+      "es": "Muro Mágico",
+      "it": "Magicscudo",
+      "en": "Magic Guard",
+      "ja": "マジックガード",
+      "zh-hans": "魔法防守",
+      "es-419": "Muro Mágico"
+    },
+    "generation": "generation-iv",
+    "effect": "Protects against damage not directly caused by a move."
+  },
+  "no-guard": {
+    "id": 99,
+    "name": "no-guard",
+    "names": {
+      "ja-hrkt": "ノーガード",
+      "ko": "노가드",
+      "zh-hant": "無防守",
+      "fr": "Annule Garde",
+      "de": "Schildlos",
+      "es": "Indefenso",
+      "it": "Nullodifesa",
+      "en": "No Guard",
+      "ja": "ノーガード",
+      "zh-hans": "无防守",
+      "es-419": "Indefenso"
+    },
+    "generation": "generation-iv",
+    "effect": "Ensures all moves used by and against the Pokémon hit."
+  },
+  "stall": {
+    "id": 100,
+    "name": "stall",
+    "names": {
+      "ja-hrkt": "あとだし",
+      "ko": "시간벌기",
+      "zh-hant": "慢出",
+      "fr": "Frein",
+      "de": "Zeitspiel",
+      "es": "Rezagado",
+      "it": "Rallentatore",
+      "en": "Stall",
+      "ja": "あとだし",
+      "zh-hans": "慢出",
+      "es-419": "Rezagado"
+    },
+    "generation": "generation-iv",
+    "effect": "Makes the Pokémon move last within its move's priority bracket."
+  },
+  "technician": {
+    "id": 101,
+    "name": "technician",
+    "names": {
+      "ja-hrkt": "テクニシャン",
+      "ko": "테크니션",
+      "zh-hant": "技術高手",
+      "fr": "Technicien",
+      "de": "Techniker",
+      "es": "Experto",
+      "it": "Tecnico",
+      "en": "Technician",
+      "ja": "テクニシャン",
+      "zh-hans": "技术高手",
+      "es-419": "Experto"
+    },
+    "generation": "generation-iv",
+    "effect": "Strengthens moves of 60 base power or less to 1.5× their power."
+  },
+  "leaf-guard": {
+    "id": 102,
+    "name": "leaf-guard",
+    "names": {
+      "ja-hrkt": "リーフガード",
+      "ko": "리프가드",
+      "zh-hant": "葉子防守",
+      "fr": "Feuille Garde",
+      "de": "Floraschild",
+      "es": "Defensa Hoja",
+      "it": "Fogliamanto",
+      "en": "Leaf Guard",
+      "ja": "リーフガード",
+      "zh-hans": "叶子防守",
+      "es-419": "Defensa Hoja"
+    },
+    "generation": "generation-iv",
+    "effect": "Protects against major status ailments during strong sunlight."
+  },
+  "klutz": {
+    "id": 103,
+    "name": "klutz",
+    "names": {
+      "ja-hrkt": "ぶきよう",
+      "ko": "서투름",
+      "zh-hant": "笨拙",
+      "fr": "Maladresse",
+      "de": "Tollpatsch",
+      "es": "Zoquete",
+      "it": "Impaccio",
+      "en": "Klutz",
+      "ja": "ぶきよう",
+      "zh-hans": "笨拙",
+      "es-419": "Torpeza"
+    },
+    "generation": "generation-iv",
+    "effect": "Prevents the Pokémon from using its held item in battle."
+  },
+  "mold-breaker": {
+    "id": 104,
+    "name": "mold-breaker",
+    "names": {
+      "ja-hrkt": "かたやぶり",
+      "ko": "틀깨기",
+      "zh-hant": "破格",
+      "fr": "Brise Moule",
+      "de": "Überbrückung",
+      "es": "Rompemoldes",
+      "it": "Rompiforma",
+      "en": "Mold Breaker",
+      "ja": "かたやぶり",
+      "zh-hans": "破格",
+      "es-419": "Rompemoldes"
+    },
+    "generation": "generation-iv",
+    "effect": "Bypasses targets' abilities if they could hinder or prevent a move."
+  },
+  "super-luck": {
+    "id": 105,
+    "name": "super-luck",
+    "names": {
+      "ja-hrkt": "きょううん",
+      "ko": "대운",
+      "zh-hant": "超幸運",
+      "fr": "Chanceux",
+      "de": "Glückspilz",
+      "es": "Afortunado",
+      "it": "Supersorte",
+      "en": "Super Luck",
+      "ja": "きょううん",
+      "zh-hans": "超幸运",
+      "es-419": "Supersuerte"
+    },
+    "generation": "generation-iv",
+    "effect": "Raises moves' critical hit rates one stage."
+  },
+  "aftermath": {
+    "id": 106,
+    "name": "aftermath",
+    "names": {
+      "ja-hrkt": "ゆうばく",
+      "ko": "유폭",
+      "zh-hant": "引爆",
+      "fr": "Boom Final",
+      "de": "Finalschlag",
+      "es": "Detonación",
+      "it": "Scoppio",
+      "en": "Aftermath",
+      "ja": "ゆうばく",
+      "zh-hans": "引爆",
+      "es-419": "Secuela"
+    },
+    "generation": "generation-iv",
+    "effect": "Damages the attacker for 1/4 its max HP when knocked out by a contact move."
+  },
+  "anticipation": {
+    "id": 107,
+    "name": "anticipation",
+    "names": {
+      "ja-hrkt": "きけんよち",
+      "ko": "위험예지",
+      "zh-hant": "危險預知",
+      "fr": "Anticipation",
+      "de": "Vorahnung",
+      "es": "Anticipación",
+      "it": "Presagio",
+      "en": "Anticipation",
+      "ja": "きけんよち",
+      "zh-hans": "危险预知",
+      "es-419": "Anticipación"
+    },
+    "generation": "generation-iv",
+    "effect": "Notifies all trainers upon entering battle if an opponent has a super-effective move, Self-Destruct, Explosion, or a one-hit KO move."
+  },
+  "forewarn": {
+    "id": 108,
+    "name": "forewarn",
+    "names": {
+      "ja-hrkt": "よちむ",
+      "ko": "예지몽",
+      "zh-hant": "預知夢",
+      "fr": "Prédiction",
+      "de": "Vorwarnung",
+      "es": "Alerta",
+      "it": "Premonizione",
+      "en": "Forewarn",
+      "ja": "よちむ",
+      "zh-hans": "预知梦",
+      "es-419": "Alerta"
+    },
+    "generation": "generation-iv",
+    "effect": "Reveals the opponents' strongest move upon entering battle."
+  },
+  "unaware": {
+    "id": 109,
+    "name": "unaware",
+    "names": {
+      "ja-hrkt": "てんねん",
+      "ko": "천진",
+      "zh-hant": "純樸",
+      "fr": "Inconscient",
+      "de": "Unkenntnis",
+      "es": "Ignorante",
+      "it": "Imprudenza",
+      "en": "Unaware",
+      "ja": "てんねん",
+      "zh-hans": "纯朴",
+      "es-419": "Ignorancia"
+    },
+    "generation": "generation-iv",
+    "effect": "Ignores other Pokémon's stat modifiers for damage and accuracy calculation."
+  },
+  "tinted-lens": {
+    "id": 110,
+    "name": "tinted-lens",
+    "names": {
+      "ja-hrkt": "いろめがね",
+      "ko": "색안경",
+      "zh-hant": "有色眼鏡",
+      "fr": "Lentiteintée",
+      "de": "Aufwertung",
+      "es": "Cromolente",
+      "it": "Lentifumé",
+      "en": "Tinted Lens",
+      "ja": "いろめがね",
+      "zh-hans": "有色眼镜",
+      "es-419": "Cromolente"
+    },
+    "generation": "generation-iv",
+    "effect": "Doubles damage inflicted with not-very-effective moves."
+  },
+  "filter": {
+    "id": 111,
+    "name": "filter",
+    "names": {
+      "ja-hrkt": "フィルター",
+      "ko": "필터",
+      "zh-hant": "過濾",
+      "fr": "Filtre",
+      "de": "Filter",
+      "es": "Filtro",
+      "it": "Filtro",
+      "en": "Filter",
+      "ja": "フィルター",
+      "zh-hans": "过滤",
+      "es-419": "Filtro"
+    },
+    "generation": "generation-iv",
+    "effect": "Decreases damage taken from super-effective moves by 1/4."
+  },
+  "slow-start": {
+    "id": 112,
+    "name": "slow-start",
+    "names": {
+      "ja-hrkt": "スロースタート",
+      "ko": "슬로스타트",
+      "zh-hant": "慢啟動",
+      "fr": "Début Calme",
+      "de": "Saumselig",
+      "es": "Inicio Lento",
+      "it": "Lentoinizio",
+      "en": "Slow Start",
+      "ja": "スロースタート",
+      "zh-hans": "慢启动",
+      "es-419": "Inicio Lento"
+    },
+    "generation": "generation-iv",
+    "effect": "Halves Attack and Speed for five turns upon entering battle."
+  },
+  "scrappy": {
+    "id": 113,
+    "name": "scrappy",
+    "names": {
+      "ja-hrkt": "きもったま",
+      "ko": "배짱",
+      "zh-hant": "膽量",
+      "fr": "Querelleur",
+      "de": "Rauflust",
+      "es": "Intrépido",
+      "it": "Nervisaldi",
+      "en": "Scrappy",
+      "ja": "きもったま",
+      "zh-hans": "胆量",
+      "es-419": "Intrépido"
+    },
+    "generation": "generation-iv",
+    "effect": "Lets the Pokémon's Normal and Fighting moves hit Ghost Pokémon."
+  },
+  "storm-drain": {
+    "id": 114,
+    "name": "storm-drain",
+    "names": {
+      "ja-hrkt": "よびみず",
+      "ko": "마중물",
+      "zh-hant": "引水",
+      "fr": "Lavabo",
+      "de": "Sturmsog",
+      "es": "Colector",
+      "it": "Acquascolo",
+      "en": "Storm Drain",
+      "ja": "よびみず",
+      "zh-hans": "引水",
+      "es-419": "Colector"
+    },
+    "generation": "generation-iv",
+    "effect": "Redirects single-target Water moves to this Pokémon where possible.  Absorbs Water moves, raising Special Attack one stage."
+  },
+  "ice-body": {
+    "id": 115,
+    "name": "ice-body",
+    "names": {
+      "ja-hrkt": "アイスボディ",
+      "ko": "아이스바디",
+      "zh-hant": "冰凍之軀",
+      "fr": "Corps Gel",
+      "de": "Eishaut",
+      "es": "Gélido",
+      "it": "Corpogelo",
+      "en": "Ice Body",
+      "ja": "アイスボディ",
+      "zh-hans": "冰冻之躯",
+      "es-419": "Cuerpo de Hielo"
+    },
+    "generation": "generation-iv",
+    "effect": "Heals for 1/16 max HP after each turn during hail.  Protects against hail damage."
+  },
+  "solid-rock": {
+    "id": 116,
+    "name": "solid-rock",
+    "names": {
+      "ja-hrkt": "ハードロック",
+      "ko": "하드록",
+      "zh-hant": "堅硬岩石",
+      "fr": "Solide Roc",
+      "de": "Felskern",
+      "es": "Roca Sólida",
+      "it": "Solidroccia",
+      "en": "Solid Rock",
+      "ja": "ハードロック",
+      "zh-hans": "坚硬岩石",
+      "es-419": "Roca Sólida"
+    },
+    "generation": "generation-iv",
+    "effect": "Decreases damage taken from super-effective moves by 1/4."
+  },
+  "snow-warning": {
+    "id": 117,
+    "name": "snow-warning",
+    "names": {
+      "ja-hrkt": "ゆきふらし",
+      "ko": "눈퍼뜨리기",
+      "zh-hant": "降雪",
+      "fr": "Alerte Neige",
+      "de": "Hagelalarm",
+      "es": "Nevada",
+      "it": "Scendineve",
+      "en": "Snow Warning",
+      "ja": "ゆきふらし",
+      "zh-hans": "降雪",
+      "es-419": "Nevada"
+    },
+    "generation": "generation-iv",
+    "effect": "Summons hail that lasts indefinitely upon entering battle."
+  },
+  "honey-gather": {
+    "id": 118,
+    "name": "honey-gather",
+    "names": {
+      "ja-hrkt": "みつあつめ",
+      "ko": "꿀모으기",
+      "zh-hant": "採蜜",
+      "fr": "Cherche Miel",
+      "de": "Honigmaul",
+      "es": "Recogemiel",
+      "it": "Mielincetta",
+      "en": "Honey Gather",
+      "ja": "みつあつめ",
+      "zh-hans": "采蜜",
+      "es-419": "Recogemiel"
+    },
+    "generation": "generation-iv",
+    "effect": "The Pokémon may pick up Honey after battle."
+  },
+  "frisk": {
+    "id": 119,
+    "name": "frisk",
+    "names": {
+      "ja-hrkt": "おみとおし",
+      "ko": "통찰",
+      "zh-hant": "察覺",
+      "fr": "Fouille",
+      "de": "Schnüffler",
+      "es": "Cacheo",
+      "it": "Indagine",
+      "en": "Frisk",
+      "ja": "おみとおし",
+      "zh-hans": "察觉",
+      "es-419": "Inspección"
+    },
+    "generation": "generation-iv",
+    "effect": "Reveals an opponent's held item upon entering battle."
+  },
+  "reckless": {
+    "id": 120,
+    "name": "reckless",
+    "names": {
+      "ja-hrkt": "すてみ",
+      "ko": "이판사판",
+      "zh-hant": "捨身",
+      "fr": "Téméraire",
+      "de": "Achtlos",
+      "es": "Audaz",
+      "it": "Temerarietà",
+      "en": "Reckless",
+      "ja": "すてみ",
+      "zh-hans": "舍身",
+      "es-419": "Audaz"
+    },
+    "generation": "generation-iv",
+    "effect": "Strengthens recoil moves to 1.2× their power."
+  },
+  "multitype": {
+    "id": 121,
+    "name": "multitype",
+    "names": {
+      "ja-hrkt": "マルチタイプ",
+      "ko": "멀티타입",
+      "zh-hant": "多屬性",
+      "fr": "Multi-Type",
+      "de": "Variabilität",
+      "es": "Multitipo",
+      "it": "Multitipo",
+      "en": "Multitype",
+      "ja": "マルチタイプ",
+      "zh-hans": "多属性",
+      "es-419": "Multitipo"
+    },
+    "generation": "generation-iv",
+    "effect": "Changes Arceus's type and form to match its held Plate."
+  },
+  "flower-gift": {
+    "id": 122,
+    "name": "flower-gift",
+    "names": {
+      "ja-hrkt": "フラワーギフト",
+      "ko": "플라워기프트",
+      "zh-hant": "花之禮",
+      "fr": "Don Floral",
+      "de": "Pflanzengabe",
+      "es": "Don Floral",
+      "it": "Regalfiore",
+      "en": "Flower Gift",
+      "ja": "フラワーギフト",
+      "zh-hans": "花之礼",
+      "es-419": "Don Floral"
+    },
+    "generation": "generation-iv",
+    "effect": "Increases friendly Pokémon's Attack and Special Defense to 1.5× during strong sunlight."
+  },
+  "bad-dreams": {
+    "id": 123,
+    "name": "bad-dreams",
+    "names": {
+      "ja-hrkt": "ナイトメア",
+      "ko": "나이트메어",
+      "zh-hant": "夢魘",
+      "fr": "Mauvais Rêve",
+      "de": "Alptraum",
+      "es": "Mal Sueño",
+      "it": "Sogniamari",
+      "en": "Bad Dreams",
+      "ja": "ナイトメア",
+      "zh-hans": "梦魇",
+      "es-419": "Mal Sueño"
+    },
+    "generation": "generation-iv",
+    "effect": "Damages sleeping opponents for 1/8 their max HP after each turn."
+  },
+  "pickpocket": {
+    "id": 124,
+    "name": "pickpocket",
+    "names": {
+      "ja-hrkt": "わるいてぐせ",
+      "ko": "나쁜손버릇",
+      "zh-hant": "順手牽羊",
+      "fr": "Pickpocket",
+      "de": "Langfinger",
+      "es": "Hurto",
+      "it": "Arraffalesto",
+      "en": "Pickpocket",
+      "ja": "わるいてぐせ",
+      "zh-hans": "顺手牵羊",
+      "es-419": "Hurto"
+    },
+    "generation": "generation-v",
+    "effect": "Steals attacking Pokémon's held items on contact."
+  },
+  "sheer-force": {
+    "id": 125,
+    "name": "sheer-force",
+    "names": {
+      "ja-hrkt": "ちからずく",
+      "ko": "우격다짐",
+      "zh-hant": "強行",
+      "fr": "Sans Limite",
+      "de": "Rohe Gewalt",
+      "es": "Potencia Bruta",
+      "it": "Forzabruta",
+      "en": "Sheer Force",
+      "ja": "ちからずく",
+      "zh-hans": "强行",
+      "es-419": "Potencia Bruta"
+    },
+    "generation": "generation-v",
+    "effect": "Strengthens moves with extra effects to 1.3× their power, but prevents their extra effects."
+  },
+  "contrary": {
+    "id": 126,
+    "name": "contrary",
+    "names": {
+      "ja-hrkt": "あまのじゃく",
+      "ko": "심술꾸러기",
+      "zh-hant": "唱反調",
+      "fr": "Contestation",
+      "de": "Umkehrung",
+      "es": "Respondón",
+      "it": "Inversione",
+      "en": "Contrary",
+      "ja": "あまのじゃく",
+      "zh-hans": "唱反调",
+      "es-419": "Respondón"
+    },
+    "generation": "generation-v",
+    "effect": "Inverts stat changes."
+  },
+  "unnerve": {
+    "id": 127,
+    "name": "unnerve",
+    "names": {
+      "ja-hrkt": "きんちょうかん",
+      "ko": "긴장감",
+      "zh-hant": "緊張感",
+      "fr": "Tension",
+      "de": "Anspannung",
+      "es": "Nerviosismo",
+      "it": "Agitazione",
+      "en": "Unnerve",
+      "ja": "きんちょうかん",
+      "zh-hans": "紧张感",
+      "es-419": "Nerviosismo"
+    },
+    "generation": "generation-v",
+    "effect": "Prevents opposing Pokémon from eating held Berries."
+  },
+  "defiant": {
+    "id": 128,
+    "name": "defiant",
+    "names": {
+      "ja-hrkt": "まけんき",
+      "ko": "오기",
+      "zh-hant": "不服輸",
+      "fr": "Acharné",
+      "de": "Siegeswille",
+      "es": "Competitivo",
+      "it": "Agonismo",
+      "en": "Defiant",
+      "ja": "まけんき",
+      "zh-hans": "不服输",
+      "es-419": "Competitivo"
+    },
+    "generation": "generation-v",
+    "effect": "Raises Attack two stages upon having any stat lowered."
+  },
+  "defeatist": {
+    "id": 129,
+    "name": "defeatist",
+    "names": {
+      "ja-hrkt": "よわき",
+      "ko": "무기력",
+      "zh-hant": "軟弱",
+      "fr": "Défaitiste",
+      "de": "Schwächling",
+      "es": "Flaqueza",
+      "it": "Sconforto",
+      "en": "Defeatist",
+      "ja": "よわき",
+      "zh-hans": "软弱",
+      "es-419": "Flaqueza"
+    },
+    "generation": "generation-v",
+    "effect": "Halves Attack and Special Attack at 50% max HP or less."
+  },
+  "cursed-body": {
+    "id": 130,
+    "name": "cursed-body",
+    "names": {
+      "ja-hrkt": "のろわれボディ",
+      "ko": "저주받은바디",
+      "zh-hant": "詛咒之軀",
+      "fr": "Corps Maudit",
+      "de": "Tastfluch",
+      "es": "Cuerpo Maldito",
+      "it": "Corpofunesto",
+      "en": "Cursed Body",
+      "ja": "のろわれボディ",
+      "zh-hans": "诅咒之躯",
+      "es-419": "Cuerpo Maldito"
+    },
+    "generation": "generation-v",
+    "effect": "Has a 30% chance of Disabling any move that hits the Pokémon."
+  },
+  "healer": {
+    "id": 131,
+    "name": "healer",
+    "names": {
+      "ja-hrkt": "いやしのこころ",
+      "ko": "치유의마음",
+      "zh-hant": "治癒之心",
+      "fr": "Cœur Soin",
+      "de": "Heilherz",
+      "es": "Alma Cura",
+      "it": "Curacuore",
+      "en": "Healer",
+      "ja": "いやしのこころ",
+      "zh-hans": "治愈之心",
+      "es-419": "Alma Sanadora"
+    },
+    "generation": "generation-v",
+    "effect": "Has a 30% chance of curing each adjacent ally of any major status ailment after each turn."
+  },
+  "friend-guard": {
+    "id": 132,
+    "name": "friend-guard",
+    "names": {
+      "ja-hrkt": "フレンドガード",
+      "ko": "프렌드가드",
+      "zh-hant": "友情防守",
+      "fr": "Garde-Ami",
+      "de": "Freundeshut",
+      "es": "Compiescolta",
+      "it": "Amicoscudo",
+      "en": "Friend Guard",
+      "ja": "フレンドガード",
+      "zh-hans": "友情防守",
+      "es-419": "Compiescolta"
+    },
+    "generation": "generation-v",
+    "effect": "Decreases all direct damage taken by friendly Pokémon to 0.75×."
+  },
+  "weak-armor": {
+    "id": 133,
+    "name": "weak-armor",
+    "names": {
+      "ja-hrkt": "くだけるよろい",
+      "ko": "깨어진갑옷",
+      "zh-hant": "碎裂鎧甲",
+      "fr": "Armurouillée",
+      "de": "Bruchrüstung",
+      "es": "Armadura Frágil",
+      "it": "Sottilguscio",
+      "en": "Weak Armor",
+      "ja": "くだけるよろい",
+      "zh-hans": "碎裂铠甲",
+      "es-419": "Armadura Frágil"
+    },
+    "generation": "generation-v",
+    "effect": "Raises Speed and lowers Defense by one stage each upon being hit by a physical move."
+  },
+  "heavy-metal": {
+    "id": 134,
+    "name": "heavy-metal",
+    "names": {
+      "ja-hrkt": "ヘヴィメタル",
+      "ko": "헤비메탈",
+      "zh-hant": "重金屬",
+      "fr": "Heavy Metal",
+      "de": "Schwermetall",
+      "es": "Metal Pesado",
+      "it": "Metalpesante",
+      "en": "Heavy Metal",
+      "ja": "ヘヴィメタル",
+      "zh-hans": "重金属",
+      "es-419": "Metal Pesado"
+    },
+    "generation": "generation-v",
+    "effect": "Doubles the Pokémon's weight."
+  },
+  "light-metal": {
+    "id": 135,
+    "name": "light-metal",
+    "names": {
+      "ja-hrkt": "ライトメタル",
+      "ko": "라이트메탈",
+      "zh-hant": "輕金屬",
+      "fr": "Light Metal",
+      "de": "Leichtmetall",
+      "es": "Metal Liviano",
+      "it": "Metalleggero",
+      "en": "Light Metal",
+      "ja": "ライトメタル",
+      "zh-hans": "轻金属",
+      "es-419": "Metal Liviano"
+    },
+    "generation": "generation-v",
+    "effect": "Halves the Pokémon's weight."
+  },
+  "multiscale": {
+    "id": 136,
+    "name": "multiscale",
+    "names": {
+      "ja-hrkt": "マルチスケイル",
+      "ko": "멀티스케일",
+      "zh-hant": "多重鱗片",
+      "fr": "Multiécaille",
+      "de": "Multischuppe",
+      "es": "Multiescamas",
+      "it": "Multisquame",
+      "en": "Multiscale",
+      "ja": "マルチスケイル",
+      "zh-hans": "多重鳞片",
+      "es-419": "Multiescamas"
+    },
+    "generation": "generation-v",
+    "effect": "Halves damage taken from full HP."
+  },
+  "toxic-boost": {
+    "id": 137,
+    "name": "toxic-boost",
+    "names": {
+      "ja-hrkt": "どくぼうそう",
+      "ko": "독폭주",
+      "zh-hant": "中毒激升",
+      "fr": "Rage Poison",
+      "de": "Giftwahn",
+      "es": "Ímpetu Tóxico",
+      "it": "Velenimpeto",
+      "en": "Toxic Boost",
+      "ja": "どくぼうそう",
+      "zh-hans": "中毒激升",
+      "es-419": "Ímpetu Tóxico"
+    },
+    "generation": "generation-v",
+    "effect": "Increases Attack to 1.5× when poisoned."
+  },
+  "flare-boost": {
+    "id": 138,
+    "name": "flare-boost",
+    "names": {
+      "ja-hrkt": "ねつぼうそう",
+      "ko": "열폭주",
+      "zh-hant": "受熱激升",
+      "fr": "Rage Brûlure",
+      "de": "Hitzewahn",
+      "es": "Ímpetu Ardiente",
+      "it": "Bruciaimpeto",
+      "en": "Flare Boost",
+      "ja": "ねつぼうそう",
+      "zh-hans": "受热激升",
+      "es-419": "Ímpetu Ardiente"
+    },
+    "generation": "generation-v",
+    "effect": "Increases Special Attack to 1.5× when burned."
+  },
+  "harvest": {
+    "id": 139,
+    "name": "harvest",
+    "names": {
+      "ja-hrkt": "しゅうかく",
+      "ko": "수확",
+      "zh-hant": "收穫",
+      "fr": "Récolte",
+      "de": "Reiche Ernte",
+      "es": "Cosecha",
+      "it": "Coglibacche",
+      "en": "Harvest",
+      "ja": "しゅうかく",
+      "zh-hans": "收获",
+      "es-419": "Cosecha"
+    },
+    "generation": "generation-v",
+    "effect": "Has a 50% chance of restoring a used Berry after each turn if the Pokémon has held no items in the meantime."
+  },
+  "telepathy": {
+    "id": 140,
+    "name": "telepathy",
+    "names": {
+      "ja-hrkt": "テレパシー",
+      "ko": "텔레파시",
+      "zh-hant": "心靈感應",
+      "fr": "Télépathe",
+      "de": "Telepathie",
+      "es": "Telepatía",
+      "it": "Telepatia",
+      "en": "Telepathy",
+      "ja": "テレパシー",
+      "zh-hans": "心灵感应",
+      "es-419": "Telepatía"
+    },
+    "generation": "generation-v",
+    "effect": "Protects against friendly Pokémon's damaging moves."
+  },
+  "moody": {
+    "id": 141,
+    "name": "moody",
+    "names": {
+      "ja-hrkt": "ムラっけ",
+      "ko": "변덕쟁이",
+      "zh-hant": "心情不定",
+      "fr": "Lunatique",
+      "de": "Gefühlswippe",
+      "es": "Veleta",
+      "it": "Altalena",
+      "en": "Moody",
+      "ja": "ムラっけ",
+      "zh-hans": "心情不定",
+      "es-419": "Temperamental"
+    },
+    "generation": "generation-v",
+    "effect": "Raises a random stat two stages and lowers another one stage after each turn."
+  },
+  "overcoat": {
+    "id": 142,
+    "name": "overcoat",
+    "names": {
+      "ja-hrkt": "ぼうじん",
+      "ko": "방진",
+      "zh-hant": "防塵",
+      "fr": "Envelocape",
+      "de": "Partikelschutz",
+      "es": "Funda",
+      "it": "Copricapo",
+      "en": "Overcoat",
+      "ja": "ぼうじん",
+      "zh-hans": "防尘",
+      "es-419": "Funda"
+    },
+    "generation": "generation-v",
+    "effect": "Protects against damage from weather."
+  },
+  "poison-touch": {
+    "id": 143,
+    "name": "poison-touch",
+    "names": {
+      "ja-hrkt": "どくしゅ",
+      "ko": "독수",
+      "zh-hant": "毒手",
+      "fr": "Toxitouche",
+      "de": "Giftgriff",
+      "es": "Toque Tóxico",
+      "it": "Velentocco",
+      "en": "Poison Touch",
+      "ja": "どくしゅ",
+      "zh-hans": "毒手",
+      "es-419": "Contacto Tóxico"
+    },
+    "generation": "generation-v",
+    "effect": "Has a 30% chance of poisoning target Pokémon upon contact."
+  },
+  "regenerator": {
+    "id": 144,
+    "name": "regenerator",
+    "names": {
+      "ja-hrkt": "さいせいりょく",
+      "ko": "재생력",
+      "zh-hant": "再生力",
+      "fr": "Régé-Force",
+      "de": "Belebekraft",
+      "es": "Regeneración",
+      "it": "Rigenergia",
+      "en": "Regenerator",
+      "ja": "さいせいりょく",
+      "zh-hans": "再生力",
+      "es-419": "Regeneración"
+    },
+    "generation": "generation-v",
+    "effect": "Heals for 1/3 max HP upon switching out."
+  },
+  "big-pecks": {
+    "id": 145,
+    "name": "big-pecks",
+    "names": {
+      "ja-hrkt": "はとむね",
+      "ko": "부풀린가슴",
+      "zh-hant": "健壯胸肌",
+      "fr": "Cœur de Coq",
+      "de": "Brustbieter",
+      "es": "Sacapecho",
+      "it": "Pettinfuori",
+      "en": "Big Pecks",
+      "ja": "はとむね",
+      "zh-hans": "健壮胸肌",
+      "es-419": "Sacapecho"
+    },
+    "generation": "generation-v",
+    "effect": "Protects against Defense drops."
+  },
+  "sand-rush": {
+    "id": 146,
+    "name": "sand-rush",
+    "names": {
+      "ja-hrkt": "すなかき",
+      "ko": "모래헤치기",
+      "zh-hant": "撥沙",
+      "fr": "Baigne Sable",
+      "de": "Sandscharrer",
+      "es": "Ímpetu Arena",
+      "it": "Remasabbia",
+      "en": "Sand Rush",
+      "ja": "すなかき",
+      "zh-hans": "拨沙",
+      "es-419": "Ímpetu Arena"
+    },
+    "generation": "generation-v",
+    "effect": "Doubles Speed during a sandstorm.  Protects against sandstorm damage."
+  },
+  "wonder-skin": {
+    "id": 147,
+    "name": "wonder-skin",
+    "names": {
+      "ja-hrkt": "ミラクルスキン",
+      "ko": "미라클스킨",
+      "zh-hant": "奇跡皮膚",
+      "fr": "Peau Miracle",
+      "de": "Wunderhaut",
+      "es": "Piel Milagro",
+      "it": "Splendicute",
+      "en": "Wonder Skin",
+      "ja": "ミラクルスキン",
+      "zh-hans": "奇迹皮肤",
+      "es-419": "Piel Milagro"
+    },
+    "generation": "generation-v",
+    "effect": "Lowers incoming non-damaging moves' base accuracy to exactly 50%."
+  },
+  "analytic": {
+    "id": 148,
+    "name": "analytic",
+    "names": {
+      "ja-hrkt": "アナライズ",
+      "ko": "애널라이즈",
+      "zh-hant": "分析",
+      "fr": "Analyste",
+      "de": "Analyse",
+      "es": "Cálculo Final",
+      "it": "Ponderazione",
+      "en": "Analytic",
+      "ja": "アナライズ",
+      "zh-hans": "分析",
+      "es-419": "Cálculo Final"
+    },
+    "generation": "generation-v",
+    "effect": "Strengthens moves to 1.3× their power when moving last."
+  },
+  "illusion": {
+    "id": 149,
+    "name": "illusion",
+    "names": {
+      "ja-hrkt": "イリュージョン",
+      "ko": "일루전",
+      "zh-hant": "幻覺",
+      "fr": "Illusion",
+      "de": "Trugbild",
+      "es": "Ilusión",
+      "it": "Illusione",
+      "en": "Illusion",
+      "ja": "イリュージョン",
+      "zh-hans": "幻觉",
+      "es-419": "Ilusión"
+    },
+    "generation": "generation-v",
+    "effect": "Takes the appearance of the last conscious party Pokémon upon being sent out until hit by a damaging move."
+  },
+  "imposter": {
+    "id": 150,
+    "name": "imposter",
+    "names": {
+      "ja-hrkt": "かわりもの",
+      "ko": "괴짜",
+      "zh-hant": "變身者",
+      "fr": "Imposteur",
+      "de": "Doppelgänger",
+      "es": "Impostor",
+      "it": "Sosia",
+      "en": "Imposter",
+      "ja": "かわりもの",
+      "zh-hans": "变身者",
+      "es-419": "Impostor"
+    },
+    "generation": "generation-v",
+    "effect": "Transforms upon entering battle."
+  },
+  "infiltrator": {
+    "id": 151,
+    "name": "infiltrator",
+    "names": {
+      "ja-hrkt": "すりぬけ",
+      "ko": "틈새포착",
+      "zh-hant": "穿透",
+      "fr": "Infiltration",
+      "de": "Schwebedurch",
+      "es": "Allanamiento",
+      "it": "Intrapasso",
+      "en": "Infiltrator",
+      "ja": "すりぬけ",
+      "zh-hans": "穿透",
+      "es-419": "Allanamiento"
+    },
+    "generation": "generation-v",
+    "effect": "Bypasses Light Screen, Reflect, and Safeguard."
+  },
+  "mummy": {
+    "id": 152,
+    "name": "mummy",
+    "names": {
+      "ja-hrkt": "ミイラ",
+      "ko": "미라",
+      "zh-hant": "木乃伊",
+      "fr": "Momie",
+      "de": "Mumie",
+      "es": "Momia",
+      "it": "Mummia",
+      "en": "Mummy",
+      "ja": "ミイラ",
+      "zh-hans": "木乃伊",
+      "es-419": "Momia"
+    },
+    "generation": "generation-v",
+    "effect": "Changes attacking Pokémon's abilities to Mummy on contact."
+  },
+  "moxie": {
+    "id": 153,
+    "name": "moxie",
+    "names": {
+      "ja-hrkt": "じしんかじょう",
+      "ko": "자기과신",
+      "zh-hant": "自信過度",
+      "fr": "Impudence",
+      "de": "Hochmut",
+      "es": "Autoestima",
+      "it": "Arroganza",
+      "en": "Moxie",
+      "ja": "じしんかじょう",
+      "zh-hans": "自信过度",
+      "es-419": "Autoestima"
+    },
+    "generation": "generation-v",
+    "effect": "Raises Attack one stage upon KOing a Pokémon."
+  },
+  "justified": {
+    "id": 154,
+    "name": "justified",
+    "names": {
+      "ja-hrkt": "せいぎのこころ",
+      "ko": "정의의마음",
+      "zh-hant": "正義之心",
+      "fr": "Cœur Noble",
+      "de": "Redlichkeit",
+      "es": "Justiciero",
+      "it": "Giustizia",
+      "en": "Justified",
+      "ja": "せいぎのこころ",
+      "zh-hans": "正义之心",
+      "es-419": "Justiciero"
+    },
+    "generation": "generation-v",
+    "effect": "Raises Attack one stage upon taking damage from a Dark move."
+  },
+  "rattled": {
+    "id": 155,
+    "name": "rattled",
+    "names": {
+      "ja-hrkt": "びびり",
+      "ko": "주눅",
+      "zh-hant": "膽怯",
+      "fr": "Phobique",
+      "de": "Hasenfuß",
+      "es": "Cobardía",
+      "it": "Paura",
+      "en": "Rattled",
+      "ja": "びびり",
+      "zh-hans": "胆怯",
+      "es-419": "Cobardía"
+    },
+    "generation": "generation-v",
+    "effect": "Raises Speed one stage upon being hit by a Dark, Ghost, or Bug move."
+  },
+  "magic-bounce": {
+    "id": 156,
+    "name": "magic-bounce",
+    "names": {
+      "ja-hrkt": "マジックミラー",
+      "ko": "매직미러",
+      "zh-hant": "魔法鏡",
+      "fr": "Miroir Magik",
+      "de": "Magiespiegel",
+      "es": "Espejo Mágico",
+      "it": "Magispecchio",
+      "en": "Magic Bounce",
+      "ja": "マジックミラー",
+      "zh-hans": "魔法镜",
+      "es-419": "Espejo Mágico"
+    },
+    "generation": "generation-v",
+    "effect": "Reflects most non-damaging moves back at their user."
+  },
+  "sap-sipper": {
+    "id": 157,
+    "name": "sap-sipper",
+    "names": {
+      "ja-hrkt": "そうしょく",
+      "ko": "초식",
+      "zh-hant": "食草",
+      "fr": "Herbivore",
+      "de": "Vegetarier",
+      "es": "Herbívoro",
+      "it": "Mangiaerba",
+      "en": "Sap Sipper",
+      "ja": "そうしょく",
+      "zh-hans": "食草",
+      "es-419": "Herbívoro"
+    },
+    "generation": "generation-v",
+    "effect": "Absorbs Grass moves, raising Attack one stage."
+  },
+  "prankster": {
+    "id": 158,
+    "name": "prankster",
+    "names": {
+      "ja-hrkt": "いたずらごころ",
+      "ko": "짓궂은마음",
+      "zh-hant": "惡作劇之心",
+      "fr": "Farceur",
+      "de": "Strolch",
+      "es": "Bromista",
+      "it": "Burla",
+      "en": "Prankster",
+      "ja": "いたずらごころ",
+      "zh-hans": "恶作剧之心",
+      "es-419": "Timador"
+    },
+    "generation": "generation-v",
+    "effect": "Raises non-damaging moves' priority by one stage."
+  },
+  "sand-force": {
+    "id": 159,
+    "name": "sand-force",
+    "names": {
+      "ja-hrkt": "すなのちから",
+      "ko": "모래의힘",
+      "zh-hant": "沙之力",
+      "fr": "Force Sable",
+      "de": "Sandgewalt",
+      "es": "Poder Arena",
+      "it": "Silicoforza",
+      "en": "Sand Force",
+      "ja": "すなのちから",
+      "zh-hans": "沙之力",
+      "es-419": "Poder Arenoso"
+    },
+    "generation": "generation-v",
+    "effect": "Strengthens Rock, Ground, and Steel moves to 1.3× their power during a sandstorm.  Protects against sandstorm damage."
+  },
+  "iron-barbs": {
+    "id": 160,
+    "name": "iron-barbs",
+    "names": {
+      "ja-hrkt": "てつのトゲ",
+      "ko": "철가시",
+      "zh-hant": "鐵刺",
+      "fr": "Épine de Fer",
+      "de": "Eisenstachel",
+      "es": "Punta Acero",
+      "it": "Spineferrate",
+      "en": "Iron Barbs",
+      "ja": "てつのトゲ",
+      "zh-hans": "铁刺",
+      "es-419": "Punta Acero"
+    },
+    "generation": "generation-v",
+    "effect": "Damages attacking Pokémon for 1/8 their max HP on contact."
+  },
+  "zen-mode": {
+    "id": 161,
+    "name": "zen-mode",
+    "names": {
+      "ja-hrkt": "ダルマモード",
+      "ko": "달마모드",
+      "zh-hant": "達摩模式",
+      "fr": "Mode Transe",
+      "de": "Trance-Modus",
+      "es": "Modo Daruma",
+      "it": "Stato Zen",
+      "en": "Zen Mode",
+      "ja": "ダルマモード",
+      "zh-hans": "达摩模式",
+      "es-419": "Modo Daruma"
+    },
+    "generation": "generation-v",
+    "effect": "Changes Darmanitan's form after each turn depending on its HP: Zen Mode below 50% max HP, and Standard Mode otherwise."
+  },
+  "victory-star": {
+    "id": 162,
+    "name": "victory-star",
+    "names": {
+      "ja-hrkt": "しょうりのほし",
+      "ko": "승리의별",
+      "zh-hant": "勝利之星",
+      "fr": "Victorieux",
+      "de": "Triumphstern",
+      "es": "Tinovictoria",
+      "it": "Vittorstella",
+      "en": "Victory Star",
+      "ja": "しょうりのほし",
+      "zh-hans": "胜利之星",
+      "es-419": "Tinovictoria"
+    },
+    "generation": "generation-v",
+    "effect": "Increases moves' accuracy to 1.1× for friendly Pokémon."
+  },
+  "turboblaze": {
+    "id": 163,
+    "name": "turboblaze",
+    "names": {
+      "ja-hrkt": "ターボブレイズ",
+      "ko": "터보블레이즈",
+      "zh-hant": "渦輪火焰",
+      "fr": "Turbo Brasier",
+      "de": "Turbobrand",
+      "es": "Turbollama",
+      "it": "Piroturbina",
+      "en": "Turboblaze",
+      "ja": "ターボブレイズ",
+      "zh-hans": "涡轮火焰",
+      "es-419": "Turbollama"
+    },
+    "generation": "generation-v",
+    "effect": "Bypasses targets' abilities if they could hinder or prevent moves."
+  },
+  "teravolt": {
+    "id": 164,
+    "name": "teravolt",
+    "names": {
+      "ja-hrkt": "テラボルテージ",
+      "ko": "테라볼티지",
+      "zh-hant": "兆級電壓",
+      "fr": "Téra-Voltage",
+      "de": "Teravolt",
+      "es": "Terravoltaje",
+      "it": "Teravolt",
+      "en": "Teravolt",
+      "ja": "テラボルテージ",
+      "zh-hans": "兆级电压",
+      "es-419": "Terravoltaje"
+    },
+    "generation": "generation-v",
+    "effect": "Bypasses targets' abilities if they could hinder or prevent moves."
+  },
+  "aroma-veil": {
+    "id": 165,
+    "name": "aroma-veil",
+    "names": {
+      "ja-hrkt": "アロマベール",
+      "ko": "아로마베일",
+      "zh-hant": "芳香幕",
+      "fr": "Aroma-Voile",
+      "de": "Dufthülle",
+      "es": "Velo Aroma",
+      "it": "Aromavelo",
+      "en": "Aroma Veil",
+      "ja": "アロマベール",
+      "zh-hans": "芳香幕",
+      "es-419": "Velo Aromático"
+    },
+    "generation": "generation-vi",
+    "effect": "Protects allies against moves that affect their mental state."
+  },
+  "flower-veil": {
+    "id": 166,
+    "name": "flower-veil",
+    "names": {
+      "ja-hrkt": "フラワーベール",
+      "ko": "플라워베일",
+      "zh-hant": "花幕",
+      "fr": "Flora-Voile",
+      "de": "Blütenhülle",
+      "es": "Velo Flor",
+      "it": "Fiorvelo",
+      "en": "Flower Veil",
+      "ja": "フラワーベール",
+      "zh-hans": "花幕",
+      "es-419": "Velo Florido"
+    },
+    "generation": "generation-vi",
+    "effect": "Protects friendly Grass Pokémon from having their stats lowered by other Pokémon."
+  },
+  "cheek-pouch": {
+    "id": 167,
+    "name": "cheek-pouch",
+    "names": {
+      "ja-hrkt": "ほおぶくろ",
+      "ko": "볼주머니",
+      "zh-hant": "頰囊",
+      "fr": "Bajoues",
+      "de": "Backentaschen",
+      "es": "Carrillo",
+      "it": "Guancegonfie",
+      "en": "Cheek Pouch",
+      "ja": "ほおぶくろ",
+      "zh-hans": "颊囊",
+      "es-419": "Mejillas"
+    },
+    "generation": "generation-vi",
+    "effect": "Restores HP upon eating a Berry, in addition to the Berry's effect."
+  },
+  "protean": {
+    "id": 168,
+    "name": "protean",
+    "names": {
+      "ja-hrkt": "へんげんじざい",
+      "ko": "변환자재",
+      "zh-hant": "變幻自如",
+      "fr": "Protéen",
+      "de": "Wandlungskunst",
+      "es": "Mutatipo",
+      "it": "Mutatipo",
+      "en": "Protean",
+      "ja": "へんげんじざい",
+      "zh-hans": "变幻自如",
+      "es-419": "Mutatipo"
+    },
+    "generation": "generation-vi",
+    "effect": "Changes the bearer's type to match each move it uses."
+  },
+  "fur-coat": {
+    "id": 169,
+    "name": "fur-coat",
+    "names": {
+      "ja-hrkt": "ファーコート",
+      "ko": "퍼코트",
+      "zh-hant": "毛皮大衣",
+      "fr": "Toison Épaisse",
+      "de": "Fellkleid",
+      "es": "Pelaje Recio",
+      "it": "Foltopelo",
+      "en": "Fur Coat",
+      "ja": "ファーコート",
+      "zh-hans": "毛皮大衣",
+      "es-419": "Pelaje Recio"
+    },
+    "generation": "generation-vi",
+    "effect": "Halves damage from physical attacks."
+  },
+  "magician": {
+    "id": 170,
+    "name": "magician",
+    "names": {
+      "ja-hrkt": "マジシャン",
+      "ko": "매지션",
+      "zh-hant": "魔術師",
+      "fr": "Magicien",
+      "de": "Zauberer",
+      "es": "Prestidigitador",
+      "it": "Prestigiatore",
+      "en": "Magician",
+      "ja": "マジシャン",
+      "zh-hans": "魔术师",
+      "es-419": "Prestidigitador"
+    },
+    "generation": "generation-vi",
+    "effect": "Steals the target's held item when the bearer uses a damaging move."
+  },
+  "bulletproof": {
+    "id": 171,
+    "name": "bulletproof",
+    "names": {
+      "ja-hrkt": "ぼうだん",
+      "ko": "방탄",
+      "zh-hant": "防彈",
+      "fr": "Pare-Balles",
+      "de": "Kugelsicher",
+      "es": "Antibalas",
+      "it": "Antiproiettile",
+      "en": "Bulletproof",
+      "ja": "ぼうだん",
+      "zh-hans": "防弹",
+      "es-419": "Antibalas"
+    },
+    "generation": "generation-vi",
+    "effect": "Protects against bullet, ball, and bomb-based moves."
+  },
+  "competitive": {
+    "id": 172,
+    "name": "competitive",
+    "names": {
+      "ja-hrkt": "かちき",
+      "ko": "승기",
+      "zh-hant": "好勝",
+      "fr": "Battant",
+      "de": "Unbeugsamkeit",
+      "es": "Tenacidad",
+      "it": "Tenacia",
+      "en": "Competitive",
+      "ja": "かちき",
+      "zh-hans": "好胜",
+      "es-419": "Tenacidad"
+    },
+    "generation": "generation-vi",
+    "effect": "Raises Special Attack by two stages upon having any stat lowered."
+  },
+  "strong-jaw": {
+    "id": 173,
+    "name": "strong-jaw",
+    "names": {
+      "ja-hrkt": "がんじょうあご",
+      "ko": "옹골찬턱",
+      "zh-hant": "強壯之顎",
+      "fr": "Prognathe",
+      "de": "Titankiefer",
+      "es": "Mandíbula Fuerte",
+      "it": "Ferromascella",
+      "en": "Strong Jaw",
+      "ja": "がんじょうあご",
+      "zh-hans": "强壮之颚",
+      "es-419": "Mandíbula Fuerte"
+    },
+    "generation": "generation-vi",
+    "effect": "Strengthens biting moves to 1.5× their power."
+  },
+  "refrigerate": {
+    "id": 174,
+    "name": "refrigerate",
+    "names": {
+      "ja-hrkt": "フリーズスキン",
+      "ko": "프리즈스킨",
+      "zh-hant": "冰凍皮膚",
+      "fr": "Peau Gelée",
+      "de": "Frostschicht",
+      "es": "Piel Helada",
+      "it": "Pellegelo",
+      "en": "Refrigerate",
+      "ja": "フリーズスキン",
+      "zh-hans": "冰冻皮肤",
+      "es-419": "Piel Helada"
+    },
+    "generation": "generation-vi",
+    "effect": "Turns the bearer's Normal moves into Ice moves and strengthens them to 1.3× their power."
+  },
+  "sweet-veil": {
+    "id": 175,
+    "name": "sweet-veil",
+    "names": {
+      "ja-hrkt": "スイートベール",
+      "ko": "스위트베일",
+      "zh-hant": "甜幕",
+      "fr": "Gluco-Voile",
+      "de": "Zuckerhülle",
+      "es": "Velo Dulce",
+      "it": "Dolcevelo",
+      "en": "Sweet Veil",
+      "ja": "スイートベール",
+      "zh-hans": "甜幕",
+      "es-419": "Velo Dulce"
+    },
+    "generation": "generation-vi",
+    "effect": "Prevents friendly Pokémon from sleeping."
+  },
+  "stance-change": {
+    "id": 176,
+    "name": "stance-change",
+    "names": {
+      "ja-hrkt": "バトルスイッチ",
+      "ko": "배틀스위치",
+      "zh-hant": "戰鬥切換",
+      "fr": "Déclic Tactique",
+      "de": "Taktikwechsel",
+      "es": "Cambio Táctico",
+      "it": "Accendilotta",
+      "en": "Stance Change",
+      "ja": "バトルスイッチ",
+      "zh-hans": "战斗切换",
+      "es-419": "Cambio Táctico"
+    },
+    "generation": "generation-vi",
+    "effect": "Changes Aegislash to Blade Forme before using a damaging move, or Shield Forme before using King’s Shield."
+  },
+  "gale-wings": {
+    "id": 177,
+    "name": "gale-wings",
+    "names": {
+      "ja-hrkt": "はやてのつばさ",
+      "ko": "질풍날개",
+      "zh-hant": "疾風之翼",
+      "fr": "Ailes Bourrasque",
+      "de": "Orkanschwingen",
+      "es": "Alas Vendaval",
+      "it": "Aliraffica",
+      "en": "Gale Wings",
+      "ja": "はやてのつばさ",
+      "zh-hans": "疾风之翼",
+      "es-419": "Alas Vendaval"
+    },
+    "generation": "generation-vi",
+    "effect": "Raises Flying moves' priority by one stage."
+  },
+  "mega-launcher": {
+    "id": 178,
+    "name": "mega-launcher",
+    "names": {
+      "ja-hrkt": "メガランチャー",
+      "ko": "메가런처",
+      "zh-hant": "超級發射器",
+      "fr": "Méga Blaster",
+      "de": "Megawumme",
+      "es": "Megadisparador",
+      "it": "Megalancio",
+      "en": "Mega Launcher",
+      "ja": "メガランチャー",
+      "zh-hans": "超级发射器",
+      "es-419": "Megalanzador"
+    },
+    "generation": "generation-vi",
+    "effect": "Strengthens aura and pulse moves to 1.5× their power."
+  },
+  "grass-pelt": {
+    "id": 179,
+    "name": "grass-pelt",
+    "names": {
+      "ja-hrkt": "くさのけがわ",
+      "ko": "풀모피",
+      "zh-hant": "草之毛皮",
+      "fr": "Toison Herbue",
+      "de": "Pflanzenpelz",
+      "es": "Manto Frondoso",
+      "it": "Peloderba",
+      "en": "Grass Pelt",
+      "ja": "くさのけがわ",
+      "zh-hans": "草之毛皮",
+      "es-419": "Manto Frondoso"
+    },
+    "generation": "generation-vi",
+    "effect": "Boosts Defense while Grassy Terrain is in effect."
+  },
+  "symbiosis": {
+    "id": 180,
+    "name": "symbiosis",
+    "names": {
+      "ja-hrkt": "きょうせい",
+      "ko": "공생",
+      "zh-hant": "共生",
+      "fr": "Symbiose",
+      "de": "Nutznießer",
+      "es": "Simbiosis",
+      "it": "Simbiosi",
+      "en": "Symbiosis",
+      "ja": "きょうせい",
+      "zh-hans": "共生",
+      "es-419": "Simbiosis"
+    },
+    "generation": "generation-vi",
+    "effect": "Passes the bearer's held item to an ally when the ally uses up its item."
+  },
+  "tough-claws": {
+    "id": 181,
+    "name": "tough-claws",
+    "names": {
+      "ja-hrkt": "かたいツメ",
+      "ko": "단단한발톱",
+      "zh-hant": "硬爪",
+      "fr": "Griffe Dure",
+      "de": "Krallenwucht",
+      "es": "Garra Dura",
+      "it": "Unghiedure",
+      "en": "Tough Claws",
+      "ja": "かたいツメ",
+      "zh-hans": "硬爪",
+      "es-419": "Garra Dura"
+    },
+    "generation": "generation-vi",
+    "effect": "Strengthens moves that make contact to 1.33× their power."
+  },
+  "pixilate": {
+    "id": 182,
+    "name": "pixilate",
+    "names": {
+      "ja-hrkt": "フェアリースキン",
+      "ko": "페어리스킨",
+      "zh-hant": "妖精皮膚",
+      "fr": "Peau Féérique",
+      "de": "Feenschicht",
+      "es": "Piel Feérica",
+      "it": "Pellefolletto",
+      "en": "Pixilate",
+      "ja": "フェアリースキン",
+      "zh-hans": "妖精皮肤",
+      "es-419": "Piel Feérica"
+    },
+    "generation": "generation-vi",
+    "effect": "Turns the bearer's Normal moves into Fairy moves and strengthens them to 1.3× their power."
+  },
+  "gooey": {
+    "id": 183,
+    "name": "gooey",
+    "names": {
+      "ja-hrkt": "ぬめぬめ",
+      "ko": "미끈미끈",
+      "zh-hant": "黏滑",
+      "fr": "Poisseux",
+      "de": "Viskosität",
+      "es": "Baba",
+      "it": "Viscosità",
+      "en": "Gooey",
+      "ja": "ぬめぬめ",
+      "zh-hans": "黏滑",
+      "es-419": "Baba"
+    },
+    "generation": "generation-vi",
+    "effect": "Lowers attacking Pokémon's Speed by one stage on contact."
+  },
+  "aerilate": {
+    "id": 184,
+    "name": "aerilate",
+    "names": {
+      "ja-hrkt": "スカイスキン",
+      "ko": "스카이스킨",
+      "zh-hant": "飛行皮膚",
+      "fr": "Peau Céleste",
+      "de": "Zenithaut",
+      "es": "Piel Celeste",
+      "it": "Pellecielo",
+      "en": "Aerilate",
+      "ja": "スカイスキン",
+      "zh-hans": "飞行皮肤",
+      "es-419": "Piel Celeste"
+    },
+    "generation": "generation-vi",
+    "effect": "Turns the bearer's Normal moves into Flying moves and strengthens them to 1.3× their power."
+  },
+  "parental-bond": {
+    "id": 185,
+    "name": "parental-bond",
+    "names": {
+      "ja-hrkt": "おやこあい",
+      "ko": "부자유친",
+      "zh-hant": "親子愛",
+      "fr": "Amour Filial",
+      "de": "Familienbande",
+      "es": "Amor Filial",
+      "it": "Amorefiliale",
+      "en": "Parental Bond",
+      "ja": "おやこあい",
+      "zh-hans": "亲子爱",
+      "es-419": "Amor Filial"
+    },
+    "generation": "generation-vi",
+    "effect": "Lets the bearer hit twice with damaging moves.  The second hit has half power."
+  },
+  "dark-aura": {
+    "id": 186,
+    "name": "dark-aura",
+    "names": {
+      "ja-hrkt": "ダークオーラ",
+      "ko": "다크오라",
+      "zh-hant": "暗黑氣場",
+      "fr": "Aura Ténébreuse",
+      "de": "Dunkelaura",
+      "es": "Aura Oscura",
+      "it": "Auratetra",
+      "en": "Dark Aura",
+      "ja": "ダークオーラ",
+      "zh-hans": "暗黑气场",
+      "es-419": "Aura Oscura"
+    },
+    "generation": "generation-vi",
+    "effect": "Strengthens Dark moves to 1.33× their power for all friendly and opposing Pokémon."
+  },
+  "fairy-aura": {
+    "id": 187,
+    "name": "fairy-aura",
+    "names": {
+      "ja-hrkt": "フェアリーオーラ",
+      "ko": "페어리오라",
+      "zh-hant": "妖精氣場",
+      "fr": "Aura Féérique",
+      "de": "Feenaura",
+      "es": "Aura Feérica",
+      "it": "Aurafolletto",
+      "en": "Fairy Aura",
+      "ja": "フェアリーオーラ",
+      "zh-hans": "妖精气场",
+      "es-419": "Aura Feérica"
+    },
+    "generation": "generation-vi",
+    "effect": "Strengthens Fairy moves to 1.33× their power for all friendly and opposing Pokémon."
+  },
+  "aura-break": {
+    "id": 188,
+    "name": "aura-break",
+    "names": {
+      "ja-hrkt": "オーラブレイク",
+      "ko": "오라브레이크",
+      "zh-hant": "氣場破壞",
+      "fr": "Aura Inversée",
+      "de": "Aura-Umkehr",
+      "es": "Rompeaura",
+      "it": "Frangiaura",
+      "en": "Aura Break",
+      "ja": "オーラブレイク",
+      "zh-hans": "气场破坏",
+      "es-419": "Rompeaura"
+    },
+    "generation": "generation-vi",
+    "effect": "Makes Dark Aura and Fairy Aura weaken moves of their respective types."
+  },
+  "primordial-sea": {
+    "id": 189,
+    "name": "primordial-sea",
+    "names": {
+      "ja-hrkt": "はじまりのうみ",
+      "ko": "시작의바다",
+      "zh-hant": "始源之海",
+      "fr": "Mer Primaire",
+      "de": "Urmeer",
+      "es": "Mar del Albor",
+      "it": "Mare Primordiale",
+      "en": "Primordial Sea",
+      "ja": "はじまりのうみ",
+      "zh-hans": "始源之海",
+      "es-419": "Mar del Albor"
+    },
+    "generation": "generation-vi",
+    "effect": "Creates heavy rain, which has all the properties of Rain Dance, cannot be replaced, and causes damaging Fire moves to fail."
+  },
+  "desolate-land": {
+    "id": 190,
+    "name": "desolate-land",
+    "names": {
+      "ja-hrkt": "おわりのだいち",
+      "ko": "끝의대지",
+      "zh-hant": "終結之地",
+      "fr": "Terre Finale",
+      "de": "Endland",
+      "es": "Tierra del Ocaso",
+      "it": "Terra Estrema",
+      "en": "Desolate Land",
+      "ja": "おわりのだいち",
+      "zh-hans": "终结之地",
+      "es-419": "Tierra del Ocaso"
+    },
+    "generation": "generation-vi",
+    "effect": "Creates extremely harsh sunlight, which has all the properties of Sunny Day, cannot be replaced, and causes damaging Water moves to fail."
+  },
+  "delta-stream": {
+    "id": 191,
+    "name": "delta-stream",
+    "names": {
+      "ja-hrkt": "デルタストリーム",
+      "ko": "델타스트림",
+      "zh-hant": "德爾塔氣流",
+      "fr": "Souffle Delta",
+      "de": "Delta-Wind",
+      "es": "Ráfaga Delta",
+      "it": "Flusso Delta",
+      "en": "Delta Stream",
+      "ja": "デルタストリーム",
+      "zh-hans": "德尔塔气流",
+      "es-419": "Ráfaga Delta"
+    },
+    "generation": "generation-vi",
+    "effect": "Creates a mysterious air current, which cannot be replaced and causes moves to never be super effective against Flying Pokémon."
+  },
+  "stamina": {
+    "id": 192,
+    "name": "stamina",
+    "names": {
+      "ja-hrkt": "じきゅうりょく",
+      "ko": "지구력",
+      "zh-hant": "持久力",
+      "fr": "Endurance",
+      "de": "Zähigkeit",
+      "es": "Firmeza",
+      "it": "Sopportazione",
+      "en": "Stamina",
+      "ja": "じきゅうりょく",
+      "zh-hans": "持久力",
+      "es-419": "Firmeza"
+    },
+    "generation": "generation-vii",
+    "effect": "Raises this Pokémon's Defense by one stage when it takes damage from a move."
+  },
+  "wimp-out": {
+    "id": 193,
+    "name": "wimp-out",
+    "names": {
+      "ja-hrkt": "にげごし",
+      "ko": "도망태세",
+      "zh-hant": "躍躍欲逃",
+      "fr": "Escampette",
+      "de": "Reißaus",
+      "es": "Huida",
+      "it": "Fuggifuggi",
+      "en": "Wimp Out",
+      "ja": "にげごし",
+      "zh-hans": "跃跃欲逃",
+      "es-419": "Huida"
+    },
+    "generation": "generation-vii",
+    "effect": "This Pokémon automatically switches out when its HP drops below half."
+  },
+  "emergency-exit": {
+    "id": 194,
+    "name": "emergency-exit",
+    "names": {
+      "ja-hrkt": "ききかいひ",
+      "ko": "위기회피",
+      "zh-hant": "危險迴避",
+      "fr": "Repli Tactique",
+      "de": "Rückzug",
+      "es": "Retirada",
+      "it": "Passoindietro",
+      "en": "Emergency Exit",
+      "ja": "ききかいひ",
+      "zh-hans": "危险回避",
+      "es-419": "Retirada"
+    },
+    "generation": "generation-vii",
+    "effect": "This Pokémon automatically switches out when its HP drops below half."
+  },
+  "water-compaction": {
+    "id": 195,
+    "name": "water-compaction",
+    "names": {
+      "ja-hrkt": "みずがため",
+      "ko": "꾸덕꾸덕굳기",
+      "zh-hant": "遇水凝固",
+      "fr": "Sable Humide",
+      "de": "Verklumpen",
+      "es": "Hidrorrefuerzo",
+      "it": "Idrorinforzo",
+      "en": "Water Compaction",
+      "ja": "みずがため",
+      "zh-hans": "遇水凝固",
+      "es-419": "Hidrorrefuerzo"
+    },
+    "generation": "generation-vii",
+    "effect": "Raises this Pokémon's Defense by two stages when it's hit by a Water move."
+  },
+  "merciless": {
+    "id": 196,
+    "name": "merciless",
+    "names": {
+      "ja-hrkt": "ひとでなし",
+      "ko": "무도한행동",
+      "zh-hant": "不仁不義",
+      "fr": "Cruauté",
+      "de": "Quälerei",
+      "es": "Ensañamiento",
+      "it": "Spietatezza",
+      "en": "Merciless",
+      "ja": "ひとでなし",
+      "zh-hans": "不仁不义",
+      "es-419": "Ensañamiento"
+    },
+    "generation": "generation-vii",
+    "effect": "This Pokémon's moves critical hit against poisoned targets."
+  },
+  "shields-down": {
+    "id": 197,
+    "name": "shields-down",
+    "names": {
+      "ja-hrkt": "リミットシールド",
+      "ko": "리밋실드",
+      "zh-hant": "界限盾殼",
+      "fr": "Bouclier-Carcan",
+      "de": "Limitschild",
+      "es": "Escudo Limitado",
+      "it": "Scudosoglia",
+      "en": "Shields Down",
+      "ja": "リミットシールド",
+      "zh-hans": "界限盾壳",
+      "es-419": "Escudo Limitado"
+    },
+    "generation": "generation-vii",
+    "effect": "Transforms this Minior between Core Form and Meteor Form.  Prevents major status ailments and drowsiness while in Meteor Form."
+  },
+  "stakeout": {
+    "id": 198,
+    "name": "stakeout",
+    "names": {
+      "ja-hrkt": "はりこみ",
+      "ko": "잠복",
+      "zh-hant": "監視",
+      "fr": "Filature",
+      "de": "Beschattung",
+      "es": "Vigilante",
+      "it": "Sorveglianza",
+      "en": "Stakeout",
+      "ja": "はりこみ",
+      "zh-hans": "蹲守",
+      "es-419": "Vigilante"
+    },
+    "generation": "generation-vii",
+    "effect": "This Pokémon's moves have double power against Pokémon that switched in this turn."
+  },
+  "water-bubble": {
+    "id": 199,
+    "name": "water-bubble",
+    "names": {
+      "ja-hrkt": "すいほう",
+      "ko": "수포",
+      "zh-hant": "水泡",
+      "fr": "Aquabulle",
+      "de": "Wasserblase",
+      "es": "Pompa",
+      "it": "Bolladacqua",
+      "en": "Water Bubble",
+      "ja": "すいほう",
+      "zh-hans": "水泡",
+      "es-419": "Acuaburbuja"
+    },
+    "generation": "generation-vii",
+    "effect": "Halves damage from Fire moves, doubles damage of Water moves, and prevents burns."
+  },
+  "steelworker": {
+    "id": 200,
+    "name": "steelworker",
+    "names": {
+      "ja-hrkt": "はがねつかい",
+      "ko": "강철술사",
+      "zh-hant": "鋼能力者",
+      "fr": "Expert Acier",
+      "de": "Stahlprofi",
+      "es": "Acero Templado",
+      "it": "Tempracciaio",
+      "en": "Steelworker",
+      "ja": "はがねつかい",
+      "zh-hans": "钢能力者",
+      "es-419": "Acero Templado"
+    },
+    "generation": "generation-vii",
+    "effect": "This Pokémon's Steel moves have 1.5× power."
+  },
+  "berserk": {
+    "id": 201,
+    "name": "berserk",
+    "names": {
+      "ja-hrkt": "ぎゃくじょう",
+      "ko": "발끈",
+      "zh-hant": "怒火沖天",
+      "fr": "Folle Furie",
+      "de": "Wutausbruch",
+      "es": "Cólera",
+      "it": "Furore",
+      "en": "Berserk",
+      "ja": "ぎゃくじょう",
+      "zh-hans": "怒火冲天",
+      "es-419": "Ira"
+    },
+    "generation": "generation-vii",
+    "effect": "Raises this Pokémon's Special Attack by one stage every time its HP drops below half."
+  },
+  "slush-rush": {
+    "id": 202,
+    "name": "slush-rush",
+    "names": {
+      "ja-hrkt": "ゆきかき",
+      "ko": "눈치우기",
+      "zh-hant": "撥雪",
+      "fr": "Chasse-Neige",
+      "de": "Schneescharrer",
+      "es": "Quitanieves",
+      "it": "Spalaneve",
+      "en": "Slush Rush",
+      "ja": "ゆきかき",
+      "zh-hans": "拨雪",
+      "es-419": "Quitanieves"
+    },
+    "generation": "generation-vii",
+    "effect": "During Hail, this Pokémon has double Speed."
+  },
+  "long-reach": {
+    "id": 203,
+    "name": "long-reach",
+    "names": {
+      "ja-hrkt": "えんかく",
+      "ko": "원격",
+      "zh-hant": "遠隔",
+      "fr": "Longue Portée",
+      "de": "Langstrecke",
+      "es": "Remoto",
+      "it": "Distacco",
+      "en": "Long Reach",
+      "ja": "えんかく",
+      "zh-hans": "远隔",
+      "es-419": "Remoto"
+    },
+    "generation": "generation-vii",
+    "effect": "This Pokémon's moves do not make contact."
+  },
+  "liquid-voice": {
+    "id": 204,
+    "name": "liquid-voice",
+    "names": {
+      "ja-hrkt": "うるおいボイス",
+      "ko": "촉촉보이스",
+      "zh-hant": "濕潤之聲",
+      "fr": "Hydrata-Son",
+      "de": "Plätscherstimme",
+      "es": "Voz Fluida",
+      "it": "Idrovoce",
+      "en": "Liquid Voice",
+      "ja": "うるおいボイス",
+      "zh-hans": "湿润之声",
+      "es-419": "Voz Fluida"
+    },
+    "generation": "generation-vii",
+    "effect": "Sound-based moves become Water-type."
+  },
+  "triage": {
+    "id": 205,
+    "name": "triage",
+    "names": {
+      "ja-hrkt": "ヒーリングシフト",
+      "ko": "힐링시프트",
+      "zh-hant": "先行治療",
+      "fr": "Prioguérison",
+      "de": "Heilwandel",
+      "es": "Primer Auxilio",
+      "it": "Primacura",
+      "en": "Triage",
+      "ja": "ヒーリングシフト",
+      "zh-hans": "先行治疗",
+      "es-419": "Primer Auxilio"
+    },
+    "generation": "generation-vii",
+    "effect": "This Pokémon's healing moves have their priority increased by 3."
+  },
+  "galvanize": {
+    "id": 206,
+    "name": "galvanize",
+    "names": {
+      "ja-hrkt": "エレキスキン",
+      "ko": "일렉트릭스킨",
+      "zh-hant": "電氣皮膚",
+      "fr": "Peau Électrique",
+      "de": "Elektrohaut",
+      "es": "Piel Eléctrica",
+      "it": "Pellelettro",
+      "en": "Galvanize",
+      "ja": "エレキスキン",
+      "zh-hans": "电气皮肤",
+      "es-419": "Piel Eléctrica"
+    },
+    "generation": "generation-vii",
+    "effect": "This Pokémon's Normal moves are Electric and have their power increased to 1.2×."
+  },
+  "surge-surfer": {
+    "id": 207,
+    "name": "surge-surfer",
+    "names": {
+      "ja-hrkt": "サーフテール",
+      "ko": "서핑테일",
+      "zh-hant": "衝浪之尾",
+      "fr": "Surf Caudal",
+      "de": "Surf-Schweif",
+      "es": "Cola Surf",
+      "it": "Codasurf",
+      "en": "Surge Surfer",
+      "ja": "サーフテール",
+      "zh-hans": "冲浪之尾",
+      "es-419": "Cola Surf"
+    },
+    "generation": "generation-vii",
+    "effect": "Doubles this Pokémon's Speed on Electric Terrain."
+  },
+  "schooling": {
+    "id": 208,
+    "name": "schooling",
+    "names": {
+      "ja-hrkt": "ぎょぐん",
+      "ko": "어군",
+      "zh-hant": "魚群",
+      "fr": "Banc",
+      "de": "Fischschwarm",
+      "es": "Banco",
+      "it": "Banco",
+      "en": "Schooling",
+      "ja": "ぎょぐん",
+      "zh-hans": "鱼群",
+      "es-419": "Banco"
+    },
+    "generation": "generation-vii",
+    "effect": "Wishiwashi becomes Schooling Form when its HP is 25% or higher."
+  },
+  "disguise": {
+    "id": 209,
+    "name": "disguise",
+    "names": {
+      "ja-hrkt": "ばけのかわ",
+      "ko": "탈",
+      "zh-hant": "畫皮",
+      "fr": "Fantômasque",
+      "de": "Kostümspuk",
+      "es": "Disfraz",
+      "it": "Fantasmanto",
+      "en": "Disguise",
+      "ja": "ばけのかわ",
+      "zh-hans": "画皮",
+      "es-419": "Disfraz"
+    },
+    "generation": "generation-vii",
+    "effect": "Prevents the first instance of battle damage."
+  },
+  "battle-bond": {
+    "id": 210,
+    "name": "battle-bond",
+    "names": {
+      "ja-hrkt": "きずなへんげ",
+      "ko": "유대변화",
+      "zh-hant": "牽絆變身",
+      "fr": "Synergie",
+      "de": "Freundschaftsakt",
+      "es": "Fuerte Afecto",
+      "it": "Morfosintonia",
+      "en": "Battle Bond",
+      "ja": "きずなへんげ",
+      "zh-hans": "牵绊变身",
+      "es-419": "Fuerte Afecto"
+    },
+    "generation": "generation-vii",
+    "effect": "Transforms this Pokémon into Ash-Greninja after fainting an opponent.  Water Shuriken's power is 20 and always hits three times."
+  },
+  "power-construct": {
+    "id": 211,
+    "name": "power-construct",
+    "names": {
+      "ja-hrkt": "スワームチェンジ",
+      "ko": "스웜체인지",
+      "zh-hant": "群聚變形",
+      "fr": "Rassemblement",
+      "de": "Scharwandel",
+      "es": "Agrupamiento",
+      "it": "Sciamefusione",
+      "en": "Power Construct",
+      "ja": "スワームチェンジ",
+      "zh-hans": "群聚变形",
+      "es-419": "Agrupamiento"
+    },
+    "generation": "generation-vii",
+    "effect": "Transforms 10% or 50% Zygarde into Complete Forme when its HP is below 50%."
+  },
+  "corrosion": {
+    "id": 212,
+    "name": "corrosion",
+    "names": {
+      "ja-hrkt": "ふしょく",
+      "ko": "부식",
+      "zh-hant": "腐蝕",
+      "fr": "Corrosion",
+      "de": "Korrosion",
+      "es": "Corrosión",
+      "it": "Corrosione",
+      "en": "Corrosion",
+      "ja": "ふしょく",
+      "zh-hans": "腐蚀",
+      "es-419": "Corrosión"
+    },
+    "generation": "generation-vii",
+    "effect": "This Pokémon can inflict poison on Poison and Steel Pokémon."
+  },
+  "comatose": {
+    "id": 213,
+    "name": "comatose",
+    "names": {
+      "ja-hrkt": "ぜったいねむり",
+      "ko": "절대안깸",
+      "zh-hant": "絕對睡眠",
+      "fr": "Hypersommeil",
+      "de": "Dauerschlaf",
+      "es": "Letargo Perenne",
+      "it": "Sonno Assoluto",
+      "en": "Comatose",
+      "ja": "ぜったいねむり",
+      "zh-hans": "绝对睡眠",
+      "es-419": "Letargo Perenne"
+    },
+    "generation": "generation-vii",
+    "effect": "This Pokémon always  acts as though it were Asleep."
+  },
+  "queenly-majesty": {
+    "id": 214,
+    "name": "queenly-majesty",
+    "names": {
+      "ja-hrkt": "じょおうのいげん",
+      "ko": "여왕의위엄",
+      "zh-hant": "女王的威嚴",
+      "fr": "Prestance Royale",
+      "de": "Majestät",
+      "es": "Regia Presencia",
+      "it": "Regalità",
+      "en": "Queenly Majesty",
+      "ja": "じょおうのいげん",
+      "zh-hans": "女王的威严",
+      "es-419": "Regia Presencia"
+    },
+    "generation": "generation-vii",
+    "effect": "Opposing Pokémon cannot use priority attacks."
+  },
+  "innards-out": {
+    "id": 215,
+    "name": "innards-out",
+    "names": {
+      "ja-hrkt": "とびだすなかみ",
+      "ko": "내용물분출",
+      "zh-hant": "飛出的內在物",
+      "fr": "Expuls’Organes",
+      "de": "Magenkrempler",
+      "es": "Revés",
+      "it": "Espellinterno",
+      "en": "Innards Out",
+      "ja": "とびだすなかみ",
+      "zh-hans": "飞出的内在物",
+      "es-419": "Revés"
+    },
+    "generation": "generation-vii",
+    "effect": "When this Pokémon faints from an opponent's move, that opponent takes damage equal to the HP this Pokémon had remaining."
+  },
+  "dancer": {
+    "id": 216,
+    "name": "dancer",
+    "names": {
+      "ja-hrkt": "おどりこ",
+      "ko": "무희",
+      "zh-hant": "舞者",
+      "fr": "Danseuse",
+      "de": "Tänzer",
+      "es": "Pareja de Baile",
+      "it": "Sincrodanza",
+      "en": "Dancer",
+      "ja": "おどりこ",
+      "zh-hans": "舞者",
+      "es-419": "Pareja de Baile"
+    },
+    "generation": "generation-vii",
+    "effect": "Whenever another Pokémon uses a dance move, this Pokémon will use the same move immediately afterwards."
+  },
+  "battery": {
+    "id": 217,
+    "name": "battery",
+    "names": {
+      "ja-hrkt": "バッテリー",
+      "ko": "배터리",
+      "zh-hant": "蓄電池",
+      "fr": "Batterie",
+      "de": "Batterie",
+      "es": "Batería",
+      "it": "Batteria",
+      "en": "Battery",
+      "ja": "バッテリー",
+      "zh-hans": "蓄电池",
+      "es-419": "Batería"
+    },
+    "generation": "generation-vii",
+    "effect": "Ally Pokémon's moves have their power increased to 1.3×."
+  },
+  "fluffy": {
+    "id": 218,
+    "name": "fluffy",
+    "names": {
+      "ja-hrkt": "もふもふ",
+      "ko": "복슬복슬",
+      "zh-hant": "毛茸茸",
+      "fr": "Boule de Poils",
+      "de": "Flauschigkeit",
+      "es": "Peluche",
+      "it": "Morbidone",
+      "en": "Fluffy",
+      "ja": "もふもふ",
+      "zh-hans": "毛茸茸",
+      "es-419": "Peluche"
+    },
+    "generation": "generation-vii",
+    "effect": "Damage from contact moves is halved.  Damage from Fire moves is doubled."
+  },
+  "dazzling": {
+    "id": 219,
+    "name": "dazzling",
+    "names": {
+      "ja-hrkt": "ビビッドボディ",
+      "ko": "비비드바디",
+      "zh-hant": "鮮艷之軀",
+      "fr": "Corps Coloré",
+      "de": "Buntkörper",
+      "es": "Cuerpo Vívido",
+      "it": "Corposgargiante",
+      "en": "Dazzling",
+      "ja": "ビビッドボディ",
+      "zh-hans": "鲜艳之躯",
+      "es-419": "Cuerpo Vívido"
+    },
+    "generation": "generation-vii",
+    "effect": "Opposing Pokémon cannot use priority attacks."
+  },
+  "soul-heart": {
+    "id": 220,
+    "name": "soul-heart",
+    "names": {
+      "ja-hrkt": "ソウルハート",
+      "ko": "소울하트",
+      "zh-hant": "魂心",
+      "fr": "Animacœur",
+      "de": "Seelenherz",
+      "es": "Coránima",
+      "it": "Cuoreanima",
+      "en": "Soul-Heart",
+      "ja": "ソウルハート",
+      "zh-hans": "魂心",
+      "es-419": "Coránima"
+    },
+    "generation": "generation-vii",
+    "effect": "This Pokémon's Special Attack rises by one stage every time any Pokémon faints."
+  },
+  "tangling-hair": {
+    "id": 221,
+    "name": "tangling-hair",
+    "names": {
+      "ja-hrkt": "カーリーヘアー",
+      "ko": "컬리헤어",
+      "zh-hant": "捲髮",
+      "fr": "Mèche Rebelle",
+      "de": "Lockenkopf",
+      "es": "Rizos Rebeldes",
+      "it": "Boccolidoro",
+      "en": "Tangling Hair",
+      "ja": "カーリーヘアー",
+      "zh-hans": "卷发",
+      "es-419": "Rizos Rebeldes"
+    },
+    "generation": "generation-vii",
+    "effect": "When this Pokémon takes regular damage from a contact move, the attacking Pokémon's Speed lowers by one stage."
+  },
+  "receiver": {
+    "id": 222,
+    "name": "receiver",
+    "names": {
+      "ja-hrkt": "レシーバー",
+      "ko": "리시버",
+      "zh-hant": "接球手",
+      "fr": "Receveur",
+      "de": "Receiver",
+      "es": "Receptor",
+      "it": "Ricezione",
+      "en": "Receiver",
+      "ja": "レシーバー",
+      "zh-hans": "接球手",
+      "es-419": "Receptor"
+    },
+    "generation": "generation-vii",
+    "effect": "When an ally faints, this Pokémon gains its Ability."
+  },
+  "power-of-alchemy": {
+    "id": 223,
+    "name": "power-of-alchemy",
+    "names": {
+      "ja-hrkt": "かがくのちから",
+      "ko": "과학의힘",
+      "zh-hant": "化學之力",
+      "fr": "Osmose",
+      "de": "Chemiekraft",
+      "es": "Reacción Química",
+      "it": "Forza Chimica",
+      "en": "Power of Alchemy",
+      "ja": "かがくのちから",
+      "zh-hans": "化学之力",
+      "es-419": "Reacción Química"
+    },
+    "generation": "generation-vii",
+    "effect": "When an ally faints, this Pokémon gains its Ability."
+  },
+  "beast-boost": {
+    "id": 224,
+    "name": "beast-boost",
+    "names": {
+      "ja-hrkt": "ビーストブースト",
+      "ko": "비스트부스트",
+      "zh-hant": "異獸提升",
+      "fr": "Boost Chimère",
+      "de": "Bestien-Boost",
+      "es": "Ultraimpulso",
+      "it": "Ultraboost",
+      "en": "Beast Boost",
+      "ja": "ビーストブースト",
+      "zh-hans": "异兽提升",
+      "es-419": "Ultraimpulso"
+    },
+    "generation": "generation-vii",
+    "effect": "Raises this Pokémon's highest stat by one stage when it faints another Pokémon."
+  },
+  "rks-system": {
+    "id": 225,
+    "name": "rks-system",
+    "names": {
+      "ja-hrkt": "ＡＲシステム",
+      "ko": "AR시스템",
+      "zh-hant": "ＡＲ系統",
+      "fr": "Système Alpha",
+      "de": "Alpha-System",
+      "es": "Sistema Alfa",
+      "it": "Sistema Primevo",
+      "en": "RKS System",
+      "ja": "ＡＲシステム",
+      "zh-hans": "ＡＲ系统",
+      "es-419": "Sistema Alfa"
+    },
+    "generation": "generation-vii",
+    "effect": "Changes this Pokémon's type to match its held Memory."
+  },
+  "electric-surge": {
+    "id": 226,
+    "name": "electric-surge",
+    "names": {
+      "ja-hrkt": "エレキメイカー",
+      "ko": "일렉트릭메이커",
+      "zh-hant": "電氣製造者",
+      "fr": "Créa-Élec",
+      "de": "Elektro-Erzeuger",
+      "es": "Electrogénesis",
+      "it": "Elettrogenesi",
+      "en": "Electric Surge",
+      "ja": "エレキメイカー",
+      "zh-hans": "电气制造者",
+      "es-419": "Electrogénesis"
+    },
+    "generation": "generation-vii",
+    "effect": "When this Pokémon enters battle, it changes the terrain to Electric Terrain."
+  },
+  "psychic-surge": {
+    "id": 227,
+    "name": "psychic-surge",
+    "names": {
+      "ja-hrkt": "サイコメイカー",
+      "ko": "사이코메이커",
+      "zh-hant": "精神製造者",
+      "fr": "Créa-Psy",
+      "de": "Psycho-Erzeuger",
+      "es": "Psicogénesis",
+      "it": "Psicogenesi",
+      "en": "Psychic Surge",
+      "ja": "サイコメイカー",
+      "zh-hans": "精神制造者",
+      "es-419": "Psicogénesis"
+    },
+    "generation": "generation-vii",
+    "effect": "When this Pokémon enters battle, it changes the terrain to Psychic Terrain."
+  },
+  "misty-surge": {
+    "id": 228,
+    "name": "misty-surge",
+    "names": {
+      "ja-hrkt": "ミストメイカー",
+      "ko": "미스트메이커",
+      "zh-hant": "薄霧製造者",
+      "fr": "Créa-Brume",
+      "de": "Nebel-Erzeuger",
+      "es": "Nebulogénesis",
+      "it": "Nebbiogenesi",
+      "en": "Misty Surge",
+      "ja": "ミストメイカー",
+      "zh-hans": "薄雾制造者",
+      "es-419": "Nebulogénesis"
+    },
+    "generation": "generation-vii",
+    "effect": "When this Pokémon enters battle, it changes the terrain to Misty Terrain."
+  },
+  "grassy-surge": {
+    "id": 229,
+    "name": "grassy-surge",
+    "names": {
+      "ja-hrkt": "グラスメイカー",
+      "ko": "그래스메이커",
+      "zh-hant": "青草製造者",
+      "fr": "Créa-Herbe",
+      "de": "Gras-Erzeuger",
+      "es": "Herbogénesis",
+      "it": "Erbogenesi",
+      "en": "Grassy Surge",
+      "ja": "グラスメイカー",
+      "zh-hans": "青草制造者",
+      "es-419": "Herbogénesis"
+    },
+    "generation": "generation-vii",
+    "effect": "When this Pokémon enters battle, it changes the terrain to Grassy Terrain."
+  },
+  "full-metal-body": {
+    "id": 230,
+    "name": "full-metal-body",
+    "names": {
+      "ja-hrkt": "メタルプロテクト",
+      "ko": "메탈프로텍트",
+      "zh-hant": "金屬防護",
+      "fr": "Métallo-Garde",
+      "de": "Metallprotektor",
+      "es": "Guardia Metálica",
+      "it": "Metalprotezione",
+      "en": "Full Metal Body",
+      "ja": "メタルプロテクト",
+      "zh-hans": "金属防护",
+      "es-419": "Guardia Metálica"
+    },
+    "generation": "generation-vii",
+    "effect": "Other Pokémon cannot lower this Pokémon's stats."
+  },
+  "shadow-shield": {
+    "id": 231,
+    "name": "shadow-shield",
+    "names": {
+      "ja-hrkt": "ファントムガード",
+      "ko": "스펙터가드",
+      "zh-hant": "幻影防守",
+      "fr": "Spectro-Bouclier",
+      "de": "Phantomschutz",
+      "es": "Guardia Espectro",
+      "it": "Spettroguardia",
+      "en": "Shadow Shield",
+      "ja": "ファントムガード",
+      "zh-hans": "幻影防守",
+      "es-419": "Guardia Espectro"
+    },
+    "generation": "generation-vii",
+    "effect": "When this Pokémon has full HP, regular damage from moves is halved."
+  },
+  "prism-armor": {
+    "id": 232,
+    "name": "prism-armor",
+    "names": {
+      "ja-hrkt": "プリズムアーマー",
+      "ko": "프리즘아머",
+      "zh-hant": "稜鏡裝甲",
+      "fr": "Prisme-Armure",
+      "de": "Prismarüstung",
+      "es": "Armadura Prisma",
+      "it": "Scudoprisma",
+      "en": "Prism Armor",
+      "ja": "プリズムアーマー",
+      "zh-hans": "棱镜装甲",
+      "es-419": "Armadura Prisma"
+    },
+    "generation": "generation-vii",
+    "effect": "Reduces super-effective damage to 0.75×."
+  },
+  "neuroforce": {
+    "id": 233,
+    "name": "neuroforce",
+    "names": {
+      "ja-hrkt": "ブレインフォース",
+      "ko": "브레인포스",
+      "zh-hant": "腦核之力",
+      "fr": "Cérébro-Force",
+      "de": "Zerebralmacht",
+      "es": "Fuerza Cerebral",
+      "it": "Cerebroforza",
+      "en": "Neuroforce",
+      "ja": "ブレインフォース",
+      "zh-hans": "脑核之力",
+      "es-419": "Fuerza Cerebral"
+    },
+    "generation": "generation-vii",
+    "effect": "Increases super-effective damage dealt to 1.25×."
+  },
+  "intrepid-sword": {
+    "id": 234,
+    "name": "intrepid-sword",
+    "names": {
+      "ja-hrkt": "ふとうのけん",
+      "ko": "불요의검",
+      "zh-hant": "不撓之劍",
+      "fr": "Lame Indomptable",
+      "de": "Kühnes Schwert",
+      "es": "Espada Indómita",
+      "it": "Spada Indomita",
+      "en": "Intrepid Sword",
+      "ja": "ふとうのけん",
+      "zh-hans": "不挠之剑",
+      "es-419": "Espada Indómita"
+    },
+    "generation": "generation-viii",
+    "effect": "Boosts Attack in battle."
+  },
+  "dauntless-shield": {
+    "id": 235,
+    "name": "dauntless-shield",
+    "names": {
+      "ja-hrkt": "ふくつのたて",
+      "ko": "불굴의방패",
+      "zh-hant": "不屈之盾",
+      "fr": "Égide Inflexible",
+      "de": "Wackerer Schild",
+      "es": "Escudo Recio",
+      "it": "Scudo Saldo",
+      "en": "Dauntless Shield",
+      "ja": "ふくつのたて",
+      "zh-hans": "不屈之盾",
+      "es-419": "Escudo Recio"
+    },
+    "generation": "generation-viii",
+    "effect": "Boosts Defense in battle."
+  },
+  "libero": {
+    "id": 236,
+    "name": "libero",
+    "names": {
+      "ja-hrkt": "リベロ",
+      "ko": "리베로",
+      "zh-hant": "自由者",
+      "fr": "Libéro",
+      "de": "Libero",
+      "es": "Líbero",
+      "it": "Libero",
+      "en": "Libero",
+      "ja": "リベロ",
+      "zh-hans": "自由者",
+      "es-419": "Líbero"
+    },
+    "generation": "generation-viii",
+    "effect": "Libero changes the Pokémon's type to that of its previously used attack."
+  },
+  "ball-fetch": {
+    "id": 237,
+    "name": "ball-fetch",
+    "names": {
+      "ja-hrkt": "たまひろい",
+      "ko": "볼줍기",
+      "zh-hant": "撿球",
+      "fr": "Ramasse Ball",
+      "de": "Apport",
+      "es": "Recogebolas",
+      "it": "Raccattapalle",
+      "en": "Ball Fetch",
+      "ja": "たまひろい",
+      "zh-hans": "捡球",
+      "es-419": "Recogebolas"
+    },
+    "generation": "generation-viii",
+    "effect": "If the Pokémon is not holding an item, it will fetch the Poké Ball from the first failed throw of the battle."
+  },
+  "cotton-down": {
+    "id": 238,
+    "name": "cotton-down",
+    "names": {
+      "ja-hrkt": "わたげ",
+      "ko": "솜털",
+      "zh-hant": "棉絮",
+      "fr": "Effilochage",
+      "de": "Wollflaum",
+      "es": "Pelusa",
+      "it": "Lanugine",
+      "en": "Cotton Down",
+      "ja": "わたげ",
+      "zh-hans": "棉絮",
+      "es-419": "Pelusa"
+    },
+    "generation": "generation-viii",
+    "effect": "When Ignores moves and abilities that draw in moves."
+  },
+  "propeller-tail": {
+    "id": 239,
+    "name": "propeller-tail",
+    "names": {
+      "ja-hrkt": "スクリューおびれ",
+      "ko": "스크루지느러미",
+      "zh-hant": "螺旋尾鰭",
+      "fr": "Propulseur",
+      "de": "Schraubflosse",
+      "es": "Hélice Caudal",
+      "it": "Elicopinna",
+      "en": "Propeller Tail",
+      "ja": "スクリューおびれ",
+      "zh-hans": "螺旋尾鳍",
+      "es-419": "Hélice Caudal"
+    },
+    "generation": "generation-viii",
+    "effect": "Ignores moves and abilities that draw in moves."
+  },
+  "mirror-armor": {
+    "id": 240,
+    "name": "mirror-armor",
+    "names": {
+      "ja-hrkt": "ミラーアーマー",
+      "ko": "미러아머",
+      "zh-hant": "鏡甲",
+      "fr": "Armure Miroir",
+      "de": "Spiegelrüstung",
+      "es": "Coraza Reflejo",
+      "it": "Blindospecchio",
+      "en": "Mirror Armor",
+      "ja": "ミラーアーマー",
+      "zh-hans": "镜甲",
+      "es-419": "Coraza Reflejo"
+    },
+    "generation": "generation-viii",
+    "effect": "Reflects any stat-lowering effects."
+  },
+  "gulp-missile": {
+    "id": 241,
+    "name": "gulp-missile",
+    "names": {
+      "ja-hrkt": "うのミサイル",
+      "ko": "그대로꿀꺽미사일",
+      "zh-hant": "一口飛彈",
+      "fr": "Dégobage",
+      "de": "Würggeschoss",
+      "es": "Tragamisil",
+      "it": "Inghiottimissile",
+      "en": "Gulp Missile",
+      "ja": "うのミサイル",
+      "zh-hans": "一口导弹",
+      "es-419": "Tragamisil"
+    },
+    "generation": "generation-viii",
+    "effect": "If a Cramorant with Gulp Missile uses Surf or Dive, it catches prey and changes its form depending on its remaining HP."
+  },
+  "stalwart": {
+    "id": 242,
+    "name": "stalwart",
+    "names": {
+      "ja-hrkt": "すじがねいり",
+      "ko": "굳건한신념",
+      "zh-hant": "堅毅",
+      "fr": "Nerfs d’Acier",
+      "de": "Stahlrückgrat",
+      "es": "Acérrimo",
+      "it": "Volontà di Ferro",
+      "en": "Stalwart",
+      "ja": "すじがねいり",
+      "zh-hans": "坚毅",
+      "es-419": "Acérrimo"
+    },
+    "generation": "generation-viii",
+    "effect": "Ignores moves and abilities that draw in moves."
+  },
+  "steam-engine": {
+    "id": 243,
+    "name": "steam-engine",
+    "names": {
+      "ja-hrkt": "じょうききかん",
+      "ko": "증기기관",
+      "zh-hant": "蒸汽機",
+      "fr": "Turbine",
+      "de": "Dampfantrieb",
+      "es": "Combustible",
+      "it": "Vapormacchina",
+      "en": "Steam Engine",
+      "ja": "じょうききかん",
+      "zh-hans": "蒸汽机",
+      "es-419": "Combustible"
+    },
+    "generation": "generation-viii",
+    "effect": "Boosts the Speed stat drastically when the Pokémon is hit by a Fire- or Water-type move."
+  },
+  "punk-rock": {
+    "id": 244,
+    "name": "punk-rock",
+    "names": {
+      "ja-hrkt": "パンクロック",
+      "ko": "펑크록",
+      "zh-hant": "龐克搖滾",
+      "fr": "Punk Rock",
+      "de": "Punk Rock",
+      "es": "Punk Rock",
+      "it": "Punk Rock",
+      "en": "Punk Rock",
+      "ja": "パンクロック",
+      "zh-hans": "庞克摇滚",
+      "es-419": "Punk Rock"
+    },
+    "generation": "generation-viii",
+    "effect": "Boosts sound-based moves and halves damage from the same moves."
+  },
+  "sand-spit": {
+    "id": 245,
+    "name": "sand-spit",
+    "names": {
+      "ja-hrkt": "すなはき",
+      "ko": "모래뿜기",
+      "zh-hant": "吐沙",
+      "fr": "Expul’Sable",
+      "de": "Sandspeier",
+      "es": "Expulsarena",
+      "it": "Sputasabbia",
+      "en": "Sand Spit",
+      "ja": "すなはき",
+      "zh-hans": "吐沙",
+      "es-419": "Expulsarena"
+    },
+    "generation": "generation-viii",
+    "effect": "Creates a sandstorm when hit by an attack."
+  },
+  "ice-scales": {
+    "id": 246,
+    "name": "ice-scales",
+    "names": {
+      "ja-hrkt": "こおりのりんぷん",
+      "ko": "얼음인분",
+      "zh-hant": "冰鱗粉",
+      "fr": "Écailles Glacées",
+      "de": "Eisflügelstaub",
+      "es": "Escama de Hielo",
+      "it": "Geloscaglie",
+      "en": "Ice Scales",
+      "ja": "こおりのりんぷん",
+      "zh-hans": "冰鳞粉",
+      "es-419": "Escama de Hielo"
+    },
+    "generation": "generation-viii",
+    "effect": "Halves damage from Special moves."
+  },
+  "ripen": {
+    "id": 247,
+    "name": "ripen",
+    "names": {
+      "ja-hrkt": "じゅくせい",
+      "ko": "숙성",
+      "zh-hant": "熟成",
+      "fr": "Mûrissement",
+      "de": "Heranreifen",
+      "es": "Maduración",
+      "it": "Maturazione",
+      "en": "Ripen",
+      "ja": "じゅくせい",
+      "zh-hans": "熟成",
+      "es-419": "Maduración"
+    },
+    "generation": "generation-viii",
+    "effect": "Doubles the effect of berries."
+  },
+  "ice-face": {
+    "id": 248,
+    "name": "ice-face",
+    "names": {
+      "ja-hrkt": "アイスフェイス",
+      "ko": "아이스페이스",
+      "zh-hant": "結凍頭",
+      "fr": "Tête de Gel",
+      "de": "Tiefkühlkopf",
+      "es": "Cara de Hielo",
+      "it": "Gelofaccia",
+      "en": "Ice Face",
+      "ja": "アイスフェイス",
+      "zh-hans": "结冻头",
+      "es-419": "Cara de Hielo"
+    },
+    "generation": "generation-viii",
+    "effect": "The Pokémon’s ice head can take a physical attack as a substitute, but the attack also changes the Pokémon’s appearance. The ice will be restored when it snows."
+  },
+  "power-spot": {
+    "id": 249,
+    "name": "power-spot",
+    "names": {
+      "ja-hrkt": "パワースポット",
+      "ko": "파워스폿",
+      "zh-hant": "能量點",
+      "fr": "Cercle d’Énergie",
+      "de": "Kraftquelle",
+      "es": "Fuente Energía",
+      "it": "Fonte Energetica",
+      "en": "Power Spot",
+      "ja": "パワースポット",
+      "zh-hans": "能量点",
+      "es-419": "Fuente Energía"
+    },
+    "generation": "generation-viii",
+    "effect": "Just being next to the Pokémon powers up moves."
+  },
+  "mimicry": {
+    "id": 250,
+    "name": "mimicry",
+    "names": {
+      "ja-hrkt": "ぎたい",
+      "ko": "의태",
+      "zh-hant": "擬態",
+      "fr": "Mimétisme",
+      "de": "Mimese",
+      "es": "Mimetismo",
+      "it": "Mimetismo",
+      "en": "Mimicry",
+      "ja": "ぎたい",
+      "zh-hans": "拟态",
+      "es-419": "Mimetismo"
+    },
+    "generation": "generation-viii",
+    "effect": "Changes type depending on the terrain."
+  },
+  "screen-cleaner": {
+    "id": 251,
+    "name": "screen-cleaner",
+    "names": {
+      "ja-hrkt": "バリアフリー",
+      "ko": "배리어프리",
+      "zh-hant": "除障",
+      "fr": "Brise-Barrière",
+      "de": "Hemmungslos",
+      "es": "Antibarrera",
+      "it": "Annullabarriere",
+      "en": "Screen Cleaner",
+      "ja": "バリアフリー",
+      "zh-hans": "除障",
+      "es-419": "Antibarrera"
+    },
+    "generation": "generation-viii",
+    "effect": "Nullifies effects of Light Screen, Reflect, and Aurora Veil."
+  },
+  "steely-spirit": {
+    "id": 252,
+    "name": "steely-spirit",
+    "names": {
+      "ja-hrkt": "はがねのせいしん",
+      "ko": "강철정신",
+      "zh-hant": "鋼之意志",
+      "fr": "Boost Acier",
+      "de": "Stählerner Wille",
+      "es": "Alma Acerada",
+      "it": "Spiritoferreo",
+      "en": "Steely Spirit",
+      "ja": "はがねのせいしん",
+      "zh-hans": "钢之意志",
+      "es-419": "Alma Acerada"
+    },
+    "generation": "generation-viii",
+    "effect": "Powers up ally Pokémon's Steel-type moves."
+  },
+  "perish-body": {
+    "id": 253,
+    "name": "perish-body",
+    "names": {
+      "ja-hrkt": "ほろびのボディ",
+      "ko": "멸망의바디",
+      "zh-hant": "滅亡之軀",
+      "fr": "Corps Condamné",
+      "de": "Unheilskörper",
+      "es": "Cuerpo Mortal",
+      "it": "Ultimotocco",
+      "en": "Perish Body",
+      "ja": "ほろびのボディ",
+      "zh-hans": "灭亡之躯",
+      "es-419": "Cuerpo Mortal"
+    },
+    "generation": "generation-viii",
+    "effect": "When hit by a move that makes direct contact, the Pokémon and the attacker will faint after three turns unless they switch out of battle."
+  },
+  "wandering-spirit": {
+    "id": 254,
+    "name": "wandering-spirit",
+    "names": {
+      "ja-hrkt": "さまようたましい",
+      "ko": "떠도는영혼",
+      "zh-hant": "遊魂",
+      "fr": "Âme Vagabonde",
+      "de": "Rastlose Seele",
+      "es": "Alma Errante",
+      "it": "Anima Errante",
+      "en": "Wandering Spirit",
+      "ja": "さまようたましい",
+      "zh-hans": "游魂",
+      "es-419": "Alma Errante"
+    },
+    "generation": "generation-viii",
+    "effect": "Swaps abilities with opponents on contact."
+  },
+  "gorilla-tactics": {
+    "id": 255,
+    "name": "gorilla-tactics",
+    "names": {
+      "ja-hrkt": "ごりむちゅう",
+      "ko": "무아지경",
+      "zh-hant": "一猩一意",
+      "fr": "Entêtement",
+      "de": "Affenfokus",
+      "es": "Monotema",
+      "it": "Vigorilla",
+      "en": "Gorilla Tactics",
+      "ja": "ごりむちゅう",
+      "zh-hans": "一猩一意",
+      "es-419": "Monotema"
+    },
+    "generation": "generation-viii",
+    "effect": "Boosts the Pokémon's Attack stat but only allows the use of the first selected move."
+  },
+  "neutralizing-gas": {
+    "id": 256,
+    "name": "neutralizing-gas",
+    "names": {
+      "ja-hrkt": "かがくへんかガス",
+      "ko": "화학변화가스",
+      "zh-hant": "化學變化氣體",
+      "fr": "Gaz Inhibiteur",
+      "de": "Reaktionsgas",
+      "es": "Gas Reactivo",
+      "it": "Gas Reagente",
+      "en": "Neutralizing Gas",
+      "ja": "かがくへんかガス",
+      "zh-hans": "化学变化气体",
+      "es-419": "Gas Reactivo"
+    },
+    "generation": "generation-viii",
+    "effect": "Neutralizes abilities of all Pokémon in battle."
+  },
+  "pastel-veil": {
+    "id": 257,
+    "name": "pastel-veil",
+    "names": {
+      "ja-hrkt": "パステルベール",
+      "ko": "파스텔베일",
+      "zh-hant": "粉彩護幕",
+      "fr": "Voile Pastel",
+      "de": "Pastellhülle",
+      "es": "Velo Pastel",
+      "it": "Pastelvelo",
+      "en": "Pastel Veil",
+      "ja": "パステルベール",
+      "zh-hans": "粉彩护幕",
+      "es-419": "Velo Pastel"
+    },
+    "generation": "generation-viii",
+    "effect": "Prevents the Pokémon and its allies from being poisoned."
+  },
+  "hunger-switch": {
+    "id": 258,
+    "name": "hunger-switch",
+    "names": {
+      "ja-hrkt": "はらぺこスイッチ",
+      "ko": "꼬르륵스위치",
+      "zh-hant": "飽了又餓",
+      "fr": "Déclic Fringale",
+      "de": "Heißhunger",
+      "es": "Mutapetito",
+      "it": "Pancialterna",
+      "en": "Hunger Switch",
+      "ja": "はらぺこスイッチ",
+      "zh-hans": "饱了又饿",
+      "es-419": "Mutapetito"
+    },
+    "generation": "generation-viii",
+    "effect": "Causes Morpeko to change its form each turn, alternating between Full Belly Mode and Hangry Mode"
+  },
+  "quick-draw": {
+    "id": 259,
+    "name": "quick-draw",
+    "names": {
+      "ja-hrkt": "クイックドロウ",
+      "ko": "퀵드로",
+      "zh-hant": "速擊",
+      "fr": "Tir Vif",
+      "de": "Schnellschuss",
+      "es": "Mano Rápida",
+      "it": "Colpolesto",
+      "en": "Quick Draw",
+      "ja": "クイックドロウ",
+      "zh-hans": "速击",
+      "es-419": "Mano Rápida"
+    },
+    "generation": "generation-viii",
+    "effect": "Enables the Pokémon to move first occasionally."
+  },
+  "unseen-fist": {
+    "id": 260,
+    "name": "unseen-fist",
+    "names": {
+      "ja-hrkt": "ふかしのこぶし",
+      "ko": "보이지않는주먹",
+      "zh-hant": "無形拳",
+      "fr": "Poing Invisible",
+      "de": "Verborgene Faust",
+      "es": "Puño Invisible",
+      "it": "Pugni Invisibili",
+      "en": "Unseen Fist",
+      "ja": "ふかしのこぶし",
+      "zh-hans": "无形拳",
+      "es-419": "Puño Invisible"
+    },
+    "generation": "generation-viii",
+    "effect": "Contact moves can strike through Protect/Detect."
+  },
+  "curious-medicine": {
+    "id": 261,
+    "name": "curious-medicine",
+    "names": {
+      "ja-hrkt": "きみょうなくすり",
+      "ko": "기묘한약",
+      "zh-hant": "怪藥",
+      "fr": "Breuvage Suspect",
+      "de": "Kuriose Arznei",
+      "es": "Medicina Extraña",
+      "it": "Stranofarmaco",
+      "en": "Curious Medicine",
+      "ja": "きみょうなくすり",
+      "zh-hans": "怪药",
+      "es-419": "Medicina Extraña"
+    },
+    "generation": "generation-viii",
+    "effect": "Resets all stat changes upon entering battlefield."
+  },
+  "transistor": {
+    "id": 262,
+    "name": "transistor",
+    "names": {
+      "ja-hrkt": "トランジスタ",
+      "ko": "트랜지스터",
+      "zh-hant": "電晶體",
+      "fr": "Transistor",
+      "de": "Transistor",
+      "es": "Transistor",
+      "it": "Transistor",
+      "en": "Transistor",
+      "ja": "トランジスタ",
+      "zh-hans": "电晶体",
+      "es-419": "Transistor"
+    },
+    "generation": "generation-viii",
+    "effect": "Powers up Electric-type moves."
+  },
+  "dragons-maw": {
+    "id": 263,
+    "name": "dragons-maw",
+    "names": {
+      "ja-hrkt": "りゅうのあぎと",
+      "ko": "용의턱",
+      "zh-hant": "龍顎",
+      "fr": "Dent de Dragon",
+      "de": "Drachenkiefer",
+      "es": "Mandíbula Dragón",
+      "it": "Dragomascelle",
+      "en": "Dragon’s Maw",
+      "ja": "りゅうのあぎと",
+      "zh-hans": "龙颚",
+      "es-419": "Mandíbula Dragón"
+    },
+    "generation": "generation-viii",
+    "effect": "Powers up Dragon-type moves."
+  },
+  "chilling-neigh": {
+    "id": 264,
+    "name": "chilling-neigh",
+    "names": {
+      "ja-hrkt": "しろのいななき",
+      "ko": "백의울음",
+      "zh-hant": "蒼白嘶鳴",
+      "fr": "Blanche Ruade",
+      "de": "Helles Wiehern",
+      "es": "Relincho Blanco",
+      "it": "Nitrito Bianco",
+      "en": "Chilling Neigh",
+      "ja": "しろのいななき",
+      "zh-hans": "苍白嘶鸣",
+      "es-419": "Relincho Blanco"
+    },
+    "generation": "generation-viii",
+    "effect": "Boosts Attack after knocking out a Pokémon."
+  },
+  "grim-neigh": {
+    "id": 265,
+    "name": "grim-neigh",
+    "names": {
+      "ja-hrkt": "くろのいななき",
+      "ko": "흑의울음",
+      "zh-hant": "漆黑嘶鳴",
+      "fr": "Sombre Ruade",
+      "de": "Dunkles Wiehern",
+      "es": "Relincho Negro",
+      "it": "Nitrito Nero",
+      "en": "Grim Neigh",
+      "ja": "くろのいななき",
+      "zh-hans": "漆黑嘶鸣",
+      "es-419": "Relincho Negro"
+    },
+    "generation": "generation-viii",
+    "effect": "Boosts Special Attack after knocking out a Pokémon."
+  },
+  "as-one-glastrier": {
+    "id": 266,
+    "name": "as-one-glastrier",
+    "names": {
+      "ja-hrkt": "じんばいったい",
+      "ko": "혼연일체",
+      "zh-hant": "人馬一體",
+      "fr": "Osmose Équine",
+      "de": "Reitgespann",
+      "es": "Unidad Ecuestre",
+      "it": "Sintonia Equina",
+      "en": "As One",
+      "ja": "じんばいったい",
+      "zh-hans": "人马一体",
+      "es-419": "Unidad Ecuestre"
+    },
+    "generation": "generation-viii",
+    "effect": ""
+  },
+  "as-one-spectrier": {
+    "id": 267,
+    "name": "as-one-spectrier",
+    "names": {
+      "ja-hrkt": "じんばいったい",
+      "ko": "혼연일체",
+      "zh-hant": "人馬一體",
+      "fr": "Osmose Équine",
+      "de": "Reitgespann",
+      "es": "Unidad Ecuestre",
+      "it": "Sintonia Equina",
+      "en": "As One",
+      "ja": "じんばいったい",
+      "zh-hans": "人马一体",
+      "es-419": "Unidad Ecuestre"
+    },
+    "generation": "generation-viii",
+    "effect": ""
+  },
+  "lingering-aroma": {
+    "id": 268,
+    "name": "lingering-aroma",
+    "names": {
+      "ja-hrkt": "とれないにおい",
+      "ko": "가시지않는향기",
+      "zh-hant": "甩不掉的氣味",
+      "fr": "Odeur Tenace",
+      "de": "Duftschwade",
+      "es": "Olor Persistente",
+      "it": "Odore Tenace",
+      "en": "Lingering Aroma",
+      "ja": "とれないにおい",
+      "es-419": "Olor Persistente",
+      "zh-hans": "甩不掉的气味"
+    },
+    "generation": "generation-ix",
+    "effect": "Contact changes the attacker's Ability to Lingering Aroma."
+  },
+  "seed-sower": {
+    "id": 269,
+    "name": "seed-sower",
+    "names": {
+      "ja-hrkt": "こぼれダネ",
+      "ko": "넘치는씨",
+      "zh-hant": "掉出種子",
+      "fr": "Semencier",
+      "de": "Streusaat",
+      "es": "Disemillar",
+      "it": "Spargisemi",
+      "en": "Seed Sower",
+      "cs": "Rozsévání",
+      "ja": "こぼれダネ",
+      "es-419": "Disemillar",
+      "zh-hans": "掉出种子",
+      "pt-br": "Semear"
+    },
+    "generation": "generation-ix",
+    "effect": "Turns the ground into Grassy Terrain when the Pokémon is hit by an attack."
+  },
+  "thermal-exchange": {
+    "id": 270,
+    "name": "thermal-exchange",
+    "names": {
+      "ja-hrkt": "ねつこうかん",
+      "ko": "열교환",
+      "zh-hant": "熱交換",
+      "fr": "Thermodynamique",
+      "de": "Thermowandel",
+      "es": "Termoconversión",
+      "it": "Termoscambio",
+      "en": "Thermal Exchange",
+      "cs": "Tepelná výměna",
+      "ja": "ねつこうかん",
+      "es-419": "Termoscambio",
+      "zh-hans": "热交换",
+      "pt-br": "Termoconversão"
+    },
+    "generation": "generation-ix",
+    "effect": "Raises Attack when hit by a Fire-type move. Cannot be burned."
+  },
+  "anger-shell": {
+    "id": 271,
+    "name": "anger-shell",
+    "names": {
+      "ja-hrkt": "いかりのこうら",
+      "ko": "분노의껍질",
+      "zh-hant": "憤怒甲殼",
+      "fr": "Courroupace",
+      "de": "Wutpanzer",
+      "es": "Coraza Ira",
+      "it": "Iraguscio",
+      "en": "Anger Shell",
+      "ja": "いかりのこうら",
+      "es-419": "Coraza Ira",
+      "zh-hans": "愤怒甲壳"
+    },
+    "generation": "generation-ix",
+    "effect": "When the Pokémon's HP drops below half, Anger Shell lowers its Defense and Special Defense but its Attack, Special Attack and Speed are raised."
+  },
+  "purifying-salt": {
+    "id": 272,
+    "name": "purifying-salt",
+    "names": {
+      "ja-hrkt": "きよめのしお",
+      "ko": "정화의소금",
+      "zh-hant": "潔淨之鹽",
+      "fr": "Sel Purificateur",
+      "de": "Läutersalz",
+      "es": "Sal Purificadora",
+      "it": "Sale Purificante",
+      "en": "Purifying Salt",
+      "ja": "きよめのしお",
+      "es-419": "Sal Purificadora",
+      "zh-hans": "洁净之盐"
+    },
+    "generation": "generation-ix",
+    "effect": "Protects from status conditions and halves damage from Ghost-type moves."
+  },
+  "well-baked-body": {
+    "id": 273,
+    "name": "well-baked-body",
+    "names": {
+      "ja-hrkt": "こんがりボディ",
+      "ko": "노릇노릇바디",
+      "zh-hant": "焦香之軀",
+      "fr": "Bien Cuit",
+      "de": "Knusperkruste",
+      "es": "Cuerpo Horneado",
+      "it": "Bentostato",
+      "en": "Well-Baked Body",
+      "ja": "こんがりボディ",
+      "es-419": "Cuerpo Horneado",
+      "zh-hans": "焦香之躯",
+      "pt-br": "Corpo Bem-passado"
+    },
+    "generation": "generation-ix",
+    "effect": "Immune to Fire-type moves, and Defense is sharply boosted."
+  },
+  "wind-rider": {
+    "id": 274,
+    "name": "wind-rider",
+    "names": {
+      "ja-hrkt": "かぜのり",
+      "ko": "바람타기",
+      "zh-hant": "乘風",
+      "fr": "Aéroporté",
+      "de": "Windreiter",
+      "es": "Surcavientos",
+      "it": "Vento Propizio",
+      "en": "Wind Rider",
+      "ja": "かぜのり",
+      "es-419": "Surcavientos",
+      "zh-hans": "乘风"
+    },
+    "generation": "generation-ix",
+    "effect": "Gives immunity to wind moves, and causes the Pokémon's Attack to increase by one stage when hit by one."
+  },
+  "guard-dog": {
+    "id": 275,
+    "name": "guard-dog",
+    "names": {
+      "ja-hrkt": "ばんけん",
+      "ko": "파수견",
+      "zh-hant": "看門犬",
+      "fr": "Chien de Garde",
+      "de": "Wachhund",
+      "es": "Perro Guardián",
+      "it": "Cane da Guardia",
+      "en": "Guard Dog",
+      "ja": "ばんけん",
+      "es-419": "Perro Guardián",
+      "zh-hans": "看门犬",
+      "pt-br": "Cão de Guarda"
+    },
+    "generation": "generation-ix",
+    "effect": "Boosts Attack if intimidated, and prevents being forced to switch out."
+  },
+  "rocky-payload": {
+    "id": 276,
+    "name": "rocky-payload",
+    "names": {
+      "ja-hrkt": "いわはこび",
+      "ko": "바위나르기",
+      "zh-hant": "搬岩",
+      "fr": "Porte-Roche",
+      "de": "Steinträger",
+      "es": "Transportarrocas",
+      "it": "Portamassi",
+      "en": "Rocky Payload",
+      "ja": "いわはこび",
+      "es-419": "Transportarrocas",
+      "zh-hans": "搬岩"
+    },
+    "generation": "generation-ix",
+    "effect": "Powers up Rock-type moves."
+  },
+  "wind-power": {
+    "id": 277,
+    "name": "wind-power",
+    "names": {
+      "ja-hrkt": "ふうりょくでんき",
+      "ko": "풍력발전",
+      "zh-hant": "風力發電",
+      "fr": "Turbine Éolienne",
+      "de": "Windkraft",
+      "es": "Energía Eólica",
+      "it": "Energia Eolica",
+      "en": "Wind Power",
+      "ja": "ふうりょくでんき",
+      "es-419": "Energía Eólica",
+      "zh-hans": "风力发电"
+    },
+    "generation": "generation-ix",
+    "effect": "When hit by a wind move, the power of the next Electric-type move it uses is doubled."
+  },
+  "zero-to-hero": {
+    "id": 278,
+    "name": "zero-to-hero",
+    "names": {
+      "ja-hrkt": "マイティチェンジ",
+      "ko": "마이티체인지",
+      "zh-hant": "全能變身",
+      "fr": "Supermutation",
+      "de": "Superwechsel",
+      "es": "Cambio Heroico",
+      "it": "Supercambio",
+      "en": "Zero to Hero",
+      "ja": "マイティチェンジ",
+      "es-419": "Cambio Heroico",
+      "zh-hans": "全能变身",
+      "pt-br": "Do Abismo ao Heroísmo"
+    },
+    "generation": "generation-ix",
+    "effect": "Transforms into its Hero Form when switching out."
+  },
+  "commander": {
+    "id": 279,
+    "name": "commander",
+    "names": {
+      "ja-hrkt": "しれいとう",
+      "ko": "사령탑",
+      "zh-hant": "發號施令",
+      "fr": "Commandant",
+      "de": "Kommandant",
+      "es": "Comandar",
+      "it": "Torre di Comando",
+      "en": "Commander",
+      "ja": "しれいとう",
+      "es-419": "Comandar",
+      "zh-hans": "发号施令"
+    },
+    "generation": "generation-ix",
+    "effect": "Goes inside the mouth of an ally Dondozo if one is on the field."
+  },
+  "electromorphosis": {
+    "id": 280,
+    "name": "electromorphosis",
+    "names": {
+      "ja-hrkt": "でんきにかえる",
+      "ko": "전기로바꾸기",
+      "zh-hant": "電力轉換",
+      "fr": "Grecharge",
+      "de": "Dynamo",
+      "es": "Dinamo",
+      "it": "Convertivolt",
+      "en": "Electromorphosis",
+      "cs": "Elektromorfóza",
+      "ja": "でんきにかえる",
+      "es-419": "Dínamo",
+      "zh-hans": "电力转换",
+      "pt-br": "Eletromorfose"
+    },
+    "generation": "generation-ix",
+    "effect": "When hit by an attack, the power of the next Electric-type move it uses is doubled."
+  },
+  "protosynthesis": {
+    "id": 281,
+    "name": "protosynthesis",
+    "names": {
+      "ja-hrkt": "こだいかっせい",
+      "ko": "고대활성",
+      "zh-hant": "古代活性",
+      "fr": "Paléosynthèse",
+      "de": "Paläosynthese",
+      "es": "Paleosíntesis",
+      "it": "Paleoattivazione",
+      "en": "Protosynthesis",
+      "ja": "こだいかっせい",
+      "es-419": "Paleosíntesis",
+      "zh-hans": "古代活性",
+      "pt-br": "Protossíntese"
+    },
+    "generation": "generation-ix",
+    "effect": "Raises highest stat in harsh sunlight, or if holding Booster Energy."
+  },
+  "quark-drive": {
+    "id": 282,
+    "name": "quark-drive",
+    "names": {
+      "ja-hrkt": "クォークチャージ",
+      "ko": "쿼크차지",
+      "zh-hant": "夸克充能",
+      "fr": "Charge Quantique",
+      "de": "Quantenantrieb",
+      "es": "Carga Cuark",
+      "it": "Carica Quark",
+      "en": "Quark Drive",
+      "ja": "クォークチャージ",
+      "es-419": "Carga Cuark",
+      "zh-hans": "夸克充能"
+    },
+    "generation": "generation-ix",
+    "effect": "Raises highest stat on Electric Terrain, or if holding Booster Energy."
+  },
+  "good-as-gold": {
+    "id": 283,
+    "name": "good-as-gold",
+    "names": {
+      "ja-hrkt": "おうごんのからだ",
+      "ko": "황금몸",
+      "zh-hant": "黃金之軀",
+      "fr": "Corps en Or",
+      "de": "Goldkörper",
+      "es": "Cuerpo Áureo",
+      "it": "Corpo Aureo",
+      "en": "Good as Gold",
+      "ja": "おうごんのからだ",
+      "es-419": "Cuerpo Áureo",
+      "zh-hans": "黄金之躯"
+    },
+    "generation": "generation-ix",
+    "effect": "Gives immunity to status moves."
+  },
+  "vessel-of-ruin": {
+    "id": 284,
+    "name": "vessel-of-ruin",
+    "names": {
+      "ja-hrkt": "わざわいのうつわ",
+      "ko": "재앙의그릇",
+      "zh-hant": "災禍之鼎",
+      "fr": "Urne du Fléau",
+      "de": "Unheilsgefäß",
+      "es": "Caldero Debacle",
+      "it": "Vaso Nefasto",
+      "en": "Vessel of Ruin",
+      "ja": "わざわいのうつわ",
+      "es-419": "Caldero Debacle",
+      "zh-hans": "灾祸之鼎"
+    },
+    "generation": "generation-ix",
+    "effect": "Lowers Special Attack of all Pokémon except itself."
+  },
+  "sword-of-ruin": {
+    "id": 285,
+    "name": "sword-of-ruin",
+    "names": {
+      "ja-hrkt": "わざわいのつるぎ",
+      "ko": "재앙의검",
+      "zh-hant": "災禍之劍",
+      "fr": "Épée du Fléau",
+      "de": "Unheilsschwert",
+      "es": "Espada Debacle",
+      "it": "Spada Nefasta",
+      "en": "Sword of Ruin",
+      "ja": "わざわいのつるぎ",
+      "es-419": "Espada Debacle",
+      "zh-hans": "灾祸之剑"
+    },
+    "generation": "generation-ix",
+    "effect": "Lowers Defense of all Pokémon except itself."
+  },
+  "tablets-of-ruin": {
+    "id": 286,
+    "name": "tablets-of-ruin",
+    "names": {
+      "ja-hrkt": "わざわいのおふだ",
+      "ko": "재앙의목간",
+      "zh-hant": "災禍之簡",
+      "fr": "Bois du Fléau",
+      "de": "Unheilstafeln",
+      "es": "Tablilla Debacle",
+      "it": "Amuleto Nefasto",
+      "en": "Tablets of Ruin",
+      "ja": "わざわいのおふだ",
+      "es-419": "Tablilla Debacle",
+      "zh-hans": "灾祸之简"
+    },
+    "generation": "generation-ix",
+    "effect": "Lowers Attack of all Pokémon except itself."
+  },
+  "beads-of-ruin": {
+    "id": 287,
+    "name": "beads-of-ruin",
+    "names": {
+      "ja-hrkt": "わざわいのたま",
+      "ko": "재앙의구슬",
+      "zh-hant": "災禍之玉",
+      "fr": "Perles du Fléau",
+      "de": "Unheilsjuwelen",
+      "es": "Abalorio Debacle",
+      "it": "Monile Nefasto",
+      "en": "Beads of Ruin",
+      "ja": "わざわいのたま",
+      "es-419": "Abalorio Debacle",
+      "zh-hans": "灾祸之玉"
+    },
+    "generation": "generation-ix",
+    "effect": "Lowers Special Defense of all Pokémon except itself."
+  },
+  "orichalcum-pulse": {
+    "id": 288,
+    "name": "orichalcum-pulse",
+    "names": {
+      "ja-hrkt": "ひひいろのこどう",
+      "ko": "진홍빛고동",
+      "zh-hant": "緋紅脈動",
+      "fr": "Pouls Orichalque",
+      "de": "Orichalkum-Puls",
+      "es": "Latido Oricalco",
+      "it": "Ritmo d’Oricalco",
+      "en": "Orichalcum Pulse",
+      "ja": "ひひいろのこどう",
+      "es-419": "Latido Oricalco",
+      "zh-hans": "绯红脉动"
+    },
+    "generation": "generation-ix",
+    "effect": "Turns the sunlight harsh when entering battle, and boosts Attack while active."
+  },
+  "hadron-engine": {
+    "id": 289,
+    "name": "hadron-engine",
+    "names": {
+      "ja-hrkt": "ハドロンエンジン",
+      "ko": "하드론엔진",
+      "zh-hant": "強子引擎",
+      "fr": "Moteur à Hadrons",
+      "de": "Hadronen-Motor",
+      "es": "Motor Hadrónico",
+      "it": "Motore Adronico",
+      "en": "Hadron Engine",
+      "ja": "ハドロンエンジン",
+      "es-419": "Motor Hadrónico",
+      "zh-hans": "强子引擎",
+      "pt-br": "Motor Hadrônico"
+    },
+    "generation": "generation-ix",
+    "effect": "Creates an Electric Terrain when entering battle, and boosts Special Attack while active."
+  },
+  "opportunist": {
+    "id": 290,
+    "name": "opportunist",
+    "names": {
+      "ja-hrkt": "びんじょう",
+      "ko": "편승",
+      "zh-hant": "跟風",
+      "fr": "Opportuniste",
+      "de": "Profiteur",
+      "es": "Oportunista",
+      "it": "Scrocco",
+      "en": "Opportunist",
+      "ja": "びんじょう",
+      "es-419": "Oportunista",
+      "zh-hans": "跟风"
+    },
+    "generation": "generation-ix",
+    "effect": "Copies stat boosts by the opponent."
+  },
+  "cud-chew": {
+    "id": 291,
+    "name": "cud-chew",
+    "names": {
+      "ja-hrkt": "はんすう",
+      "ko": "되새김질",
+      "zh-hant": "反芻",
+      "fr": "Ruminant",
+      "de": "Wiederkäuer",
+      "es": "Rumia",
+      "it": "Ruminante",
+      "en": "Cud Chew",
+      "ja": "はんすう",
+      "es-419": "Rumia",
+      "zh-hans": "反刍"
+    },
+    "generation": "generation-ix",
+    "effect": "Causes the Pokémon to reuse an already consumed Berry at the end of the next turn."
+  },
+  "sharpness": {
+    "id": 292,
+    "name": "sharpness",
+    "names": {
+      "ja-hrkt": "きれあじ",
+      "ko": "예리함",
+      "zh-hant": "鋒銳",
+      "fr": "Incisif",
+      "de": "Scharfkantig",
+      "es": "Cortante",
+      "it": "Affilama",
+      "en": "Sharpness",
+      "ja": "きれあじ",
+      "es-419": "Cortante",
+      "zh-hans": "锋锐"
+    },
+    "generation": "generation-ix",
+    "effect": "Powers up slicing moves."
+  },
+  "supreme-overlord": {
+    "id": 293,
+    "name": "supreme-overlord",
+    "names": {
+      "ja-hrkt": "そうだいしょう",
+      "ko": "총대장",
+      "zh-hant": "大將",
+      "fr": "Général Suprême",
+      "de": "Feldherr",
+      "es": "General Supremo",
+      "it": "Generale Supremo",
+      "en": "Supreme Overlord",
+      "ja": "そうだいしょう",
+      "es-419": "General Supremo",
+      "zh-hans": "大将",
+      "pt-br": "General Supremo"
+    },
+    "generation": "generation-ix",
+    "effect": "Attack and Special Attack are boosted for each party Pokémon that has been defeated."
+  },
+  "costar": {
+    "id": 294,
+    "name": "costar",
+    "names": {
+      "ja-hrkt": "きょうえん",
+      "ko": "협연",
+      "zh-hant": "同台共演",
+      "fr": "Collab",
+      "de": "Synchronauftritt",
+      "es": "Unísono",
+      "it": "Coprotagonismo",
+      "en": "Costar",
+      "ja": "きょうえん",
+      "es-419": "Unísono",
+      "zh-hans": "同台共演"
+    },
+    "generation": "generation-ix",
+    "effect": "Copies ally's stat changes on entering battle."
+  },
+  "toxic-debris": {
+    "id": 295,
+    "name": "toxic-debris",
+    "names": {
+      "ja-hrkt": "どくげしょう",
+      "ko": "독치장",
+      "zh-hant": "毒滿地",
+      "fr": "Dépôt Toxique",
+      "de": "Giftbelag",
+      "es": "Capa Tóxica",
+      "it": "Mantossina",
+      "en": "Toxic Debris",
+      "ja": "どくげしょう",
+      "es-419": "Capa Tóxica",
+      "zh-hans": "毒满地",
+      "pt-br": "Detritos Tóxicos"
+    },
+    "generation": "generation-ix",
+    "effect": "Scatters poison spikes at the feet of the opposing team when the Pokémon takes damage from physical moves."
+  },
+  "armor-tail": {
+    "id": 296,
+    "name": "armor-tail",
+    "names": {
+      "ja-hrkt": "テイルアーマー",
+      "ko": "테일아머",
+      "zh-hant": "尾甲",
+      "fr": "Armure Caudale",
+      "de": "Schweifrüstung",
+      "es": "Cola Armadura",
+      "it": "Codarmatura",
+      "en": "Armor Tail",
+      "ja": "テイルアーマー",
+      "es-419": "Cola Armadura",
+      "zh-hans": "尾甲",
+      "pt-br": "Cauda de Armadura"
+    },
+    "generation": "generation-ix",
+    "effect": "Prevents the opponent from using any moves that have priority, such as Quick Attack."
+  },
+  "earth-eater": {
+    "id": 297,
+    "name": "earth-eater",
+    "names": {
+      "ja-hrkt": "どしょく",
+      "ko": "흙먹기",
+      "zh-hant": "食土",
+      "fr": "Absorbe-Terre",
+      "de": "Bodenschmaus",
+      "es": "Geofagia",
+      "it": "Mangiaterra",
+      "en": "Earth Eater",
+      "ja": "どしょく",
+      "es-419": "Geofagia",
+      "zh-hans": "食土"
+    },
+    "generation": "generation-ix",
+    "effect": "Restores HP when hit by a Ground-type move."
+  },
+  "mycelium-might": {
+    "id": 298,
+    "name": "mycelium-might",
+    "names": {
+      "ja-hrkt": "きんしのちから",
+      "ko": "균사의힘",
+      "zh-hant": "菌絲之力",
+      "fr": "Force Fongique",
+      "de": "Myzelienkraft",
+      "es": "Poder Fúngico",
+      "it": "Micoforza",
+      "en": "Mycelium Might",
+      "ja": "きんしのちから",
+      "es-419": "Poder Fúngico",
+      "zh-hans": "菌丝之力"
+    },
+    "generation": "generation-ix",
+    "effect": "Status moves go last, but are not affected by the opponent's ability."
+  },
+  "minds-eye": {
+    "id": 299,
+    "name": "minds-eye",
+    "names": {
+      "ja-hrkt": "しんがん",
+      "ko": "심안",
+      "zh-hant": "心眼",
+      "fr": "Œil Révélateur",
+      "de": "Geistiges Auge",
+      "es": "Ojo Mental",
+      "it": "Occhio Interiore",
+      "en": "Mind’s Eye",
+      "ja": "しんがん",
+      "zh-hans": "心眼",
+      "es-419": "Ojo Mental"
+    },
+    "generation": "generation-ix",
+    "effect": "The Pokémon ignores changes to opponents' evasiveness, its accuracy can't be lowered, and it can hit Ghost types with Normal- and Fighting-type moves."
+  },
+  "supersweet-syrup": {
+    "id": 300,
+    "name": "supersweet-syrup",
+    "names": {
+      "ja-hrkt": "かんろなミツ",
+      "ko": "감미로운꿀",
+      "zh-hant": "甘露之蜜",
+      "fr": "Nectar Mielleux",
+      "de": "Süßer Nektar",
+      "es": "Néctar Dulce",
+      "it": "Sciroppo Sublime",
+      "en": "Supersweet Syrup",
+      "ja": "かんろなミツ",
+      "zh-hans": "甘露之蜜",
+      "es-419": "Néctar Dulce"
+    },
+    "generation": "generation-ix",
+    "effect": "Once per battle, when a Pokémon with Supersweet Syrup enters the battle, it lowers the evasion stat of all adjacent opponents by one stage. "
+  },
+  "hospitality": {
+    "id": 301,
+    "name": "hospitality",
+    "names": {
+      "ja-hrkt": "おもてなし",
+      "ko": "대접",
+      "zh-hant": "款待",
+      "fr": "Aux Petits Soins",
+      "de": "Gastlichkeit",
+      "es": "Hospitalidad",
+      "it": "Ospitalità",
+      "en": "Hospitality",
+      "ja": "おもてなし",
+      "zh-hans": "款待",
+      "es-419": "Hospitalidad"
+    },
+    "generation": "generation-ix",
+    "effect": "When a Pokémon with Hospitality enters a battle, it restores HP for an ally by 25%."
+  },
+  "toxic-chain": {
+    "id": 302,
+    "name": "toxic-chain",
+    "names": {
+      "ja-hrkt": "どくのくさり",
+      "ko": "독사슬",
+      "zh-hant": "毒鎖鏈",
+      "fr": "Chaîne Toxique",
+      "de": "Giftkette",
+      "es": "Cadena Tóxica",
+      "it": "Catena Tossica",
+      "en": "Toxic Chain",
+      "ja": "どくのくさり",
+      "zh-hans": "毒锁链",
+      "es-419": "Cadena Tóxica"
+    },
+    "generation": "generation-ix",
+    "effect": "May cause bad poisoning when the Pokémon hits an opponent with a move."
+  },
+  "embody-aspect": {
+    "id": 303,
+    "name": "embody-aspect",
+    "names": {
+      "ja-hrkt": "おもかげやどし",
+      "ko": "초상투영",
+      "zh-hant": "面影輝映",
+      "fr": "Force Mémorielle",
+      "de": "Erinnerungskraft",
+      "es": "Evocarrecuerdos",
+      "it": "Albergamemorie",
+      "en": "Embody Aspect",
+      "ja": "おもかげやどし",
+      "zh-hans": "面影辉映",
+      "es-419": "Evocarrecuerdos"
+    },
+    "generation": "generation-ix",
+    "effect": "Embody Aspect boosts a particular stat, depending on the form of a Terastallized Ogerpon"
+  },
+  "tera-shift": {
+    "id": 304,
+    "name": "tera-shift",
+    "names": {
+      "ja-hrkt": "テラスチェンジ",
+      "ko": "테라체인지",
+      "zh-hant": "太晶變形",
+      "fr": "Téramorphose",
+      "de": "Tera-Wandel",
+      "es": "Teracambio",
+      "it": "Teramorfosi",
+      "en": "Tera Shift",
+      "ja": "テラスチェンジ",
+      "zh-hans": "太晶变形",
+      "es-419": "Teracambio"
+    },
+    "generation": "generation-ix",
+    "effect": "When Terapagos enters the battle, it turns into its Terastal Form until the end of the battle. "
+  },
+  "tera-shell": {
+    "id": 305,
+    "name": "tera-shell",
+    "names": {
+      "ja-hrkt": "テラスシェル",
+      "ko": "테라셸",
+      "zh-hant": "太晶甲殼",
+      "fr": "Téra-Carapace",
+      "de": "Tera-Panzer",
+      "es": "Teracaparazón",
+      "it": "Teraguscio",
+      "en": "Tera Shell",
+      "ja": "テラスシェル",
+      "zh-hans": "太晶甲壳",
+      "es-419": "Teracaparazón"
+    },
+    "generation": "generation-ix",
+    "effect": "All damage-dealing moves that hit the Pokémon when its HP is full will not be very effective."
+  },
+  "teraform-zero": {
+    "id": 306,
+    "name": "teraform-zero",
+    "names": {
+      "ja-hrkt": "ゼロフォーミング",
+      "ko": "제로포밍",
+      "zh-hant": "歸零化境",
+      "fr": "Téraformation 0",
+      "de": "Teraforming Null",
+      "es": "Teraformación 0",
+      "it": "Zeroformazione",
+      "en": "Teraform Zero",
+      "ja": "ゼロフォーミング",
+      "zh-hans": "归零化境",
+      "es-419": "Teraformación 0"
+    },
+    "generation": "generation-ix",
+    "effect": "As soon as Terapagos assumes its Stellar Form, it will immediately neutralize weather and terrain effects. "
+  },
+  "poison-puppeteer": {
+    "id": 307,
+    "name": "poison-puppeteer",
+    "names": {
+      "ja-hrkt": "どくくぐつ",
+      "ko": "독조종",
+      "zh-hant": "毒傀儡",
+      "fr": "Emprise Toxique",
+      "de": "Giftpuppenspiel",
+      "es": "Títere Tóxico",
+      "it": "Malia Tossica",
+      "en": "Poison Puppeteer",
+      "ja": "どくくぐつ",
+      "zh-hans": "毒傀儡",
+      "es-419": "Títere Tóxico"
+    },
+    "generation": "generation-ix",
+    "effect": "Pokémon poisoned by Pecharunt's moves will also become confused."
+  },
+  "piercing-drill": {
+    "id": 308,
+    "name": "piercing-drill",
+    "names": {
+      "ja-hrkt": "かんつうドリル",
+      "ko": "관통드릴",
+      "zh-hant": "貫穿鑽",
+      "fr": "Transperceuse",
+      "de": "Stichbohrer",
+      "es": "Turbotaladro",
+      "it": "Punta Perforante",
+      "en": "Piercing Drill",
+      "ja": "かんつうドリル",
+      "es-419": "Turbotaladro",
+      "zh-hans": "贯穿钻",
+      "pt-br": "Broca Pervasiva"
+    },
+    "generation": "generation-ix",
+    "effect": "When the Pokémon uses contact moves, it can hit even targets that are protecting themselves."
+  },
+  "dragonize": {
+    "id": 309,
+    "name": "dragonize",
+    "names": {
+      "ja-hrkt": "ドラゴンスキン",
+      "ko": "드래곤스킨",
+      "zh-hant": "龍皮膚",
+      "fr": "Peau Draconique",
+      "de": "Drachenschicht",
+      "es": "Piel Dragontina",
+      "it": "Pelledrago",
+      "en": "Dragonize",
+      "ja": "ドラゴンスキン",
+      "es-419": "Piel Dracónica",
+      "zh-hans": "龙皮肤"
+    },
+    "generation": "generation-ix",
+    "effect": "The Pokémon's Normal-type moves become Dragon-type moves and their power is boosted by 20%."
+  },
+  "mega-sol": {
+    "id": 310,
+    "name": "mega-sol",
+    "names": {
+      "ja-hrkt": "メガソーラー",
+      "ko": "메가솔라",
+      "zh-hant": "超級日光",
+      "fr": "Méga-Soleil",
+      "de": "Mega-Solarladung",
+      "es": "Megasolar",
+      "it": "Megasolar",
+      "en": "Mega Sol",
+      "ja": "メガソーラー",
+      "es-419": "Megasolar",
+      "zh-hans": "超级日光"
+    },
+    "generation": "generation-ix",
+    "effect": "The Pokémon can use its moves as if the weather were harsh sunlight."
+  },
+  "spicy-spray": {
+    "id": 311,
+    "name": "spicy-spray",
+    "names": {
+      "ja-hrkt": "とびだすハバネロ",
+      "ko": "하바네로분출",
+      "zh-hant": "辣椒噴發",
+      "fr": "Habanéruption",
+      "de": "Chilispritzer",
+      "es": "Salpicante",
+      "it": "Spargipiccante",
+      "en": "Spicy Spray",
+      "ja": "とびだすハバネロ",
+      "es-419": "Salpicante",
+      "zh-hans": "辣椒喷发"
+    },
+    "generation": "generation-ix",
+    "effect": "When the Pokémon takes damage from a move, it burns the attacker."
+  },
+  "eelevate": {
+    "id": 312,
+    "name": "eelevate",
+    "names": {
+      "en": "Eelevate"
+    },
+    "generation": "generation-ix",
+    "effect": "The Pokémon floats off the ground, making it immune to Ground-type moves, as well as the Spikes, Toxic Spikes, and Sticky Web statuses. When the Pokémon knocks out a target with an attack, its highest stat is boosted by 1 stage."
+  },
+  "fire-mane": {
+    "id": 313,
+    "name": "fire-mane",
+    "names": {
+      "en": "Fire Mane"
+    },
+    "generation": "generation-ix",
+    "effect": "Boosts the power of the Pokémon's Fire-type moves by 50%."
+  },
+  "mountaineer": {
+    "id": 10001,
+    "name": "mountaineer",
+    "names": {
+      "en": "Mountaineer"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "wave-rider": {
+    "id": 10002,
+    "name": "wave-rider",
+    "names": {
+      "en": "Wave Rider"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "skater": {
+    "id": 10003,
+    "name": "skater",
+    "names": {
+      "en": "Skater"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "thrust": {
+    "id": 10004,
+    "name": "thrust",
+    "names": {
+      "en": "Thrust"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "perception": {
+    "id": 10005,
+    "name": "perception",
+    "names": {
+      "en": "Perception"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "parry": {
+    "id": 10006,
+    "name": "parry",
+    "names": {
+      "en": "Parry"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "instinct": {
+    "id": 10007,
+    "name": "instinct",
+    "names": {
+      "en": "Instinct"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "dodge": {
+    "id": 10008,
+    "name": "dodge",
+    "names": {
+      "en": "Dodge"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "jagged-edge": {
+    "id": 10009,
+    "name": "jagged-edge",
+    "names": {
+      "en": "Jagged Edge"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "frostbite": {
+    "id": 10010,
+    "name": "frostbite",
+    "names": {
+      "en": "Frostbite"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "tenacity": {
+    "id": 10011,
+    "name": "tenacity",
+    "names": {
+      "en": "Tenacity"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "pride": {
+    "id": 10012,
+    "name": "pride",
+    "names": {
+      "en": "Pride"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "deep-sleep": {
+    "id": 10013,
+    "name": "deep-sleep",
+    "names": {
+      "en": "Deep Sleep"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "power-nap": {
+    "id": 10014,
+    "name": "power-nap",
+    "names": {
+      "en": "Power Nap"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "spirit": {
+    "id": 10015,
+    "name": "spirit",
+    "names": {
+      "en": "Spirit"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "warm-blanket": {
+    "id": 10016,
+    "name": "warm-blanket",
+    "names": {
+      "en": "Warm Blanket"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "gulp": {
+    "id": 10017,
+    "name": "gulp",
+    "names": {
+      "en": "Gulp"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "herbivore": {
+    "id": 10018,
+    "name": "herbivore",
+    "names": {
+      "en": "Herbivore"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "sandpit": {
+    "id": 10019,
+    "name": "sandpit",
+    "names": {
+      "en": "Sandpit"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "hot-blooded": {
+    "id": 10020,
+    "name": "hot-blooded",
+    "names": {
+      "en": "Hot Blooded"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "medic": {
+    "id": 10021,
+    "name": "medic",
+    "names": {
+      "en": "Medic"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "life-force": {
+    "id": 10022,
+    "name": "life-force",
+    "names": {
+      "en": "Life Force"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "lunchbox": {
+    "id": 10023,
+    "name": "lunchbox",
+    "names": {
+      "en": "Lunchbox"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "nurse": {
+    "id": 10024,
+    "name": "nurse",
+    "names": {
+      "en": "Nurse"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "melee": {
+    "id": 10025,
+    "name": "melee",
+    "names": {
+      "en": "Melee"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "sponge": {
+    "id": 10026,
+    "name": "sponge",
+    "names": {
+      "en": "Sponge"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "bodyguard": {
+    "id": 10027,
+    "name": "bodyguard",
+    "names": {
+      "en": "Bodyguard"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "hero": {
+    "id": 10028,
+    "name": "hero",
+    "names": {
+      "en": "Hero"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "last-bastion": {
+    "id": 10029,
+    "name": "last-bastion",
+    "names": {
+      "en": "Last Bastion"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "stealth": {
+    "id": 10030,
+    "name": "stealth",
+    "names": {
+      "en": "Stealth"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "vanguard": {
+    "id": 10031,
+    "name": "vanguard",
+    "names": {
+      "en": "Vanguard"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "nomad": {
+    "id": 10032,
+    "name": "nomad",
+    "names": {
+      "en": "Nomad"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "sequence": {
+    "id": 10033,
+    "name": "sequence",
+    "names": {
+      "en": "Sequence"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "grass-cloak": {
+    "id": 10034,
+    "name": "grass-cloak",
+    "names": {
+      "en": "Grass Cloak"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "celebrate": {
+    "id": 10035,
+    "name": "celebrate",
+    "names": {
+      "en": "Celebrate"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "lullaby": {
+    "id": 10036,
+    "name": "lullaby",
+    "names": {
+      "en": "Lullaby"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "calming": {
+    "id": 10037,
+    "name": "calming",
+    "names": {
+      "en": "Calming"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "daze": {
+    "id": 10038,
+    "name": "daze",
+    "names": {
+      "en": "Daze"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "frighten": {
+    "id": 10039,
+    "name": "frighten",
+    "names": {
+      "en": "Frighten"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "interference": {
+    "id": 10040,
+    "name": "interference",
+    "names": {
+      "en": "Interference"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "mood-maker": {
+    "id": 10041,
+    "name": "mood-maker",
+    "names": {
+      "en": "Mood Maker"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "confidence": {
+    "id": 10042,
+    "name": "confidence",
+    "names": {
+      "en": "Confidence"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "fortune": {
+    "id": 10043,
+    "name": "fortune",
+    "names": {
+      "en": "Fortune"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "bonanza": {
+    "id": 10044,
+    "name": "bonanza",
+    "names": {
+      "en": "Bonanza"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "explode": {
+    "id": 10045,
+    "name": "explode",
+    "names": {
+      "en": "Explode"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "omnipotent": {
+    "id": 10046,
+    "name": "omnipotent",
+    "names": {
+      "en": "Omnipotent"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "share": {
+    "id": 10047,
+    "name": "share",
+    "names": {
+      "en": "Share"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "black-hole": {
+    "id": 10048,
+    "name": "black-hole",
+    "names": {
+      "en": "Black Hole"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "shadow-dash": {
+    "id": 10049,
+    "name": "shadow-dash",
+    "names": {
+      "en": "Shadow Dash"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "sprint": {
+    "id": 10050,
+    "name": "sprint",
+    "names": {
+      "en": "Sprint"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "disgust": {
+    "id": 10051,
+    "name": "disgust",
+    "names": {
+      "en": "Disgust"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "high-rise": {
+    "id": 10052,
+    "name": "high-rise",
+    "names": {
+      "en": "High-rise"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "climber": {
+    "id": 10053,
+    "name": "climber",
+    "names": {
+      "en": "Climber"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "flame-boost": {
+    "id": 10054,
+    "name": "flame-boost",
+    "names": {
+      "en": "Flame Boost"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "aqua-boost": {
+    "id": 10055,
+    "name": "aqua-boost",
+    "names": {
+      "en": "Aqua Boost"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "run-up": {
+    "id": 10056,
+    "name": "run-up",
+    "names": {
+      "en": "Run Up"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "conqueror": {
+    "id": 10057,
+    "name": "conqueror",
+    "names": {
+      "en": "Conqueror"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "shackle": {
+    "id": 10058,
+    "name": "shackle",
+    "names": {
+      "en": "Shackle"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "decoy": {
+    "id": 10059,
+    "name": "decoy",
+    "names": {
+      "en": "Decoy"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  },
+  "shield": {
+    "id": 10060,
+    "name": "shield",
+    "names": {
+      "en": "Shield"
+    },
+    "generation": "generation-v",
+    "effect": ""
+  }
+}
